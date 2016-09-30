@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import { Link } from 'react-router';
 
 export default React.createClass({
 	render: function() {
 		return (
 			<div>
-				<Header />
-				{this.props.children}
-				<Footer />
+				<Link to ="/">Home</Link>
+				<p>Recipe info will show up here</p>
 			</div>
 		);
 	}

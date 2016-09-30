@@ -1,6 +1,31 @@
-@import 'variables';
+.grid {
+	max-width: 900px;
+	margin: 0 auto; }
 
-body {
-  background: $light-grey;
-  background-image: url(../assets/orangecat.jpg);
+.col-4 {
+	width: 90%;
+	margin: 1em auto;
+	box-sizing: border-box; 
+
+	img {
+		width: 100%;
+	}
 }
+
+
+
+@media (min-width: 480px) {
+	.col-4 {
+		width: 46%;
+		float: left;
+		margin: 2%; } }
+
+@media (min-width: 768px) {
+	.col-4 {
+		width: 30%;
+		margin: 1.65%; } }
+
+@media (min-width: 992px) {
+	.col-4 {
+		width: 23%;
+		margin: 1%; } }
