@@ -1,13 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { browserHistory } from 'react-router';
 
 export default React.createClass({
 	render: function() {
 		return (
-			<Link to="/recipe" className="col-4">
-				<img src={this.props.image}></img>
+			<div onClick={this.goDetails} className="col-4">
+				<img src={require("./../images/" + this.props.image)}></img>
 				<p>{this.props.name}</p>
-			</Link>
+			</div>
 		);
+	},
+	goDetails: function() {
+		browserHistory.push(`/${this.props.id}/recipe`);
 	}
 });

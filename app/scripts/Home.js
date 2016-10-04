@@ -6,21 +6,22 @@ export default React.createClass({
 	getInitialState: function() {
 		return {Recipes: Recipes};
 	},
-	componentDidMount: function() {
-		Recipes.on('update', this.updateRecipes);
-		Recipes.fetch();
-	},
-	componentWillUnmount: function() {
-		Recipes.off('update');
-	},
-	updateRecipes: function() {
-		this.setState({Recipes: Recipes});
-	},
+	// componentDidMount: function() {
+	// 	// Recipes.on('update', this.updateRecipes);
+	// 	Recipes.fetch();
+	// },
+	// componentWillUnmount: function() {
+	// 	Recipes.off('update');
+	// },
+	// updateRecipes: function() {
+	// 	this.setState({Recipes: Recipes});
+	// },
 	render: function() {
-		const recipes = this.state.Recipes.map((recipe, i, array) => {
+		const recipes = this.state.Recipes.map((recipe, i) => {
 			return (
 			<RecipeThumb
 				key={i}
+				id={i}
 				image={recipe.image}
 				name={recipe.name}
 				/>);

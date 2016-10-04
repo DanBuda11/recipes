@@ -4,13 +4,13 @@ import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router';
 import App from './app';
 import Home from './Home';
-import Details from './Details';
+import Recipe from './Recipe';
 
 ReactDOM.render((
 	<Router history={browserHistory}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
-			<Route path="/recipe" component={Details} />
+			<Route path="/:recipeId/recipe" component={Recipe} />
 		</Route>
 	</Router>
 ), document.querySelector('main'));

@@ -1,98 +1,67 @@
 export default [
 	{
-		name: "Poop Soup",
+		name: "Tabbouleh",
 		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
+			"4 bunches curly-leaf parsley",
+			"1/2 cucumber",
+			"4-5 Roma tomatoes",
+			"1 small white onion",
+			"1/3 to 1/2 cup olive oil",
+			"1/2 cup lemon juice",
+			"1/2 to 2/3 tsp salt"
 		],
 		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
+			"Rinse all vegetables and pat dry, especially parsley.",
+			"Remove as much parsley stem as possible then finely chop and add to large bowl.",
+			"Chop tomatoes to desired size then place in strainer to remove juice; place in bowl.",
+			"Chop onion and cucumber to desired size and place in bowl.",
+			"Add olive oil, lemon juice and salt to bowl and mix thoroughly."
 		],
-		image: "http://www.fillmurray.com/200/200"
+		image: "no-photo.png"
 	},
 	{
 		name: "Poop Soup",
 		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
+			"1 medium turd",
+			"2 apples",
+			"pinch of fart powder"
 		],
 		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
+			"Make a doody.",
+			"Saute over medium heat with olive oil.",
+			"Add chicken broth",
+			"Eat Poop Soup. Serves 4."
 		],
-		image: "http://www.fillmurray.com/200/200"
+		image: "no-photo.png"
 	},
 	{
 		name: "Poop Soup",
 		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
+			"1 medium turd",
+			"2 apples",
+			"pinch of fart powder"
 		],
 		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
+			"Make a doody.",
+			"Saute over medium heat with olive oil.",
+			"Add chicken broth",
+			"Eat Poop Soup. Serves 4."
 		],
-		image: "http://www.fillmurray.com/200/200"
+		image: "no-photo.png"
 	},
 	{
 		name: "Poop Soup",
 		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
+			"1 medium turd",
+			"2 apples",
+			"pinch of fart powder"
 		],
 		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
+			"Make a doody.",
+			"Saute over medium heat with olive oil.",
+			"Add chicken broth",
+			"Eat Poop Soup. Serves 4."
 		],
-		image: "http://www.fillmurray.com/200/200"
-	},
-	{
-		name: "Poop Soup",
-		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
-		],
-		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
-		],
-		image: "http://www.fillmurray.com/200/200"
-	},
-	{
-		name: "Poop Soup",
-		ingredients: [
-			{
-				ing: "Poop",
-				amount: "1 medium turd"
-			}
-		],
-		steps: [
-			"1. Make a doody.",
-			"2. Saute over medium heat with olive oil.",
-			"3. Add chicken broth",
-			"4. Eat Poop Soup. Serves 4."
-		],
-		image: "http://www.fillmurray.com/200/200"
+		image: "tabbouleh.png"
 	}
 ]
