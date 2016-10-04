@@ -23,7 +23,7 @@ export default React.createClass({
 				<Link to ="/">Home</Link>
 				<div className="recipeContain">
 					<h1>{this.state.recipe.name}</h1>
-					<img src={require("./../images/" + this.state.recipe.image)}></img>
+					<img src={require("./../images/" + this.state.recipe.image)} />
 					<h4>Ingredients</h4>
 					<ul>
 						{ingredients}

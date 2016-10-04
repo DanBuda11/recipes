@@ -17,7 +17,7 @@ export default [
 			"Chop onion and cucumber to desired size and place in bowl.",
 			"Add olive oil, lemon juice and salt to bowl and mix thoroughly."
 		],
-		image: "no-photo.png"
+		image: "tabbouleh.png"
 	},
 	{
 		name: "Poop Soup",
