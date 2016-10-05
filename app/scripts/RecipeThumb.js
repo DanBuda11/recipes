@@ -6,7 +6,7 @@ export default React.createClass({
 		return (
 			<div onClick={this.goDetails} className="col-4">
 				<img src={require("./../images/" + this.props.image)} />
-				<p>{this.props.name}</p>
+				<p className="recipeTitle">{this.props.name}</p>
 			</div>
 		);
 	},

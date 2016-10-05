@@ -1,6 +1,8 @@
 .grid {
 	max-width: 900px;
-	margin: 0 auto; }
+	margin: 0 auto; 
+	overflow: hidden;
+}
 
 .col-4 {
 	width: 90%;
@@ -10,9 +12,31 @@
 	img {
 		width: 100%;
 	}
+
+	p {
+		text-align: center;
+	}
 }
 
+.nav {
+	text-align: center;
+	background-color: #436B99;
 
+	h1 {
+		margin: 0;
+		padding: 1em;
+	}
+}
+
+.footer{
+	text-align: center;
+	background-color: #436B99;
+
+	p {
+		margin: 0;
+		padding: 1em;
+	}
+}
 
 @media (min-width: 480px) {
 	.col-4 {

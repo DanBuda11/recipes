@@ -3,7 +3,9 @@ import React from 'react';
 export default React.createClass({
 	render: function() {
 		return (
-			<h1>This is the header</h1>
+			<div className="nav">
+				<h1>Buda Recipes</h1>
+			</div>
 		);
 	}
 });
