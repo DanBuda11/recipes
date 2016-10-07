@@ -20,19 +20,24 @@ export default [
 		image: "tabbouleh.png"
 	},
 	{
-		name: "Poop Soup",
+		name: "Caldo de Pollo",
 		ingredients: [
-			"1 medium turd",
-			"2 apples",
-			"pinch of fart powder"
+			"1 whole chicken (3-4 pounds), cut into large pieces",
+			"8 cups water",
+			"2 tsp salt",
+			"1/2 white onion",
+			"4 garlic gloves, peeled",
+			"3 celery branches",
+			"3 large carrots",
+			"2 cilantro branches"
 		],
 		steps: [
-			"Make a doody.",
-			"Saute over medium heat with olive oil.",
-			"Add chicken broth",
-			"Eat Poop Soup. Serves 4."
+			"Place chicken, water and salt into a large stock pot at medium-high heat and bring to a boil. Once foam starts forming on the surface, skim & discard.",
+			"After removing foam, add onion, garlic and celery. Partially cover the pot. Turn heat down and gently simmer for about 30 minutes. Do not boil.",
+			"Add the carrots and cilantro. If using other vegetables, add them 15 minutes later. Check chicken for doneness and, once cooked, remove & set aside to cool.",
+			"Keep simmering the broth for about 10 more minutes until carrots are completely cooked."
 		],
-		image: "no-photo.png"
+		image: "caldo.png"
 	},
 	{
 		name: "Poop Soup",
