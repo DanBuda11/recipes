@@ -10,17 +10,18 @@ export default React.createClass({
 	render: function() {
 		const ingredients = this.state.recipe.ingredients.map((ingredient, i) => {
 			return (
-				<li key={i}>{this.state.recipe.ingredients[i]}</li>
+				<li className="ingredients" key={i}>{this.state.recipe.ingredients[i]}</li>
 			);
 		});
 		const steps = this.state.recipe.steps.map((step, i) => {
 			return (
-				<li key={i}>{this.state.recipe.steps[i]}</li>
+				<li className="steps" key={i}>{this.state.recipe.steps[i]}</li>
 			);
 		});
 		return (
-			<div>
-				<Link to ="/">Home</Link>
+			<div className="recipeDiv">
+				<Link className="homeLink" to ="/"><i className="fa fa-long-arrow-left" aria-hidden="true"></i>
+Home</Link>
 				<div className="recipeContain">
 					<h1>{this.state.recipe.name}</h1>
 					<img src={require("./../images/" + this.state.recipe.image)} />
