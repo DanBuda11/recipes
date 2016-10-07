@@ -1,4 +1,8 @@
+@import 'variables';
+
 body {
+
+	font-family: 'Gloria Hallelujah', cursive;
 
 	a:visited {
 		color: blue;
@@ -9,38 +13,51 @@ body {
 	max-width: 900px;
 	margin: 0 auto; 
 	overflow: hidden;
+	background-color: $neutral;
 }
 
 .col-4 {
 	width: 90%;
 	margin: 1em auto;
 	box-sizing: border-box; 
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
 
 	img {
 		width: 100%;
-		height: 10em;
+		height: 12em;
+		display: block;
 	}
 
 	p {
 		text-align: center;
-	}
-}
-
-.nav {
-	text-align: center;
-	background-color: #436B99;
-
-	h1 {
+		background-color: #fff;;
 		margin: 0;
 		padding: 1em;
 	}
 }
 
+.nav {
+	text-align: center;
+	background-color: $sky;
+	border-bottom: 1px solid $watermelon;
+
+	h1 {
+		margin: 0;
+		padding: 1em;
+
+		i {
+			margin-left: 0.3em;
+		}
+	}
+}
+
 .recipeDiv {
 	padding: 1em;
+	background-color: $neutral;
 
 	.homeLink {
 		text-decoration: none;
+		color: $watermelon;
 
 		i {
 			margin-right: 0.4em;
@@ -54,7 +71,9 @@ body {
 		}
 
 		img {
-			height: 10em;
+			height: 16em;
+			display: block;
+			margin: 0 auto;
 		}
 
 		.ingredients, .steps {
@@ -65,7 +84,8 @@ body {
 
 .footer{
 	text-align: center;
-	background-color: #436B99;
+	background-color: $sky;
+	border-top: 1px solid $watermelon;
 
 	p {
 		margin: 0;
