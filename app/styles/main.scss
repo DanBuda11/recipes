@@ -120,10 +120,12 @@ body {
 		margin-top: 1em;
 		border: 1px solid $carbon;
 		padding-left: 0.4em;
+
 	}
 
 	input:focus, textarea:focus {
-		outline: $sky;
+		outline: none;
+		border: 1px solid #000;
 	}
 
 	input {
@@ -144,6 +146,7 @@ body {
 		border: none;
 		margin: 0.4em 0;
 		font-family: 'Gloria Hallelujah', cursive;
+		cursor: pointer;
 	}
 
 	.submitButton {
