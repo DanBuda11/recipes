@@ -1,12 +1,7 @@
 @import 'variables';
 
 body {
-
 	font-family: 'Gloria Hallelujah', cursive;
-
-	a:visited {
-		color: blue;
-	}
 }
 
 .grid {
@@ -14,13 +9,14 @@ body {
 	margin: 0 auto; 
 	overflow: hidden;
 	background-color: $neutral;
+	clear: both;
 }
 
 .col-4 {
 	width: 90%;
 	margin: 1em auto;
 	box-sizing: border-box; 
-	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+	border: 1px solid $carbon;
 	cursor: pointer;
 
 	img {
@@ -49,6 +45,22 @@ body {
 		i {
 			margin-left: 0.3em;
 		}
+	}
+}
+
+.addNew {
+	padding: 0 1em;
+	background-color: $neutral;
+	overflow: hidden;
+
+	.button {
+		text-decoration: none;
+		background-color: $watermelon;
+		color: #fff;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		float: right;
+		margin-top: 1em;
 	}
 }
 
@@ -83,6 +95,72 @@ body {
 
 		.ingredients, .steps {
 			margin: 0.4em 0;
+		}
+	}
+}
+
+.newContainer {
+	padding: 1em;
+	background-color: $neutral;
+
+	.homeLink {
+		text-decoration: none;
+		color: $watermelon;
+
+		i {
+			margin-right: 0.4em;
+		}
+	}
+
+	input, textarea {
+		display: block;
+		width: 100%;
+		line-height: 1.5em;
+		font-family: 'Gloria Hallelujah', cursive;
+		margin-top: 1em;
+		border: 1px solid $carbon;
+		padding-left: 0.4em;
+	}
+
+	input:focus, textarea:focus {
+		outline: $sky;
+	}
+
+	input {
+		margin-top: 1em;
+	}
+
+	textarea {
+		margin: 1em 0;
+	}
+
+	button {
+		display: block;
+		background-color: $watermelon;
+		color: #fff;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		outline: none;
+		border: none;
+		margin: 0.4em 0;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.submitButton {
+		margin: 0 auto;
+	}
+
+	ul {
+
+		li {
+
+		}
+	}
+
+	ol {
+
+		li {
+
 		}
 	}
 }

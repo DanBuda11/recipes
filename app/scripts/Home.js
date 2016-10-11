@@ -1,6 +1,7 @@
 import React from 'react';
 import Recipes from './Recipes';
 import RecipeThumb from './RecipeThumb';
+import { Link } from 'react-router';
 
 export default React.createClass({
 	getInitialState: function() {
@@ -27,8 +28,13 @@ export default React.createClass({
 				/>);
 		});
 		return (
-			<div className="grid">
-				{recipes}
+			<div>	
+				<div className="addNew">
+					<Link to="/new" className="button">Add a Recipe</Link>
+				</div>
+				<div className="grid">
+					{recipes}
+				</div>
 			</div>
 		);
 	}

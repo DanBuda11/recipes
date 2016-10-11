@@ -1,15 +1,17 @@
 import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router';
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router';
 import App from './app';
 import Home from './Home';
 import Recipe from './Recipe';
+import NewRecipe from './NewRecipe';
 
 ReactDOM.render((
-	<Router history={browserHistory}>
+	<Router history={hashHistory}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
+			<Route path="/new" component={NewRecipe} />
 			<Route path="/:recipeId/recipe" component={Recipe} />
 		</Route>
 	</Router>
