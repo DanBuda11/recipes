@@ -21,6 +21,9 @@ export default React.createClass({
 		$('.stepInput').val('');
 	},
 	submit: function() {
+		if ($('.recipeName').val('')) {
+			$('.nameErr').toggle();
+		}
 		let ingredients = this.state.ingredients.map((ingredient) => {
 			return '<div>' + ingredient + '</div>';
 		});
@@ -44,11 +47,12 @@ export default React.createClass({
 			<div className="newContainer">
 				<Link className="homeLink" to ="/"><i className="fa fa-long-arrow-left" aria-hidden="true"></i>Home</Link>
 				<input className="recipeName" type="text" placeholder="Recipe Name"></input>
+				<div className="nameErr error">Name cannot be empty.</div>
 				<ul className="ingDisplay"></ul>
 				<input className="ingInput" type="text" placeholder="1 cup milk"></input>
 				<button className="ingButton" onClick={this.handleIngredient}>Add Ingredient</button>
 				<ol className="stepDisplay"></ol>
-				<input className="stepInput" type="text" placeholder="Chop onions"></input>
+				<textarea className="stepInput" type="text" placeholder="Chop onions"></textarea>
 				<button className="stepButton" onClick={this.handleStep}>Add Step</button>
 				<textarea placeholder="Makes 4 servings. (max 1000 characters)"></textarea>
 				<button className="submitButton" onClick={this.submit}>Submit Recipe!</button>

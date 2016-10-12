@@ -166,6 +166,14 @@ body {
 
 		}
 	}
+
+	.error {
+		color: $watermelon;
+	}
+
+	.nameErr {
+		display: none;
+	}
 }
 
 .footer{
