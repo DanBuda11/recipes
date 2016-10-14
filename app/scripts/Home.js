@@ -18,7 +18,17 @@ export default React.createClass({
 	// 	this.setState({Recipes: Recipes});
 	// },
 	render: function() {
-		const recipes = this.state.Recipes.map((recipe, i) => {
+		const recipes = this.state.Recipes.sort(function(a,b) {
+			let nameA = a.name.toLowerCase();
+			let nameB = b.name.toLowerCase();
+			if (nameA < nameB) {
+				return -1;
+			}
+			if (nameA > nameB) {
+				return 1;
+			}
+			return 0;
+		}).map((recipe, i) => {
 			return (
 			<RecipeThumb
 				key={i}

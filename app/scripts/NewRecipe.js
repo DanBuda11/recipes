@@ -24,25 +24,31 @@ export default React.createClass({
 		if ($('.recipeName').val() === '') {
 			$('.nameErr').toggle();
 		};
+		// $('.newContainer').slideUp();
 		let ingredients = this.state.ingredients.map((ingredient) => {
 			return '<li>' + ingredient + '</li>';
 		});
 		let steps = this.state.steps.map((step) => {
 			return '<li>' + step + '</li';
 		});
+		
+		// let ingVar = '<ul></ul>';
+		// let stepVar = '<ol></ol>';
+		// console.log(ingVar, stepVar);
 		$('.proof').html('');
 		$('.proof').append(
 			'<div>' + $('.recipeName').val() + '</div>'
 		);
+
+
 		$('.proof').append(
-			<ul></ul>
+			'<ul>' + ingredients + '</ul>'
 		);
-		$('.proof ul').append(
-			ingredients
-		);
-		$('.proof').append(
-			steps
-		);
+
+		// $(ingVar).append(ingredients);
+		// $(stepVar).append(steps);
+		// $('.proof').append(ingVar);
+		$('.proof').append($('.notesBox').val());
 	},
 	updateIngredients: function() {
 		$('.ingDisplay').html('');
@@ -54,18 +60,20 @@ export default React.createClass({
 	},
 	render: function() {
 		return (
-			<div className="newContainer">
-				<Link className="homeLink" to ="/"><i className="fa fa-long-arrow-left" aria-hidden="true"></i>Home</Link>
-				<input className="recipeName" type="text" placeholder="Apple Pie"></input>
-				<div className="nameErr error">Name cannot be empty.</div>
-				<ul className="ingDisplay"></ul>
-				<input className="ingInput" type="text" placeholder="1 cup milk"></input>
-				<button className="ingButton" onClick={this.handleIngredient}>Add Ingredient</button>
-				<ol className="stepDisplay"></ol>
-				<textarea className="stepInput" type="text" placeholder="Chop onions"></textarea>
-				<button className="stepButton" onClick={this.handleStep}>Add Step</button>
-				<textarea placeholder="Makes 4 servings. (max 1000 characters)"></textarea>
-				<button className="submitButton" onClick={this.submit}>Submit Recipe!</button>
+			<div>
+				<div className="newContainer">
+					<Link className="homeLink" to ="/"><i className="fa fa-long-arrow-left" aria-hidden="true"></i>Home</Link>
+					<input className="recipeName" type="text" placeholder="Apple Pie"></input>
+					<div className="nameErr error">Name cannot be empty.</div>
+					<ul className="ingDisplay"></ul>
+					<input className="ingInput" type="text" placeholder="1 cup milk"></input>
+					<button className="ingButton" onClick={this.handleIngredient}>Add Ingredient</button>
+					<ol className="stepDisplay"></ol>
+					<textarea className="stepInput" type="text" placeholder="Chop onions"></textarea>
+					<button className="stepButton" onClick={this.handleStep}>Add Step</button>
+					<textarea className="notesBox" placeholder="Makes 4 servings. (max 1000 characters)"></textarea>
+					<button className="submitButton" onClick={this.submit}>Submit Recipe!</button>
+				</div>
 				<div className="proof"></div>
 			</div>
 		);
