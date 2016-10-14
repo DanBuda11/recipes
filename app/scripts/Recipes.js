@@ -17,7 +17,8 @@ export default [
 			"Chop onion and cucumber to desired size and place in bowl.",
 			"Add olive oil, lemon juice and salt to bowl and mix thoroughly."
 		],
-		image: "tabbouleh.png"
+		image: "tabbouleh.png",
+		notes: "This is a modified version (or at least as close as I could come) to my favorite tabbouleh from a restaurant outside of Detroit."
 	},
 	{
 		name: "Caldo de Pollo",
@@ -37,7 +38,8 @@ export default [
 			"Add the carrots and cilantro. If using other vegetables, add them 15 minutes later. Check chicken for doneness and, once cooked, remove & set aside to cool.",
 			"Keep simmering the broth for about 10 more minutes until carrots are completely cooked."
 		],
-		image: "caldo.png"
+		image: "caldo.png",
+		notes: ""
 	},
 	{
 		name: "Poop Soup",
@@ -52,7 +54,8 @@ export default [
 			"Add chicken broth",
 			"Eat Poop Soup. Serves 4."
 		],
-		image: "no-photo.png"
+		image: "no-photo.png",
+		notes: ""
 	},
 	{
 		name: "Poop Soup",
@@ -67,6 +70,7 @@ export default [
 			"Add chicken broth",
 			"Eat Poop Soup. Serves 4."
 		],
-		image: "tabbouleh.png"
+		image: "tabbouleh.png",
+		notes: ""
 	}
 ]

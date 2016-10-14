@@ -8,7 +8,6 @@ export default React.createClass({
 		return {recipe: recipe};
 	},
 	render: function() {
-		console.log(this.state.recipe.image);
 		const ingredients = this.state.recipe.ingredients.map((ingredient, i) => {
 			return (
 				<li className="ingredients" key={i}>{this.state.recipe.ingredients[i]}</li>
@@ -34,6 +33,8 @@ Home</Link>
 					<ol>
 						{steps}
 					</ol>
+					{(this.state.recipe.notes !== "") ? (<h4>Notes</h4>) : ("")}
+					{(this.state.recipe.notes !== "") ? (<p>{this.state.recipe.notes}</p>) : ("")}
 				</div>
 			</div>
 		);

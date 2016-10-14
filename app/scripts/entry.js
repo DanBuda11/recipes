@@ -19,7 +19,4 @@ ReactDOM.render((
 
 // Things this will need:
 // responsive design, especially for phone & tablet
-// storage of recipe info in a separate file in an array w/objects for recipes
-// Recipe info:
-// name, ingredients & amounts, cooking steps, photo of recipe
-// Use React Router for page navigation
+// storage of recipe info in a separate file in an array w/objects for recipess

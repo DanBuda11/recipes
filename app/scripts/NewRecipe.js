@@ -21,18 +21,28 @@ export default React.createClass({
 		$('.stepInput').val('');
 	},
 	submit: function() {
-		if ($('.recipeName').val('')) {
+		if ($('.recipeName').val() === '') {
 			$('.nameErr').toggle();
-		}
+		};
 		let ingredients = this.state.ingredients.map((ingredient) => {
-			return '<div>' + ingredient + '</div>';
+			return '<li>' + ingredient + '</li>';
+		});
+		let steps = this.state.steps.map((step) => {
+			return '<li>' + step + '</li';
 		});
 		$('.proof').html('');
 		$('.proof').append(
-			'<div>' + $('.recipeName').val() + '</div>',
+			'<div>' + $('.recipeName').val() + '</div>'
+		);
+		$('.proof').append(
+			<ul></ul>
+		);
+		$('.proof ul').append(
 			ingredients
 		);
-
+		$('.proof').append(
+			steps
+		);
 	},
 	updateIngredients: function() {
 		$('.ingDisplay').html('');
@@ -46,7 +56,7 @@ export default React.createClass({
 		return (
 			<div className="newContainer">
 				<Link className="homeLink" to ="/"><i className="fa fa-long-arrow-left" aria-hidden="true"></i>Home</Link>
-				<input className="recipeName" type="text" placeholder="Recipe Name"></input>
+				<input className="recipeName" type="text" placeholder="Apple Pie"></input>
 				<div className="nameErr error">Name cannot be empty.</div>
 				<ul className="ingDisplay"></ul>
 				<input className="ingInput" type="text" placeholder="1 cup milk"></input>
@@ -65,3 +75,5 @@ export default React.createClass({
 // Need image submission
 // add required, test before submit
 // min/max required lengths
+// Once user hits submit, take them to a "proof" page which renders all their input before submitting, and change
+// the "submit" button on NewRecipe page to "Proof" or something similar

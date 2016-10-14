@@ -18,6 +18,8 @@ body {
 	box-sizing: border-box; 
 	border: 1px solid $carbon;
 	cursor: pointer;
+	text-decoration: none;
+	display: block;
 
 	img {
 		width: 100%;
@@ -30,6 +32,9 @@ body {
 		background-color: #fff;;
 		margin: 0;
 		padding: 1em;
+		color: #000;
+		border-top: 1px solid $carbon;
+		font-size: 1.3em;
 	}
 }
 
@@ -87,6 +92,10 @@ body {
 			height: 16em;
 			display: block;
 			margin: 0 auto;
+			border: 1px solid $carbon;
+			background-color: #fff;
+			padding: 0.3em;
+			width: 95%;
 		}
 
 		h4 {
@@ -165,6 +174,10 @@ body {
 		li {
 
 		}
+	}
+
+	p {
+		font-size: 1em;
 	}
 
 	.error {
