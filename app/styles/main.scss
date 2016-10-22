@@ -9,7 +9,7 @@ body {
 	margin: 0 auto; 
 	overflow: hidden;
 	background-color: $neutral;
-	clear: both;
+	text-align: center;
 }
 
 .col-4 {
@@ -19,7 +19,7 @@ body {
 	border: 1px solid $carbon;
 	cursor: pointer;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 
 	img {
 		width: 100%;
