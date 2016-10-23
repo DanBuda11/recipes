@@ -6,13 +6,21 @@ import App from './app';
 import Home from './Home';
 import Recipe from './Recipe';
 import NewRecipe from './NewRecipe';
+import Account from './Account';
+import Login from './Login';
+import EditProfile from './EditProfile';
+import ManageRecipes from './ManageRecipes';
 
 ReactDOM.render((
 	<Router history={hashHistory}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
 			<Route path="/new" component={NewRecipe} />
+			<Route path="/account" component={Account} />
+			<Route path="/edit-profile" component={EditProfile} />
+			<Route path="/manage-recipes" component={ManageRecipes} />
 			<Route path="/:recipeId/recipe" component={Recipe} />
+			<Route path="/login" component={Login} />
 		</Route>
 	</Router>
 ), document.querySelector('main'));

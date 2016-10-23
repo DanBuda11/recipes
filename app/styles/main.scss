@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'helpers';
 
 body {
 	font-family: 'Gloria Hallelujah', cursive;
@@ -34,7 +35,7 @@ body {
 		padding: 1em;
 		color: #000;
 		border-top: 1px solid $carbon;
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 }
 
@@ -59,11 +60,8 @@ body {
 	overflow: hidden;
 
 	.button {
+		@extend .standardButton;
 		text-decoration: none;
-		background-color: $watermelon;
-		color: #fff;
-		padding: 0.5em;
-		border-radius: 0.5em;
 		float: right;
 		margin-top: 1em;
 	}
@@ -146,11 +144,8 @@ body {
 	}
 
 	button {
+		@extend .standardButton;
 		display: block;
-		background-color: $watermelon;
-		color: #fff;
-		padding: 0.5em;
-		border-radius: 0.5em;
 		outline: none;
 		border: none;
 		margin: 0.4em 0;
@@ -191,6 +186,34 @@ body {
 .proof {
 	background-color: $neutral;
 	padding: 1em;
+}
+
+.loginPage {
+
+	form {
+
+		input {
+
+		}
+
+		button {
+			@extend .standardButton;
+		}
+	}
+}
+
+.myAccount {
+
+	.button {
+		@extend .standardButton;
+		text-decoration: none;
+		display: block;
+	}
+
+	button {
+		outline: none;
+		cursor: pointer;
+	}
 }
 
 .footer{

@@ -51,7 +51,9 @@ export default React.createClass({
 		return (
 			<div>	
 				<div className="addNew">
+					<Link to="/account" className="button">My Account</Link>
 					<Link to="/new" className="button">Add a Recipe</Link>
+					<Link to="/login" className="button">Login</Link>
 				</div>
 				<label htmlFor="courseFilter">Filter by:</label>
 				<select id="courseFilter" onClick={this.filter}>

@@ -92,13 +92,17 @@ export default [
 ]
 
 // {
-// 	name: "";
+// 	name: "",
+// 	userId: "",
+//	stars: "",
+//	description: "",
 // 	ingredients: [
 // 	],
 // 	steps: [
 // 	],
 // 	image: "",
 // 	course: "",
-// 	notes: ""
+// 	notes: "",
+//	submitDate: ""
 // }
 
