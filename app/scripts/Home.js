@@ -70,23 +70,6 @@ export default React.createClass({
 		});
 		return (
 			<div>	
-				<div className="addNew">
-					<Link to="/account" className="button">My Account</Link>
-					<Link to="/new" className="button">Add a Recipe</Link>
-					<Link to="/login" className="button">Login</Link>
-				</div>
-				<label htmlFor="courseFilter">Filter by:</label>
-				<select id="courseFilter" onClick={this.filter}>
-					<option value="main">Main Dishes</option>
-					<option value="sides">Sides</option>
-					<option value="soups">Soups</option>
-					<option value="seasonings">Seasonings</option>
-				</select>
-				<label htmlFor="searchForm">Keyword Search:</label>
-				<form id="searchForm" onClick={this.search}>
-					<input type="text" id="searchInput"></input>
-					<button type="submit">Search</button>
-				</form>
 				<div className="grid">
 					{recipes}
 				</div>
@@ -94,3 +77,30 @@ export default React.createClass({
 		);
 	}
 });
+
+// Below is return statement for render that includes other links & search/filter inputs
+
+// return (
+// 			<div>	
+// 				<div className="addNew">
+// 					<Link to="/account" className="button">My Account</Link>
+// 					<Link to="/new" className="button">Add a Recipe</Link>
+// 					<Link to="/login" className="button">Login</Link>
+// 				</div>
+// 				<label htmlFor="courseFilter">Filter by:</label>
+// 				<select id="courseFilter" onClick={this.filter}>
+// 					<option value="main">Main Dishes</option>
+// 					<option value="sides">Sides</option>
+// 					<option value="soups">Soups</option>
+// 					<option value="seasonings">Seasonings</option>
+// 				</select>
+// 				<label htmlFor="searchForm">Keyword Search:</label>
+// 				<form id="searchForm" onClick={this.search}>
+// 					<input type="text" id="searchInput"></input>
+// 					<button type="submit">Search</button>
+// 				</form>
+// 				<div className="grid">
+// 					{recipes}
+// 				</div>
+// 			</div>
+// 		);
