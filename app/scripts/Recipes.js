@@ -153,6 +153,59 @@ export default [
 		course: "soups",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Mom's Apple Crisp",
+		userId: "",
+		stars: "",
+		description: "For real, Mom's actual apple crisp. This recipe has been taught to middle school kids for decades.",
+		ingredients: [
+			"4-6 medium apples",
+			"1/2 Cup flour",
+			"3/4 Cup oatmeal",
+			"1/2 Cup butter (may reduce by 2 Tbsp)",
+			"1/2 Cup brown sugar (may reduce by 2 Tbsp)",
+			"1 Tsbp wheat germ (optional)",
+			"1/2 tsp cinnamon"
+		],
+		steps: [
+			"Pre-heat oven to 350 degrees.",
+			"Lightly grease a 9-inch round or square baking pan.",
+			"Wash apples and peel skins. Slice into greased pan. Sprinkle with cinnamon",
+			"Combine oatmeal, brown sugar, wheat germ and cinnamon. Mix butter in with your fingers. Mixture will be crumbly.",
+			"Place mixture over the sliced apples.",
+			"Place pan in center of oven. Bake 35-45 minutes, uncovered."
+		],
+		image: "no-photo.png",
+		course: "desserts",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Polynesian Flank Steak",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1/3 Cup pineapple juice",
+			"1/3 Cup low-sodium soy sauce",
+			"1/2 Cup thinly sliced green onions",
+			"1 Tbsp minced peeled fresh ginger",
+			"1 Tbsp honey",
+			"1 garlic clove, minced",
+			"1 1/2 lbs flank steak",
+			"Cooking spray"
+		],
+		steps: [
+			"Combine first 6 ingredients in a large zip-top plastic bag; add steak to bag. Seal and marinate in refrigerator 3 hours, turning once.",
+			"Prepare grill.",
+			"Remove steak from bag, reserving marinade. Place steak on grill rack coated with cooking spray; grill 20 minutes or until desired degree of doneness, turning and basting frequently with the reserved marinade.",
+			"Let stand 10 minutes before cutting diagonally across the grain into thin slices."
+		],
+		image: "polynesian-flank-steak.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
