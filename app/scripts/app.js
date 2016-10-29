@@ -6,8 +6,10 @@ export default React.createClass({
 	render: function() {
 		return (
 			<div>
-				<Header />
-				{this.props.children}
+				<div className="page-wrap">
+					<Header />
+					{this.props.children}
+				</div>
 				<Footer />
 			</div>
 		);

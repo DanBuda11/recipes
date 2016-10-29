@@ -69,7 +69,7 @@ export default React.createClass({
 				/>);
 		});
 		return (
-			<div>	
+			<div className="gridContainer">	
 				<div className="grid">
 					{recipes}
 				</div>

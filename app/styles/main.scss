@@ -1,8 +1,35 @@
 @import 'variables';
 @import 'helpers';
 
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -3em;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.footer, .page-wrap:after {
+	height: 3em;
+}
+
+.gridContainer {
+	background-color: $neutral;
+	width: 100%;
 }
 
 .grid {

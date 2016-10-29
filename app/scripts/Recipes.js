@@ -206,6 +206,63 @@ export default [
 		course: "main",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Arctic Char",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"3 tbsp extra-virgin olive oil, divided",
+			"4 6-oz arctic char filets",
+			"3/4 tsp coarse salt, divided",
+			"1/2 tsp black pepper, divided",
+			"4 garlic cloves, halved",
+			"3 pints multicolored cherry tomatoes",
+			"1/4 cpu thinly sliced fresh basil",
+			"2 shallots, thinly sliced"
+		],
+		steps: [
+			"Preheat oven to 400 degrees.",
+			"Heat a large ovenproof skillet over high heat. Add 1 tbsp oil to pan & swirl to coat.",
+			"Sprinkle filets with 1/2 tsp salt and 1/4 tsp pepper. Add filets, flesh side down, to pan and saute for 2 minutes. Place pan in oven cook at 400 for 3 minutes or until desire degree of doneness.",
+			"Heat a large cast-iron skillet over medium heat. Add remaining 2 btsp oil to pan & swirl to coat. Add garlic, and cook 2 minutes or until lightly browned, stirring occasionally. Increase heat to medium-high. Add tomatoes to pan, saute for 2 minutes or until skins blister, stirring frequently.",
+			"Remove pan from heat. Sprinkle tomato mixture with remaining salt & pepper, basil and shallots; toss to combine. Serve with fish."
+		],
+		image: "no-photo.png",
+		course: "",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Banana Chip Bars",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 cups flour",
+			"2 tsp baking powder",
+			"1/2 tsp salt (optional)",
+			"2/3 cup butter",
+			"2/3 cup white sugar",
+			"2/3 cup brown sugar",
+			"1 tsp vanilla",
+			"1 egg",
+			"1 cup mashed bananas (about 2)",
+			"6 oz chocolate chips"
+
+		],
+		steps: [
+			"Sift together the flour, baking powder & salt.",
+			"Cream butter and sugars. Add vanilla, egg and bananas.",
+			"Stir in chocolate chips.",
+			"Spread in greased 9x13 pan.",
+			"Bake at 350 degrees for 20-25 minutes."
+		],
+		image: "no-photo.png",
+		course: "",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
@@ -219,7 +276,7 @@ export default [
 // 		],
 // 		steps: [
 // 		],
-// 		image: "",
+// 		image: "no-photo.png",
 // 		course: "",
 // 		notes: "",
 // 		submitDate: ""
