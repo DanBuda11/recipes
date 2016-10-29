@@ -12,7 +12,9 @@ import EditProfile from './EditProfile';
 import ManageRecipes from './ManageRecipes';
 
 ReactDOM.render((
-	<Router history={hashHistory}>
+	<Router history={hashHistory} onUpdate={() => {
+		window.scrollTo(0, 0);
+	}}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
 			<Route path="/new" component={NewRecipe} />
