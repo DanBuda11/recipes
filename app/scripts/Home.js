@@ -19,12 +19,11 @@ export default React.createClass({
 		this.setState({recipes: Recipes});
 	},
 	courseFilter: function() {
-		this.setState({recipes: Recipes});
 		let select = document.getElementById('courseFilter');
 		if (select.value === 'all') {
 			this.setState({recipes: Recipes});
 		} else {
-			let filteredCourses = this.state.recipes.filter((recipe, i) => {
+			let filteredCourses = Recipes.filter((recipe, i) => {
 				if (recipe.course === select.value) {
 					return true;
 				} else {

@@ -67,7 +67,7 @@ export default [
 			"Cut tomatoes into small pieces and add to pot.",
 			"Heat through and serve."
 		],
-		image: "no-photo.png",
+		image: "potatoes-tomatoes-meat.png",
 		course: "main",
 		notes: "THE Buda family recipe. The name says it all."
 	},
@@ -85,7 +85,7 @@ export default [
 		steps: [
 			"Combine all ingredients. Store in an airtight container for up to 2 weeks."
 		],
-		image: "no-photo.png",
+		image: "cajun-dry-rub.png",
 		course: "seasonings",
 		notes: "Great to use on white-fleshed fish, chicken breast, shrimp or corn on the cob."
 	},
@@ -115,7 +115,7 @@ export default [
 			"Add wild rice and cook 15 minutes.",
 			"Sprinkle with chives."
 		],
-		image: "no-photo.png",
+		image: "wild-rice-celery-root-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -149,7 +149,7 @@ export default [
 			"Add cilantro and heat through.",
 			"Ladle into bowls and garnish with tortilla strips, avocado, queso fresco and chopped chiles."
 		],
-		image: "no-photo.png",
+		image: "tortilla-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -176,7 +176,7 @@ export default [
 			"Place mixture over the sliced apples.",
 			"Place pan in center of oven. Bake 35-45 minutes, uncovered."
 		],
-		image: "no-photo.png",
+		image: "apple-crisp.png",
 		course: "desserts",
 		notes: "",
 		submitDate: ""
@@ -229,7 +229,7 @@ export default [
 			"Heat a large cast-iron skillet over medium heat. Add remaining 2 btsp oil to pan & swirl to coat. Add garlic, and cook 2 minutes or until lightly browned, stirring occasionally. Increase heat to medium-high. Add tomatoes to pan, saute for 2 minutes or until skins blister, stirring frequently.",
 			"Remove pan from heat. Sprinkle tomato mixture with remaining salt & pepper, basil and shallots; toss to combine. Serve with fish."
 		],
-		image: "no-photo.png",
+		image: "arctic-char.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -259,7 +259,7 @@ export default [
 			"Spread in greased 9x13 pan.",
 			"Bake at 350 degrees for 20-25 minutes."
 		],
-		image: "no-photo.png",
+		image: "banana-chip-bars.png",
 		course: "desserts",
 		notes: "",
 		submitDate: ""
