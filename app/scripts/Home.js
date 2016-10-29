@@ -15,20 +15,25 @@ export default React.createClass({
 	// componentWillUnmount: function() {
 	// 	Recipes.off('update');
 	// },
-	// updateRecipes: function() {
-	// 	this.setState({Recipes: Recipes});
-	// },
-	// filter: function() {
-	// 	console.log(this.state.recipes);
-	// 	let courses = this.state.recipes.filter((course, i) => {
-	// 		if(course === 'main') {
-	// 			return true;
-	// 		} else {
-	// 			return false;
-	// 		}
-	// 	});
-	// 	this.setState({recipes: courses});
-	// },
+	updateRecipes: function() {
+		this.setState({recipes: Recipes});
+	},
+	courseFilter: function() {
+		this.setState({recipes: Recipes});
+		let select = document.getElementById('courseFilter');
+		if (select.value === 'all') {
+			this.setState({recipes: Recipes});
+		} else {
+			let filteredCourses = this.state.recipes.filter((recipe, i) => {
+				if (recipe.course === select.value) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+			this.setState({recipes: filteredCourses});
+		}
+	},
 	// search: function() {
 	// 	// this will need to filter over the recipeData array
 	// 	// when filtering over, check to see if input keyword matches anything in
@@ -66,10 +71,22 @@ export default React.createClass({
 				id={i}
 				image={recipe.image}
 				name={recipe.name}
+				course={recipe.course}
 				/>);
 		});
 		return (
-			<div className="gridContainer">	
+			<div className="gridContainer">
+				<div className="courseFilterDiv">
+					<label htmlFor="courseFilter">Search by course</label>
+					<select id="courseFilter" onChange={this.courseFilter}>
+						<option value="all">Show All</option>
+						<option value="main">Main Courses</option>
+						<option value="sides">Sides</option> 
+						<option value="soups">Soups</option>
+						<option value="seasonings">Seasonings</option>
+						<option value="desserts">Desserts</option>
+					</select>
+				</div>
 				<div className="grid">
 					{recipes}
 				</div>

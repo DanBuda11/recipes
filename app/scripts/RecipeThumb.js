@@ -8,6 +8,7 @@ export default React.createClass({
 				<div className="thumbContainer">
 					<img src={require("./../images/" + this.props.image)} />
 					<p className="recipeTitle">{this.props.name}</p>
+					<p className="recipeCourse">{this.props.course}</p>
 				</div>
 			</Link>
 		);

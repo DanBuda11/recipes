@@ -230,7 +230,7 @@ export default [
 			"Remove pan from heat. Sprinkle tomato mixture with remaining salt & pepper, basil and shallots; toss to combine. Serve with fish."
 		],
 		image: "no-photo.png",
-		course: "",
+		course: "main",
 		notes: "",
 		submitDate: ""
 	},
@@ -260,7 +260,21 @@ export default [
 			"Bake at 350 degrees for 20-25 minutes."
 		],
 		image: "no-photo.png",
-		course: "",
+		course: "desserts",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Roasted Garlic & Kale Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+		],
+		steps: [
+		],
+		image: "roasted-garlic-kale.png",
+		course: "soups",
 		notes: "",
 		submitDate: ""
 	}
