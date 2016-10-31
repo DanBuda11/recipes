@@ -277,6 +277,128 @@ export default [
 		course: "soups",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Beany Salad",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1/2 cup pearl barley",
+			"1/2 cup long-grain brown rice",
+			"1 cup canned black beans, drained",
+			"1 cup canned kidney beans, drained",
+			"1 cup cooked corn kernels",
+			"1/2 cup chopped green onions",
+			"1 red pepper",
+			"1/4 cup chopped cilantro",
+			"1/4 cup red wine vinegar",
+			"1 clove minced garlic",
+			"1 tsp chili powder",
+			"1/2 tbsp salt",
+			"1/4 tsp black pepper",
+			"1/4 tsp red pepper flakes",
+			"1/2 cup olive oil"
+		],
+		steps: [
+			"Bring 2 cups water to boil. Stir in barley & reduce to medium heat. Cover & simmer for 40-45 minutes. Cool.",
+			"In another pan boil 1 1/2 cup water to boil. Add rice and reduce to low. Cover & simmer for 20 minutes. Cool.",
+			"In a large bowl, combine barley, rice, beans, corn, onions, pepper & cilantro.",
+			"Wisk together remaining ingredients and mix into barley mixture."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Beef & Barley Stew",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"Cooking spray",
+			"2 cups chopped onion (about 1 large)",
+			"1 lb chuck steak, trimmed & cut into 1/2-inch cubes",
+			"1 1/2 cups chopped peeled carrot (about 4)",
+			"1 cup chopped celery (about 4 stalks)",
+			"5 garlic cloves, minced",
+			"1 cup uncooked pearl barley",
+			"5 cups fat-free, less-sodium beef broth",
+			"2 cups water",
+			"1/2 cup no-salt-added tomato puree",
+			"1/2 tsp kosher salt",
+			"1/4 tsp ground black pepper",
+			"2 bay leaves"
+		],
+		steps: [
+			"Heat a large Dutch oven over medium heat. Coat pan with cooking spray. Add chopped onion and beef to pan. Cook 10 minutse or until onion is tender & beef is browned, stirring occasionally.",
+			"Add carrot & celery to pan. Cook 5 minutes, stirring occasionanlly.",
+			"Stir in garlic. Cook 30 seconds.",
+			"Stir in barley & remaining ingredients and bring to a boil. Cover, reduce heat, and simmer 40 minutes or until the barley is done and vegetables are tender. Discard bay leaves."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Black Bean Tostadas",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1/2 cup chopped avocado",
+			"1/2 cup chopped seeded tomato",
+			"1/4 cup thinly sliced green onions",
+			"2 Tbsp & 2 tsp fresh lime juice, separated",
+			"1/4 tsp salt",
+			"2 Tbsp water",
+			"1/2 tsp ground cumin",
+			"1/8 tsp salt",
+			"1/8 tsp ground red pepper",
+			"1 15-oz can black beans, rinsed & drained",
+			"4 8-inch flour tortillas",
+			"1 cup shredded, roasted, skinless chicken breast",
+			"3/4 cup preshredded Monterey Jack cheese",
+			"1 cup shredded iceberg lettuce",
+			"1/2 cup fat-free sour cream"
+		],
+		steps: [
+			"Preheat broiler.",
+			"To prepare salsa, combine avocado, tomato, green onions, 2 tsp lime juice and salt in a small bowl. Toss gently & set aside.",
+			"Combine water, remaining lime juice, cumin, salt, red pepper and beans in a blender. Process until smooth.",
+			"Place tortillas on a baking sheet and spread about 1/4 cup bean mixture evenly over each tortilla. Top each evenly with 1/4 cup chicken and 3 Tbsp cheese. Broil 2 minutes or until cheese melts and tortilla edges are just beginning to brown.",
+			"Top each tortilla with 1/4 cup lettuce, 1/4 cup salsa and 2 Tbsp sour cream. Cut each tortilla into 4 wedges."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Cajun Spice Mix",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"3 tbsp paprika",
+			"2 tbsp ground red pepper",
+			"2 tbsp dried thyme",
+			"2 tbsp dried oregano",
+			"2 tbsp onion powder",
+			"2 tbsp garlic powder",
+			"1 tbsp kosher salt",
+			"1 tbsp black pepper",
+			"1 tbsp sugar"
+		],
+		steps: [
+			"Combine all ingredients."
+		],
+		image: "no-photo.png",
+		course: "seasonings",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
