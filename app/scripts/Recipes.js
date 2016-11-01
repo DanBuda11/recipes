@@ -1,6 +1,7 @@
 export default [
 	{
 		name: "Tabbouleh",
+		description: "",
 		ingredients: [
 			"4 bunches curly-leaf parsley",
 			"1/2 cucumber",
@@ -23,6 +24,7 @@ export default [
 	},
 	{
 		name: "Caldo de Pollo",
+		description: "",
 		ingredients: [
 			"1 whole chicken (3-4 pounds), cut into large pieces",
 			"8-10 cups water, depending on size of chicken",
@@ -51,6 +53,7 @@ export default [
 	},
 	{
 		name: "Tomatoes, Potatoes & Meat",
+		description: "",
 		ingredients: [
 			"1 good sized flank steak or top sirloin, cut into small pieces",
 			"1 lb. pork steak or pork chops, cut into small pieces",
@@ -73,6 +76,7 @@ export default [
 	},
 	{
 		name: "Cajun Blackening Dry Rub",
+		description: "",
 		ingredients: [
 			"2 1/2 Tbsp. paprika",
 			"1 Tbsp kosher salt",
@@ -270,8 +274,26 @@ export default [
 		stars: "",
 		description: "",
 		ingredients: [
+			"1 head garlic",
+			"1 cup macaroni or any small, tube-shaped pasta",
+			"1 tbsp olive oil",
+			"2 large leeks",
+			"1 tbsp fresh rosemary, diced",
+			"8 cups kale, washed & chopped",
+			"4 cups sweet potato, peeled & chopped into 1/2-inch pieces",
+			"7 cups fat-free chicken broth",
+			"1 tsp dried basil",
+			"2 cans cannellini beans, rinsed & drained",
+			"Salt & pepper to taste"
 		],
 		steps: [
+			"Preheat oven to 425",
+			"Wrap garlic head in tinfoil & bake for 40 minutes or until soft. Remove from oven and cool. Remove cloves from papery shell and set aside.",
+			"Cook pasted in salted water until al dente. Drain & set aside.",
+			"Pour oil into a large soup pan over medium-high heat. Add leeks, rosemary & roasted garlic, and saute, stirring constantly until leeks are transparent, about 5 minutes.",
+			"Add kale & sweet potato, continue to stir for 5 minutes.",
+			"Add chicken broth and basil, return to gentle boil, reduce heat and simmer until potato is soft but firm, approximately 15 minutes.",
+			"Add beans, pasta, salt & pepper to taste, and heat through for 5 minutes. Serve hot."
 		],
 		image: "roasted-garlic-kale.png",
 		course: "soups",
@@ -426,8 +448,186 @@ export default [
 			"Ring plate with sliced avocado. Add desired garnishes (cilantro, queso fresco, hot sauce)."
 		],
 		image: "no-photo.png",
-		course: "",
+		course: "breakfasts",
 		notes: "For a lower carb version, substitute cauliflower for potato. And for additional spice, add red chili flakes to the potato, salt & pepper.",
+		submitDate: ""
+	},
+	{
+		name: "Cilantro-Lime Chicken with Avocado Salsa",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 tbsp minced fresh cilantro",
+			"2 1/2 tbsp fresh lime juice",
+			"1 1/2 tbsp olive oil",
+			"4 6-oz skinless, boneless chicken breast halves",
+			"1/2 tsp salt, separated",
+			"Cooking spray",
+			"1 cup chopped plum tomato (about 2)",
+			"2 tbsp finely chopped onion",
+			"2 tsp fresh lime juice",
+			"1/4 tsp black pepper",
+			"1 avocado, peeled & finely chopped"
+		],
+		steps: [
+			"Combine first 4 ingredients in a large bowl; toss and let stand 3 minutes. Remove chicken from marinade; discard marinade. Sprinkle chicken evenly with 1/4 tsp salt.",
+			"Heat a grill pan over medium-high heat. Coat pan with cooking spray. Add chicken to pan and cook 6 minutes on each side or until done.",
+			"To prepare salsa, combine tomato & next 4 ingredients (thru pepper) in a medium bowl. Add avocado; stir gently to combine. Serve salsa over chicken."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Chicken Green Chlil with White Beans",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"6 Anaheim chiles",
+			"1 tbsp olive oil",
+			"3 chicken leg quarters, skinned (about 1 3/4 lbs)",
+			"1 3/4 cups chopped onion",
+			"4 garlic cloves, minced",
+			"4 cups fat-free, low-sodium chicken broth",
+			"2 cups water, divided",
+			"1 1/2 tsp ground cumin",
+			"1 (15.5-oz) can cannellini beans or other white beans, rinsed & drained",
+			"3 tbsp all-purpose flour",
+			"1 tsp salt",
+			"3 tbsp reduced-fat sour cream",
+			"6 lime slices"
+		],
+		steps: [
+			"Cut chiles in half; discard seeds & membranes. Place halves, skin sides up, on a foil-lined baking sheet; flatten with hand. Broil 5 minutes or until blackened. Place in a heavy-duty zip-top plastic bag; seal. Let stand 15 minutes. Peel chiles; discard skins. Chop chiles",
+			"Heat oil in a large Dutch oven over medium-high heat. Add chicken; cook 4 minutes on each side or until browned. Remove chicken from pan. Add onion and garlic, and saute 6 minutes on each side or until browned, stirring frequently. Return chicken to pan. Add broth, 1 1/2 cups water, cumin; bring to a simmer. Cook 20 minutes or until chicken is done.",
+			"Remove chicken; cool slightly. Remove chicken from bones; cut meat into bite-size pieces. Add chicken to pan; stire in chopped chiles & beans.",
+			"Combine 1/2 cup water and flour, stirring with a whisk. Stir into chicken mixture. Bring to a simmer; cook 15 minutes. Stir in salt.",
+			"Spoon about 1 1/2 cups soup into each of 6 bowls; top each with 1 1/2 tsp sour cream. Serve with lime slices"
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Simple Clam Chowder",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 bacon slices",
+			"2 cups chopped onion",
+			"1 1/4 cups chopped celery",
+			"1/2 tsp salt",
+			"1/2 tsp dried thyme",
+			"2 garlic cloves, minced",
+			"6 (6 1/2 oz) cans chopped clams, undrained",
+			"5 cups diced peeled baking potato (about 1 lb)",
+			"4 (8-oz) bottles clam juice",
+			"1 bay leaf",
+			"3 cups fat-free milk",
+			"1/2 cup all-purpose flour"
+		],
+		steps: [
+			"Cook bacon in a large Dutch oven over medium heat until crisp. Remove from pan, reserving 1 tsp drippings in pan. Crumble & set aside.",
+			"Add onion, celery, salt, thyme & garlic to drippings in pan; cook 4 minutes or until vegetables are tender.",
+			"Drain clams, reserving liquid. Add clam liquid, potato, clam juice and bay leaf to pan; bring to a boil. Reduce heat and simmer 15 minutes or until potato is tender. Discard bay leaf.",
+			"Combine milk & flour, stirring with a whisk until smooth. Add flour mixture to pan; bring to a boil. Cook 12 minutes oruntil thick, stirring constantly.",
+			"Add clams; cook 2 minutes. Sprinkle with bacon."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Irish Colcannon & Thyme Leaf Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 tbsp butter, divided",
+			"2 1/2 cups diced peeled baking potato",
+			"1 cup diced onion",
+			"1/2 tsp salt, divided",
+			"1/2 tsp black pepper, divided",
+			"3 cups fat-free, less-sodium chicken broth",
+			"2 cups plus 3 tbsp water",
+			"8 cups thinly sliced savoy cabbage (about 1 lb",
+			"1 tbsp chopped fresh thyme leaves"
+		],
+		steps: [
+			"Melt 1 tbsp butter in a large saucepan over medium heat. Add potato, onion, 1/4 tsp salt & 1/4 tsp pepper. Cover & cook 6 minutes.",
+			"Add broth and 2 cups water; bring to a boil. Cook 10 minutes or until potato is tender.",
+			"Combine 3 tbsp water and remaining 1 tbsp butter in a large Dutch oven; bring to a simmer. Add cabbage and thyme. Cover and cook 5 minutes, stirring occasionally. Remove from heat; stir in remaining 1/4 tsp salt & 1/4 tsp pepper.",
+			"Place 1/2 of potato mixture in blender. Remove center piece of blender lid to allow steam to escape. Place lid on blender and cover with paper towel to avoid splatters. Blend until smooth. Pour into large bowl. Repeat process with remaining potato mixture.",
+			"Add potato mixture to cabbage mixture; cook over medium-low heat until thoroughly heated."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Corn & Fingerling Potato Chowder",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 sliced applewood smoked bacon",
+			"1 3/4 cups diced onion",
+			"3 1/2 cups fresh corn kernels (about 7 ears)",
+			"1 tsp chopped fresh thyme",
+			"2 garlic cloves, minced",
+			"2 cups fat-free, less-sodium chicken broth",
+			"1/2 cup 2% reduced-fat milk",
+			"1/2 cup half-and-half",
+			"8 oz (1/4-inch thick) round fingerling potato slices",
+			"1/4 tsp salt",
+			"1/4 tsp black pepper",
+			"Thyme sprigs (optional)"
+		],
+		steps: [
+			"Cook bacon in a large Dutch oven over medium heat until crisp. Remove bacon from pan & crumble.",
+			"Add onion to drippings in pan; cook 8 minutes or until tender, stirring occasionally.",
+			"Add corn, chopped thyme & garlic to pan; cook 30 seconds, stirring constantly.",
+			"Stir in broth, milk, half-and-half & potatoes; bring to a simmer. Cover & cook 30 minutes or until potatoes are tender, stirring occasionally.",
+			"Transfer 2 cups potato mixture to a blender. Remove center piece of blender lid to allow steam to escape. Place lid on blender and cover with paper towel to avoid splatters. Blend until smooth.",
+			"Return pureed mixture to pan. Stir in salt & pepper.",
+			"Sprinkle with crumbled bacon. Serve with thyme sprigs if desired."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Creamy Parmesan Orzo",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tbsp butter",
+			"1 cup orzo",
+			"1 1/4 cups fat-free, less-sodium chicken broth",
+			"1 1/4 cups water",
+			"1/4 cup grated fresh Parmesan cheese",
+			"3 tbsp chopped fresh basil",
+			"1/4 tsp salt",
+			"1/4 tsp black pepper",
+			"4 tsp pine nuts, toasted"
+		],
+		steps: [
+			"Heat butter in a medium saucepan over medium heat. Add orzo & cook 3 minutes, stirring constantly.",
+			"Stir in broth & water; bring to a boil. Reduce heat and simmer until liquid is absorbed & orzo is done (about 15 minutes). Remove from heat.",
+			"Stir in cheese, basil, salt & pepper. Sprinkle with pine nuts."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
 		submitDate: ""
 	}
 ]
