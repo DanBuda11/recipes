@@ -399,6 +399,36 @@ export default [
 		course: "seasonings",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Breakfast Hash",
+		userId: "",
+		stars: "",
+		description: "Great for a Sunday home brunch!",
+		ingredients: [
+			"1 1/2 tbsp olive oil",
+			"1 large redskin potato, cut into 1/4 inch cubes",
+			"Salt & pepper to taste",
+			"1/4 medium white onion, chopped",
+			"1 serrano pepper, chopped & seeded",
+			"2 cloves garlic, minced",
+			"2-3 eggs",
+			"6-10 cherry tomatoes",
+			"1 medium avocado, sliced"			
+		],
+		steps: [
+			"Add oil to a large pan and heat on medium-high. Add potato, salt & pepper to pan and cook until potato is mostly cooked.",
+			"Add onion and pepper to pan and continue cooking until onion starts to brown.",
+			"Stir garlic into pan and continue cooking for 2-3 minutes, until garlic fragrant.",
+			"Remove potato mixture from pan and put onto plate.",
+			"In same pan, put in eggs and cook until desired doneness. Remove from pan and put on top of potato mixture.",
+			"Cut tomatoes in half and sprinkle with salt. Place cut-side down in pan and cook 4-5 minutes or unti tomatoes start to blacken. Remove from pan and place on plate.",
+			"Ring plate with sliced avocado. Add desired garnishes (cilantro, queso fresco, hot sauce)."
+		],
+		image: "no-photo.png",
+		course: "",
+		notes: "For a lower carb version, substitute cauliflower for potato. And for additional spice, add red chili flakes to the potato, salt & pepper.",
+		submitDate: ""
 	}
 ]
 

@@ -25,6 +25,8 @@ Home</Link>
 				<div className="recipeContain">
 					<h1>{this.state.recipe.name}</h1>
 					<img src={require("./../images/" + this.state.recipe.image)} />
+					<h4>Description</h4>
+					{this.state.recipe.description}
 					<h4>Ingredients</h4>
 					<ul>
 						{ingredients}
