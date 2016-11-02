@@ -1325,6 +1325,126 @@ export default [
 		course: "main",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Shrimp Cakes with Corn & Avocado Salsa",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 lb medium shrimp, peeled & deveined",
+			"Cooking spray",
+			"1 cup finely chopped red bell pepper",
+			"1 garlic clove, minced",
+			"1/4 cup thinly sliced green onions",
+			"3 tbsp reduced-fat mayonnaise",
+			"2 tbsp fresh lime juice, divided",
+			"1 1/2 tsp hot sauce",
+			"1/2 tsp sugar",
+			"1/2 tsp salt, divided",
+			"1 large egg",
+			"1/2 cup finely chopped fresh cilantro, divided",
+			"3/4 cup panko (Japanese breadcrumbs), divided",
+			"1 cup frozen white corn, thawed",
+			"3/4 cup diced, peeled avocado",
+			"3 tbsp finely chopped red onion",
+			"2 tbsp finely chopped poblano pepper"
+		],
+		steps: [
+			"To prepare cakes, place shrimp in a food processor; pulse 10 times or until finely chopped. Set aside.",
+			"Heat a large nonstick skillet over medium heat. Coat pan with cooking spray. Add bell pepper to pan; saute 3 minutes. Add garlic; saute for 1 minute. Remove from heat. Place bell peper mixture in a large bowl.",
+			"Add shrimp, green onions, mayonnaise, 1 tbsp lime juice, hot sauce, sugar, 1/4 tsp salt and egg to bowl, stirring well. Stir in half the cilantro and 1/4 cup panko.",
+			"Divide shrimp mixture into 10 equal portions, shaping each into a 1/2-inch thick patty. Dredge both sides of patties in remaining 1/2 cup panko. Chill at least one hour.",
+			"Heat pan over medium-high heat. Coat pan with cooking spray. Add 5 cakes to pan; cook 4 minutes on each side or until browned. Remove from pan; cover and keep warm. Repeat with remaining cakes.",
+			"To prepare salsa, combine remaining ingredients and stir gently to mix. Serve immediately with shrimp cakes."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "I often substitute a can of salmon for the shrimp.",
+		submitDate: ""
+	},
+	{
+		name: "Taco Seasoning",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tbsp chili powder",
+			"1/4 tsp garlic powder",
+			"1/4 tsp onion powder",
+			"1/4 tsp crushed red pepper flakes",
+			"1/4 tsp dried oregano",
+			"1/2 tsp paprika",
+			"1 1/2 tsp ground cumin",
+			"1 tsp sea salt",
+			"1 tsp black pepper"
+		],
+		steps: [
+			"Combine all ingredients."
+		],
+		image: "no-photo.png",
+		course: "seasonings",
+		notes: "This is a great seasoning mix to add to a crockpot filled with chicken breast and enough chicken broth to cover the chicken. Cook on low about 8 hours then shred the chicken, return to the pot and stir it all together.",
+		submitDate: ""
+	},
+	{
+		name: "Thai Chicken & Coconut Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 lb boneless, skinless chicken breasts (about 3), cut into 2 1/2 by 1/4 inch strips",
+			"3 tbsp Asian fish sauce (nam pla or nuoc mam)",
+			"1 1/2 tbsp lime juice",
+			"1 quart plus 3/4 cup canned low-sodium chicken broth or homemade stock",
+			"3 stalks lemongrass, bottom third only, peeled, smashed, and cut into 2-inch pieces, or three 3-inch-by-1/4-inch strips lemon zest",
+			" 1 1-inch piece peeled fresh ginger, cut into thirds",
+			"1/2 cup long-grain rice",
+			"1 3/4 cups unsweetened coconut milk (15-oz can)",
+			"2 fresh red chiles or jalapeno peppers, seeds & ribs removed, cut crosswise into thin slices",
+			"3 tbsp chopped cilantro"
+		],
+		steps: [
+			"In a medium glass dish or stainless steel pan, combine the chicken strips with the fish sauce and lime juice. Set aside.",
+			"In a large saucepan, bring the broth, lemongrass, and ginger to a simmer. Add the rice; simmer until rice is almost done, about 15 minutes.",
+			"Add the coconut milk and bring back to a simmer. Stir in the chicken and marinade and cook until the chicken is just done, about 2 minutes. Stir in the chiles and cilantro."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Sesame-Crusted Tuna with Wasabi-Ponzu Sauce",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tbsp chopped green onions",
+			"2 tbsp low-sodium soy sauce",
+			"2 tbsp fresh orange juice",
+			"1 tbsp rice vinegar",
+			"1 tsp brown sugar",
+			"1 tsp grated lemon rind",
+			"2 tsp fresh lemon juice",
+			"2 tsp honey",
+			"1 1/4 tsp prepared wasabi paste",
+			"1 tsp grated peeled fresh ginger",
+			"2 tsp vegetable oil",
+			"4 (6-oz) tuna steaks (about 3/4 inch thick",
+			"1/4 tsp salt",
+			"3 tbsp sesame seeds",
+			"2 tbsp black sesame seeds",
+			"Sliced green onions (optional)"
+		],
+		steps: [
+			"Combine first 10 ingredients, stirring with a whisk.",
+			"Heat oil in a large nonstick skillet over medium-high heat. Sprinkle tuna with salt. Combine sesame seeds in a shallow dish. Dredge tuna in sesame seeds. Add tuna to pan; cook 3 minutes on each side or until desired degree of doneness. Garnish with green onions, if desired. Serve tuna with sauce."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
