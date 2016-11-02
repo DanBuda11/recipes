@@ -475,7 +475,7 @@ export default [
 			"Heat a grill pan over medium-high heat. Coat pan with cooking spray. Add chicken to pan and cook 6 minutes on each side or until done.",
 			"To prepare salsa, combine tomato & next 4 ingredients (thru pepper) in a medium bowl. Add avocado; stir gently to combine. Serve salsa over chicken."
 		],
-		image: "no-photo.png",
+		image: "cilantro-chicken.png",
 		course: "main",
 		notes: "",
 		submitDate: ""

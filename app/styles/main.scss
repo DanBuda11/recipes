@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Lato', sans-serif;
 }
 
 .page-wrap {
@@ -83,7 +83,7 @@ body {
 			border-left: 1px solid $carbon;
 			font-size: 0.9em;
 			float: right;
-			font-family: sans-serif;
+			font-family: 'Lato', sans-serif;
 			width: 50%;
 			box-sizing: border-box;
 			height: 50%;
@@ -137,6 +137,8 @@ body {
 	}
 
 	.recipeContain {
+		max-width: 900px;
+		margin: 0 auto;
 
 		h1 {
 			text-align: center;
@@ -149,7 +151,6 @@ body {
 			border: 1px solid $carbon;
 			background-color: #fff;
 			padding: 0.3em;
-			width: 95%;
 		}
 
 		h4 {
@@ -158,6 +159,7 @@ body {
 
 		.ingredients, .steps {
 			margin: 0.4em 0;
+			line-height: 1.5;
 		}
 	}
 }
@@ -179,7 +181,7 @@ body {
 		display: block;
 		width: 100%;
 		line-height: 1.5em;
-		font-family: 'Gloria Hallelujah', cursive;
+		font-family: 'Lato', sans-serif;
 		margin-top: 1em;
 		border: 1px solid $carbon;
 		padding-left: 0.4em;
@@ -205,7 +207,7 @@ body {
 		outline: none;
 		border: none;
 		margin: 0.4em 0;
-		font-family: 'Gloria Hallelujah', cursive;
+		font-family: 'Lato', sans-serif;
 		cursor: pointer;
 	}
 
