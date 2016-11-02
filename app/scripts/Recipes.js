@@ -355,7 +355,7 @@ export default [
 		],
 		steps: [
 			"Heat a large Dutch oven over medium heat. Coat pan with cooking spray. Add chopped onion and beef to pan. Cook 10 minutse or until onion is tender & beef is browned, stirring occasionally.",
-			"Add carrot & celery to pan. Cook 5 minutes, stirring occasionanlly.",
+			"Add carrot & celery to pan. Cook 5 minutes, stirring occasionally.",
 			"Stir in garlic. Cook 30 seconds.",
 			"Stir in barley & remaining ingredients and bring to a boil. Cover, reduce heat, and simmer 40 minutes or until the barley is done and vegetables are tender. Discard bay leaves."
 		],
@@ -629,22 +629,721 @@ export default [
 		course: "sides",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Crockpot Chicken Enchilada Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 tsp olive oil",
+			"1/2 cup onion, chopped",
+			"3 cloves garlic, minced",
+			"3 cups low sodium fat-free chicken broth",
+			"8 oz can tomato sauce",
+			"1-2 tsp chipotle chili in adobo sauce (or more to taste)",
+			"1/4 cup chopped cilantro (plus more for garnish)",
+			" 15 oz can black beans, rinsed and drained",
+			"14.5 oz can petite diced tomatoes",
+			"2 cups frozen corn",
+			"1 tsp cumin",
+			"1/2 tsp dried oregano",
+			"2, 8 oz skinless chicken breasts (16 oz total)",
+			"1/4 cup chopped scallions, for topping",
+			"3/4 cup shredded reduced fat cheddar cheese",
+			"fat free sour cream (optional)"
+		],
+		steps: [
+			"Heat oil in a saucepan over medium-low heat. Add onion and garlic and sauté until soft, 3-4 minutes. Slowly add the chicken broth, tomato sauce and chipotle adobo sauce and bring to a boil. Add cilantro and remove from heat. Pour into crock pot.",
+			"To the crockpot, add drained beans, diced tomatoes, corn, cumin, oregano and stir. Add the chicken breasts; cover and cook on low heat for 4-6 hours.",
+			"Remove chicken and shred with two forks. Add chicken back into the soup, adjust salt and cumin to taste. Serve in bowls and top with fat free sour cream, cheese, scallions and cilantro. You can also top with avocado or crushed tortilla chips. Enjoy!"
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Crockpot Chipotle Chicken Zucchini Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"16 oz boneless, skinless chicken breasts",
+			"1/2 teaspoon kosher salt",
+			"fresh black pepper, to taste",
+			"1 teaspoon olive oil",
+			"1/2 cup chopped onion",
+			"3 cloves minced garlic",
+			"4 cups reduced sodium chicken broth",
+			"8 oz can tomato sauce",
+			"1/2 tablespoon chipotle chile in adobo, chopped",
+			"1 teaspoon dried oregano",
+			"1/4 teaspoon cumin",
+			"2 bay leaves",
+			"1/4 cup chopped cilantro",
+			"1 (7 ounce) zucchini",
+			"1 medium (5 oz) avocado, pitted and sliced",
+			"2 ounces crumbled queso fresco or queso blanco (omit for Paleo)"
+		],
+		steps: [
+			"Season chicken with salt and pepper and place in the slow cooker.",
+			"Heat a medium nonstick skillet over medium heat, add oil, onion and garlic and saute until soft, 3 to 4 minutes. Transfer to the slow cooker with chicken broth, tomato sauce, chipotle, cumin, oregano, half of the cilantro and bay leaves. Cover and cook low 4 to 6 hours.",
+			"Meanwhile spiralize the zucchini using a spiralizer with the thinnest noodle setting. Cut the zucchini into 6-inch strips.",
+			"Discard the bay leaves and remove the chicken, shred with 2 forks and place back in the slow cooker along with the zucchini and cook on high until the zucchini is tender crisp, about 5 minutes. To serve, ladle into bowls and serve topped with sliced avocado and remaining cilantro."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Crockpot Moroccan Chickpea Turkey Stew",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"cooking spray",
+			"1.3 lb package 93% lean ground turkey",
+			"1 tbsp extra virgin olive oil, light",
+			"1 yellow onion, chopped",
+			"2 garlic cloves, chopped",
+			"3 tbsp poblano pepper, chopped",
+			"1 cup diced carrots",
+			"1 cup diced celery",
+			"28 oz can petite diced tomatoes ",
+			"2 (15 oz) cans chick peas, drained",
+			"2 cups low sodium, 99% fat free chicken broth",
+			"2 tsp turmeric",
+			"2 tsp paprika",
+			"1 tsp coriander",
+			"2 bay leaves",
+			"1/2 tsp crushed red pepper flakes",
+			"2 tsp coarse salt",
+			"2 tbsp fresh Italian parsley or spearmint, chopped"
+		],
+		steps: [
+			"Spray a large nonstick skillet with cooking spray and over medium high heat cook ground turkey for 10-12 minutes.  Break up the ground meat and mix so meat cooks evenly; place in the slow cooker.",
+			"To the skillet add the olive oil, onions, pepper, carrots, and celery and sauté until soft, about 8 minutes.  Add garlic and sauté for another 2 minutes. Transfer to slow cooker along with diced tomatoes, chick peas, spices, broth and gently mix well.  Cover and cook on LOW heat 6 to 8 hours.  Remove bay leaves and serve; garnish with fresh herbs."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Crockpot Picante Chicken Black Bean",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 (15 oz) cans black beans, rinsed and drained",
+			"3 1/2 cups low sodium chicken broth",
+			"2 (10 oz) cans Rotel tomatoes with green chilies",
+			"1 red bell pepper, minced",
+			"4 oz can diced green chiles",
+			"1 tbsp ground cumin",
+			"1 tsp ancho chile powder",
+			"1 tsp garlic powder",
+			"1 tsp onion powder",
+			"1/4 tsp oregano",
+			"16 oz (2) skinless chicken breast",
+			"1/2 cup chopped cilantro, divided",
+			"2 medium scallions, diced",
+			"cut limes, for serving ",
+			"1 medium haas avocado, sliced",
+			"sour cream, for serving (optional)"
+		],
+		steps: [
+			"Take one can of beans and place in the blender along with 2 cups of the chicken broth; puree then add to your slow cooker. Add the remainder of the beans and chicken broth into the slow cooker along with tomatoes, bell pepper, diced green chiles, cumin, chile powder, garlic powder, onion powder, oregano, chicken breast, and 1/4 cup of the cilantro. Set slow cooker to HIGH 4 hours or LOW 6 to 8 hours.",
+			"After it's done, remove chicken and shred with 2 forks. Place back into the slow cooker and add fresh scallions, remainder cilantro and adjust salt and cumin, to taste."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Crockpot Pork & Tomato Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 lbs boneless country pork ribs, cut into 1 inch pieces",
+			"1 Tbsp olive oil",
+			"1 Tbsp chopped garlic",
+			"½ cup chopped onion",
+			"½ cup dry white wine",
+			"1 cup chicken stock",
+			"2 cups fresh tomatoes, chopped",
+			"1 cup water",
+			"2 Tbsp fresh oregano, chopped",
+			"2 cups finely chopped cauliflower rice",
+			"salt and pepper to taste"
+		],
+		steps: [
+			"Heat the olive oil in a heavy saucepan. Season the pork (or other meat) generously with salt and pepper. Brown the meat on all sides for several minutes or until golden. Add the garlic and onions and cook for 2 minutes. Ad the white wine, chicken stock, fresh tomatoes and water and bring to a boil. Pour into a slow cooker and cook on high for 4 hours or until the meat is tender and falling apart. In the last 15-20 minutes of cooking, stir in the cauliflower and fresh oregano. "
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Fiery Flank Steak with Tomato Jam",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"6 large ripe tomatoes, cored & cut in half crosswise (about 4 lbs)",
+			"1/3 cup sugar",
+			"1/3 cup grated onion",
+			"5 garlic cloves, minced, separated",
+			"4 jalapeno peppes, minced, separated",
+			"1/4 cup chopped fresh cilantro",
+			"1/3 cup & 3 tbsp lime juice, separated",
+			"3/4 tsp salt, separated",
+			"1 tbsp grated lime rind",
+			"2 tsp olive oil",
+			"2 lbs flank steak, trimmed",
+			"Cooking spray",
+			"Lemon slices, optional"
+		],
+		steps: [
+			"To prepare jam, grate tomatoes, flesh side down, over a large bowl to form 5 1/2 cups pulp; discard skins.",
+			"Combine pulp, sugar, onion, 3 garlic cloves and 2 jalapenos in a medium saucepan; bring to a boil.",
+			"Reduce heat and simmer until reduced to 2 1/4 cups (about 20 minutes), stirring occasionally. Cool to room temperature. Stir in cilantro, 3 tbsp lime juice and 1/4 tsp salt.",
+			"To prepare steak, combine rind, 1/3 cup juice, oil, 2 jalapenos and 2 garlic cloves in a large zip-top plastic bag. Add steak & seal. Marinate in refrigerator 8 hours or overnight, turning bad occasionally.",
+			"Prepare grill.",
+			"Remove steak from bag; discard marinade. Sprinkle both sides of steak evenly with 1/2 tsp salt. Place steak on a grill rack coated with cooking spray; grill 3 minutes on each side or until desired degree of doneness. Let stand 5 minutes. Cut steak diagonally across the grain into thin slices. Serve with jam. Garnish with lemon slices, if desired."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Garlic Fries",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"4 tsp canola oil",
+			"3/4 tsp salt",
+			"3 lbs peeled baking potatoes, cut into 1/4-inch thick strips",
+			"Cooking spray",
+			"2 tbsp butter",
+			"8 garlic cloves, minced (about 5 tsp)",
+			"2 tbsp finely chopped fresh parsley",
+			"2 tbsp freshly grated Parmesan cheese"
+		],
+		steps: [
+			"Preheat oven to 400.",
+			"Combine first 3 ingredients in a large zip-top plastic bag, tossing to coat. Arrange potatoes in a asingle layer on a baking sheet coated with cooking spray. Bake at 400 for 50 minutes or until potatoes are tender and golden brown, turning after 20 minutes.",
+			"Place butter and garlic in a large nonstick skillet, and cook over low heat 2 minutes, stirring constantly. Add potatoes, parsley and cheese to pan; toss to coat."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Garlic Roasted Potatoes with Herbs",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 tbsp chopped garlic",
+			"1 tbsp olive oil",
+			"1 1/2 lbs quartered Yukon gold or red potatoes (about 4 cups)",
+			"Cooking spray",
+			"1/2 tsp sea salt",
+			"1/4 tsp black pepper",
+			"1/4 cup chopped fresh flat-leaf parsley",
+			"1/2 tsp grated lemon rind"
+		],
+		steps: [
+			"Preheat oven to 475 degrees.",
+			"Combine garlic and oil in a small saucepan over medium heat. Cook 2 minutes or until golde, stirring frequently. Remove garlic with a slotted spoon; set aside.",
+			"Drizzle remaining oil evenly over potatoes in a large bowl, tossing well to coat. Arrange potatoes in a single layer on a baking sheet coated with cooking spray, and sprinkle with salt & pepper. Bake at 475 for 30 minutes or until potatoes are golden.",
+			"Combine reserved garlic, parsley and lemon rind in a small bowl; sprinkle mixture evenly over potatoes."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Gazpacho",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 green bell pepper, seeded & roughly chopped",
+			"1 red bell pepper, seeded & roughly chopped",
+			"1/2 cucumber, roughly chopped",
+			"1 onion, roughly chopped",
+			"1 fresh red chili, seeded & roughly chopped",
+			"3 cups roughly chopped ripe plum tomatoes",
+			"3 3/4 cups passata (strained pureed tomatoes) or tomato juice",
+			"2 tbsp red wine vinegar",
+			"2 tbsp olive oil",
+			"1 tbsp caster sugar",
+			"Salt & pepper",
+			"crushed ice, to garnish (optional)"
+		],
+		steps: [
+			"Reserve a small piece of the peppers, cucumber and onion. Finely chop these & set aside as a garnish.",
+			"Process all the remaining ingredients, except the ice, in a blender or food processor until smooth.",
+			"Press the soup through a strainer into a clean glass bowl, pushing it through with a spoon to extract the maximum amount of flavor.",
+			"Adjust the seasoning and chili. Serve sprinkled with the reserved chopped peppers, cucumber & onion. Add crushed ice to garnish."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Greek-Style Potato, Zucchini & Bean Stew",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 1/2 tbsp extra virgin olive oil",
+			"3 cups chopped onion",
+			"1 cup (3/4 inch) cubed peeled baking potato",
+			"1/2 cup water",
+			"3 1/2 cups (1/2 inch thick) slices zucchini",
+			"2 1/2 cups (3 inch) cut green beans (about 1/2 lb)",
+			"2 28-oz cans diced tomatoes, undrained",
+			"1 15.5-oz can Great Northern beans, rinsed & drained",
+			"1/4 cup chopped fresh flat-leaf parsley",
+			"2 tsp chopped fresh dill",
+			"1/2 tsp dried oregano",
+			"1/4 tsp black pepper",
+			"3/4 cup crumbled feta cheese"
+		],
+		steps: [
+			"Heat oil in a Dutch oven over medium-high heat. Add onion & saute 5 minutes or until lightly browned. Add potato & water; bring to a boil. Cover, reduce heat and cook 5 minutes.",
+			"Stir in zucchini and the next 3 ingredients (through Great Northern beans). Cover and cook 35 minutes or until vegetables are tener.",
+			"Stir in parsley & next 3 ingredients (through pepper). Serve with cheese."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Grille Salmon with Roasted Corn Relish",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"4 Anaheim chiles",
+			"Cooking Spray",
+			"2 shucked ears corn",
+			"1 cup diced tomato",
+			"1/4 cup chopped fresh cilantro",
+			"6 tbsp fresh lime juice",
+			"1 tsp salt, divided",
+			"1/2 tsp black pepper, divided",
+			"1 tsp ground cumin",
+			"4 6-oz skinless salmon fillets"
+		],
+		steps: [
+			"Prepare grill.",
+			"Place chiles on gril rack coated with cooking spray. Grill 5 minutes on each side or until blackened. Place chiles in a heavy-duty zip-top plastic bag, seal. Let stand 5 minutes. Peel chiles and cut in half lengthwise. Discard seeds and membranes. Cut chiles into 1/4-inch strips.",
+			"Place corn on grill rack coated with cooking spray. Grill 10 minutes or until lightly browned, turning occasionally. Cool slightly. Cut kernels from cobs.",
+			"Combine chiles, corn, tomato, cilantro and juice; toss gently. Add 1/2 tsp salt and 1/4 tsp black pepper.",
+			"Combine remaining 1/2 tsp salt, 1/4 tsp pepper and cumin, stirring well. Rub spice mixture evenly over both sides of salmon. Place salmon on grill rack coated with cooking spray. Grill 4 minutes on each side or until fish flakes easily when tested with a fork or until desired degree of doneness. Serve with relish."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Herb-Grilled Trout",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1/4 cup dry white wine",
+			"1 tbsp olive oil",
+			"4 8-oz dressed rainbow trout",
+			"1/4 tsp salt",
+			"1/8 tsp black pepper",
+			"1/2 cup thinly sliced green onions",
+			"2 tbsp chopped fresh tarragon",
+			"2 tbsp chopped fresh basil",
+			"1 tbsp chopped fresh dill",
+			"Cooking spray",
+			"4 lemon wedges"
+		],
+		steps: [
+			"Prepare grill or broiler.",
+			"Combine the wine and oil; brush inside and outside of fish. Sprinkle the insides evenly with salt, pepper, onions and fresh herbs.",
+			"Place the fish, skin side down, on grill rack or broiler pan coated with cooking spray, and cook for 5 minutes or until the fish flakes easily when tested with a fork. Serve with lemon wedges."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Herb Roasted Pork Tenderloin",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 1/2 tbsp butter, softened",
+			"1 1/4 tsp kosher salt",
+			"1/2 tsp dried sage",
+			"1/2 tsp dried thyme",
+			"1/4 tsp dried oregano",
+			"2 1-lb pork tenderloins, trimmed",
+			"Cooking spray"
+		],
+		steps: [
+			"Preheat oven to 475 degrees.",
+			"Combine the first 5 ingredients in a small bowl. Rub butter mixture over pork.",
+			"Place pork on a broiler pan coated with cooking spray. Bake at 475 for 17 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5 minutes; slice thinly."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Lentil Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 tsp olive oil",
+			"2 1/2 cups chopped Rio or other sweet onion",
+			"1 cup chopped celery",
+			"1 cup chopped carrot",
+			"1/2 tsp dried thyme",
+			"4 garlic cloves, minced",
+			"1 bay leaf",
+			"1 1/2 cups dried petite green lentils",
+			"4 cups fat-free, less-sodium chicken broth",
+			"1 cup water",
+			"1 14.5-oz can petite-cut diced tomatoes, drained",
+			"2 tbsp fresh lemon juice",
+			"1/2 tsp salt",
+			"3/4 tsp black pepper, divided"
+		],
+		steps: [
+			"Heat oil in a large saucepan over medium-high heat. Add onion and next 5 ingredients (through bay leaf) to pan; saute 12 minutes.",
+			"Add lentils; cook for 2 minutes, stirring constantly.",
+			"Stir in broth, 1 cup water and tomatoes; bring to a boil. Cover, reduce heat, and simmer 40 minutes or until lentils are very tender. Remove from heat; let stand for 5 minutes. Discard bay leaf.",
+			"Place 3 cups lentil mixture in a blender. Remove center piece of blender lid to allow steam to escape; secure blender lid and place a paper towel over lide to avoid splatters. Blend until smooth and return pureed mixture to pan.",
+			"Stir in juice, salt and 1/4 tsp pepper. Sprinkle with remaining pepper."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Mussels Marinara",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tbsp olive oil",
+			"1 cup finely chopped onion",
+			"3 garlic cloves, minced",
+			"2 cups chopped tomato",
+			"1/2 cup dry white wine",
+			"1/3 cup chopped fresh flat-leaf parsley",
+			"2 tbsp chopped fresh basil",
+			"1/2 tsp salt",
+			"1/2 tsp black pepper",
+			"1/4 tsp crushed red pepper",
+			"2 bay leaves",
+			"5 lbs fresh mussels, scrubbed & debearded (about 100 mussels)",
+			"5 cups hot cooked linguine (about 10 oz uncooked pasta)",
+			"Basil sprigs (optional)"
+		],
+		steps: [
+			"Heat oil in a large stockpot over medium-high heat. Add onion and garlic; saute 3 minutes.",
+			"Add tomato and next 7 ingredients (through bay leaves). Cook over medium heat 5 minutes.",
+			"Add mussels; cover and cook 10 minutes or until mussels open. Discard bay leaves & any unopened shells. Remove mussels with a slotted spoon and divide into 5 individual shallow bowls.",
+			"Spoon tomato mixture over mussels. Serve over linguine. Garnish with basil sprigs, if desired."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "New Orleans-Style Shrimp",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"3 tbsp Worcestershire sauce",
+			"2 tbsp fresh lemon juice",
+			"1 tbsp butter, melted",
+			"2 tsp chopped fresh rosemary",
+			"2 tsp chopped garlic",
+			"1/2 tsp dried thyme",
+			"1/2 tsp hot pepper sauce (such as Tabasco)",
+			"1/4 tsp freshly ground black pepper",
+			"1/4 tsp ground red pepper",
+			"2 lbs unpeeled large shrimp",
+			"2 lemons, sliced into 1/4-inch slices",
+			"4 tsp butter, divided"
+		],
+		steps: [
+			"Combine first 11 ingredients in a large bowl; toss well. Cover and marinate in refrigerator 30 minutes.",
+			"Preheat oven to 425 degrees.",
+			"Fold 4 (16x12 inch) sheets of heavy-duty aluminum foil in half crosswise. Open foil. Remove shrimp mixture from bowl; reserve marinade. Place about 2 1/4 cups shrimp mixture on half of each foil sheet. Drizzle remaining marinade evenly over shrimp. Top each serving with 1 tsp butter. Fold foil over shrimp and tighly seal edges.",
+			"Place packets on a baking sheet and bake and 425 for 20 minutes. Let stand 10 minutes. Place on plates. Unfold packets carefully; peel shrimp and serve immediately."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Orzo Salad",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 cup orzo pasta, cooked al dente (yields 3 cups)",
+			"6 oz feta cheese, cut into 1/4-inch cubes",
+			"2 large tomatoes, diced",
+			"5 scallions, diced",
+			"3 tbsp fresh dill, chopped fine",
+			"3 oz fresh lemon juice",
+			"6 oz olive oil",
+			"1 tsp fresh cracked black pepper",
+			"1 tsp minced garlic",
+			"Salt to taste"
+		],
+		steps: [
+			"Prepare orzo, let cool. Add feta, tomatoes, scallions & dill; toss well.",
+			"Combine remaining ingredients and whisk together. Pour over orzo mixture. Refrigerate until cold."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "To kick it up a few notches, you can also add fresh spinach, olives, shrimp or grilled chicken.",
+		submitDate: ""
+	},
+	{
+		name: "Peasant Stew",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tsp ground cumin",
+			"1/4 tsp salt",
+			"1/4 tsp black pepper",
+			"6 chicken thighs (about 1 1/2 lbs), skinned",
+			"1 cup chopped onion",
+			"1 (14.5-oz) can Mexican-style stewed tomatoes, with jalapeno peppers and spices, undrained",
+			"1 (4.5-oz) can chopped green chiles, undrained",
+			"1 (15-oz) can pinto beans, rinsed and drained",
+			"1 (15-oz) can kidney beans, rinsed and drained",
+			"1/4 cup minced fresh cilantro",
+			"1/4 cup reduced-fat sour cream"
+		],
+		steps: [
+			"Combine cumin, salt and pepper; sprinkle over chicken.",
+			"Place chicken in an electric slow cooker; stir in onion, tomatoes and chiles. Cover and cook on high setting for 3 hours.",
+			"Stir in beans. Cover and cook on high for 1 hour.",
+			"Place 1 chicken thigh in each of 6 soup bowls. Ladle 1 1/4 cups stew into each bowl. Top with cilantro and sour cream."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Popsoon",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 eggs",
+			"2 tsp salt, divided",
+			"3 scoops & 3 tbsp flour",
+			"6-7 potatoes, chopped",
+			"1 onion, chopped",
+			"3 tbsp butter",
+			"Milk (optional)",
+			"Black pepper (optional)"
+		],
+		steps: [
+			"Mix eggs, 1 tsp salt and 3 scoops flour. Knead mixture and chop into small pieces.",
+			"Place potatoes in large pot and cover with water until potatoes are covered by 3-4 inches of water.",
+			"Add onion and 1 tsp salt to pot; boil until potatoes soft.",
+			"Add noodles and continue boiling until noodles soft.",
+			"In a separate small pan, melt butter over low heat and add in 3-4 tbsp flour, mixing constantly until a smooth roux is formed. Stir into soup pot and heat through. Serve in soup bowls and add a little milk and black pepper if desired."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Potato-Leek Soup",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 tbsp butter",
+			"3 cups thinly sliced leek (about 3 medium)",
+			"6 cups cubed peeled Yukon gold potatoes (about 2 1/4 lbs)",
+			"2 cups water",
+			"1/2 tsp salt",
+			"2 (14-oz) cans organic vegetable broth",
+			"Thyme sprigs",
+			"1/4 tsp black pepper"
+		],
+		steps: [
+			"Melt butter in a Dutch oven over medium heat. Add leek; cook 10 minutes or until tender, stirring occasionally (do not brown).",
+			"Add potatoes, water, salt, broth and 2 thyme sprigs. Bring to a boil; reduce heat and simmer, uncovered, for 20 minutes or until potatoes are very tender.",
+			"Remove pan from heat. Discard thyme sprigs. Partially mash potatoes with a potato masher. Sprinkle with black pepper. Garnish with thyme sprigs, if desired."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Red Beans & Rice",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"3 cups water",
+			"1 cup dried red kidney beans",
+			"1 cup chopped onion",
+			"1 cup chopped green bell pepper",
+			"3/4 cup chopped celery",
+			"1 tsp dried thyme",
+			"1 tsp paprika",
+			"3/4 tsp ground red pepper",
+			"1/2 tsp black pepper",
+			"1/2 (14-oz) package turkey, pork and beef smoked sausage, thinly sliced",
+			"1 bay leaf",
+			"5 garlic cloves, minced",
+			"1/2 tsp salt",
+			"3 cups hot cooked long-grain rice",
+			"1/4 cup chopped green onions"
+		],
+		steps: [
+			"Combine first 12 ingredients in an electric slow cooker. Cover with lid and cook on high for 5 hours. Discard bay leaf; stir in salt. Serve over rice; sprinkle servings evenly with green onions."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Roast Leg of Lamb with Chile-Garlic Sauce",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 (1-lb) boneless leg of lamb, trimmed",
+			"3/4 tsp and 1/8 tsp salt, divided",
+			"1/2 tsp ground black pepper",
+			"Cooking spray",
+			"1 tbsp sambal oelek (ground fresh chile paste",
+			"1/2 tsp ground cumin",
+			"1/4 tsp ground coriander",
+			"3 garlic cloves, minced",
+			"2 tbsp olive oil"
+		],
+		steps: [
+			"Preheat oven to 425 degrees.",
+			"To prepare lamb, sprinkle lamb evenly wth 3/4 tsp salt and pepper. Place lamb on a broiler pan coated with cooking spray and bake at 425 for 21 minutes or until a thermometer reads 120 degrees in the thickest part of the meat. Place lamb on a cutting board; let stand at room temperature 10 minutes before slicing.",
+			"To prepare saauce, combine sambal oelek and next 4 ingredients (through garlic) with a mortar and pestle; grind into a fine paste. Slowly drizzle oil into sambal mixture, stirring until thoroughly combined. Serve sauce with lamb."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Roasted Cauliflower with Fresh Herbs & Parmesan",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"12 cups cauliflower, chopped coarsely (about 2 heads)",
+			"1 1/2 tbsp olive oil",
+			"1 tbsp chopped fresh parsley",
+			"2 tsp chopped fresh thyme",
+			"2 tsp chopped fresh tarragon",
+			"3 garlic cloves, minced",
+			"1/4 cup (1 oz) grated fresh Parmesan cheese",
+			"2 tbsp fresh lemon juice",
+			"1/2 tsp salt",
+			"1/4 tsp pepper"
+		],
+		steps: [
+			"Preheat oven to 450 degrees.",
+			"Place cauliflower in a large roasting pan or jelly-roll pan. Drizzle with oil; toss well to coat. Bake at 450 for 20 minutes or until tender and browned, stirring every 5 minutes. Sprinkle with parsley, thyme, tarragon and garlic. Bake 5 minutes. Combine cauliflower mixture, cheese, and remaining ingredients in a large bowl; toss well to combine."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Seared Tuna with Chickpea Salad",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1/2 cup olive oil, divided",
+			"1/2 tsp Spanish paprika",
+			"1/2 tsp salt",
+			"1/8 tsp black pepper",
+			"2 8-oz tuna fillets",
+			"1 (6-oz) jar marinated artichoke hearts",
+			"1 (15.5-oz) can cooked chickpeas, drained",
+			"1 1/2 tbsp chopped fresh Italian or flat-leaf parsley",
+			"1 1/2 tsp grated lemon zest",
+			"3 tbsp fresh lemon juice"
+		],
+		steps: [
+			"Whisk together 1/4 cup olive oil and next 3 ingredients in a small bowl.",
+			"Coat tuna with oil mixture, and sear in hot (slightly smoking) cast-iron skillet for 1 1/2 to 2 minutes per side or until rare to medium-rare.",
+			"Combine remaining ingredients in a medium bowl; cover and chill.",
+			"Serve tuna over chickpea salad."
+		],
+		image: "no-photo.png",
+		course: "main",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
-// ,
-// 	{
-// 		name: "",
-// 		userId: "",
-// 		stars: "",
-// 		description: "",
-// 		ingredients: [
-// 		],
-// 		steps: [
-// 		],
-// 		image: "no-photo.png",
-// 		course: "",
-// 		notes: "",
-// 		submitDate: ""
-// 	}
+,
+	{
+		name: "",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+		],
+		steps: [
+		],
+		image: "no-photo.png",
+		course: "",
+		notes: "",
+		submitDate: ""
+	}
+
+
+
 
