@@ -41,7 +41,10 @@ body {
 		}
 
 		select {
-
+			font-family: 'Lato', sans-serif;
+			font-size: 0.9em;
+			border-color: #000;
+			outline: none;
 		}
 	}
 }
@@ -149,11 +152,12 @@ body {
 
 .recipeDiv {
 	padding: 1em;
-	background-color: $neutral;
+	// background-color: $neutral;
 
 	.homeLink {
 		text-decoration: none;
 		color: $watermelon;
+		font-weight: bolder;
 
 		i {
 			margin-right: 0.4em;
@@ -169,12 +173,13 @@ body {
 		}
 
 		img {
-			height: 16em;
+			height: 12em;
 			display: block;
-			margin: 0 auto;
+			margin: 0 auto 1em;
 			border: 1px solid $carbon;
 			background-color: #fff;
 			padding: 0.3em;
+			width: 90%;
 		}
 
 		h4 {
@@ -184,6 +189,15 @@ body {
 		.ingredients, .steps {
 			margin: 0.4em 0;
 			line-height: 1.5;
+		}
+
+		p {
+			line-height: 1.5;
+			margin: 0.4em 0;
+		}
+
+		ul, ol {
+			padding: 0 0.5em 0 2em;
 		}
 	}
 }

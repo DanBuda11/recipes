@@ -76,7 +76,7 @@ export default React.createClass({
 		return (
 			<div className="gridContainer">
 				<div className="courseFilterDiv">
-					<label htmlFor="courseFilter">Search by course</label>
+					<label htmlFor="courseFilter">Search by course:</label>
 					<select id="courseFilter" onChange={this.courseFilter}>
 						<option value="all">Show All</option>
 						<option value="main">Main Courses</option>
