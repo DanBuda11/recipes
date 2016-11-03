@@ -52,7 +52,7 @@ export default [
 		notes: ""
 	},
 	{
-		name: "Tomatoes, Potatoes & Meat",
+		name: "Potatoes, Tomatoes & Meat",
 		description: "",
 		ingredients: [
 			"1 good sized flank steak or top sirloin, cut into small pieces",
@@ -359,7 +359,7 @@ export default [
 			"Stir in garlic. Cook 30 seconds.",
 			"Stir in barley & remaining ingredients and bring to a boil. Cover, reduce heat, and simmer 40 minutes or until the barley is done and vegetables are tender. Discard bay leaves."
 		],
-		image: "no-photo.png",
+		image: "beef-barley-stew.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -393,7 +393,7 @@ export default [
 			"Place tortillas on a baking sheet and spread about 1/4 cup bean mixture evenly over each tortilla. Top each evenly with 1/4 cup chicken and 3 Tbsp cheese. Broil 2 minutes or until cheese melts and tortilla edges are just beginning to brown.",
 			"Top each tortilla with 1/4 cup lettuce, 1/4 cup salsa and 2 Tbsp sour cream. Cut each tortilla into 4 wedges."
 		],
-		image: "no-photo.png",
+		image: "black-bean-tostadas.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -538,7 +538,7 @@ export default [
 			"Combine milk & flour, stirring with a whisk until smooth. Add flour mixture to pan; bring to a boil. Cook 12 minutes oruntil thick, stirring constantly.",
 			"Add clams; cook 2 minutes. Sprinkle with bacon."
 		],
-		image: "no-photo.png",
+		image: "clam-chowder.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -566,7 +566,7 @@ export default [
 			"Place 1/2 of potato mixture in blender. Remove center piece of blender lid to allow steam to escape. Place lid on blender and cover with paper towel to avoid splatters. Blend until smooth. Pour into large bowl. Repeat process with remaining potato mixture.",
 			"Add potato mixture to cabbage mixture; cook over medium-low heat until thoroughly heated."
 		],
-		image: "no-photo.png",
+		image: "colcannon-thyme-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -599,7 +599,7 @@ export default [
 			"Return pureed mixture to pan. Stir in salt & pepper.",
 			"Sprinkle with crumbled bacon. Serve with thyme sprigs if desired."
 		],
-		image: "no-photo.png",
+		image: "corn-fingerling-chowder.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -625,7 +625,7 @@ export default [
 			"Stir in broth & water; bring to a boil. Reduce heat and simmer until liquid is absorbed & orzo is done (about 15 minutes). Remove from heat.",
 			"Stir in cheese, basil, salt & pepper. Sprinkle with pine nuts."
 		],
-		image: "no-photo.png",
+		image: "parmesan-orzo.png",
 		course: "sides",
 		notes: "",
 		submitDate: ""
@@ -658,7 +658,7 @@ export default [
 			"To the crockpot, add drained beans, diced tomatoes, corn, cumin, oregano and stir. Add the chicken breasts; cover and cook on low heat for 4-6 hours.",
 			"Remove chicken and shred with two forks. Add chicken back into the soup, adjust salt and cumin to taste. Serve in bowls and top with fat free sour cream, cheese, scallions and cilantro. You can also top with avocado or crushed tortilla chips. Enjoy!"
 		],
-		image: "no-photo.png",
+		image: "chicken-enchilada-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -692,7 +692,7 @@ export default [
 			"Meanwhile spiralize the zucchini using a spiralizer with the thinnest noodle setting. Cut the zucchini into 6-inch strips.",
 			"Discard the bay leaves and remove the chicken, shred with 2 forks and place back in the slow cooker along with the zucchini and cook on high until the zucchini is tender crisp, about 5 minutes. To serve, ladle into bowls and serve topped with sliced avocado and remaining cilantro."
 		],
-		image: "no-photo.png",
+		image: "chicken-zucchini-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -726,7 +726,7 @@ export default [
 			"Spray a large nonstick skillet with cooking spray and over medium high heat cook ground turkey for 10-12 minutes.  Break up the ground meat and mix so meat cooks evenly; place in the slow cooker.",
 			"To the skillet add the olive oil, onions, pepper, carrots, and celery and sauté until soft, about 8 minutes.  Add garlic and sauté for another 2 minutes. Transfer to slow cooker along with diced tomatoes, chick peas, spices, broth and gently mix well.  Cover and cook on LOW heat 6 to 8 hours.  Remove bay leaves and serve; garnish with fresh herbs."
 		],
-		image: "no-photo.png",
+		image: "moroccan-chickpea-turkey.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -758,7 +758,7 @@ export default [
 			"Take one can of beans and place in the blender along with 2 cups of the chicken broth; puree then add to your slow cooker. Add the remainder of the beans and chicken broth into the slow cooker along with tomatoes, bell pepper, diced green chiles, cumin, chile powder, garlic powder, onion powder, oregano, chicken breast, and 1/4 cup of the cilantro. Set slow cooker to HIGH 4 hours or LOW 6 to 8 hours.",
 			"After it's done, remove chicken and shred with 2 forks. Place back into the slow cooker and add fresh scallions, remainder cilantro and adjust salt and cumin, to taste."
 		],
-		image: "no-photo.png",
+		image: "picante-chicken-black-bean.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -784,7 +784,7 @@ export default [
 		steps: [
 			"Heat the olive oil in a heavy saucepan. Season the pork (or other meat) generously with salt and pepper. Brown the meat on all sides for several minutes or until golden. Add the garlic and onions and cook for 2 minutes. Ad the white wine, chicken stock, fresh tomatoes and water and bring to a boil. Pour into a slow cooker and cook on high for 4 hours or until the meat is tender and falling apart. In the last 15-20 minutes of cooking, stir in the cauliflower and fresh oregano. "
 		],
-		image: "no-photo.png",
+		image: "tomato-pork-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -817,7 +817,7 @@ export default [
 			"Prepare grill.",
 			"Remove steak from bag; discard marinade. Sprinkle both sides of steak evenly with 1/2 tsp salt. Place steak on a grill rack coated with cooking spray; grill 3 minutes on each side or until desired degree of doneness. Let stand 5 minutes. Cut steak diagonally across the grain into thin slices. Serve with jam. Garnish with lemon slices, if desired."
 		],
-		image: "no-photo.png",
+		image: "fiery-flank-steak.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -842,7 +842,7 @@ export default [
 			"Combine first 3 ingredients in a large zip-top plastic bag, tossing to coat. Arrange potatoes in a asingle layer on a baking sheet coated with cooking spray. Bake at 400 for 50 minutes or until potatoes are tender and golden brown, turning after 20 minutes.",
 			"Place butter and garlic in a large nonstick skillet, and cook over low heat 2 minutes, stirring constantly. Add potatoes, parsley and cheese to pan; toss to coat."
 		],
-		image: "no-photo.png",
+		image: "garlic-fries.png",
 		course: "sides",
 		notes: "",
 		submitDate: ""
@@ -868,7 +868,7 @@ export default [
 			"Drizzle remaining oil evenly over potatoes in a large bowl, tossing well to coat. Arrange potatoes in a single layer on a baking sheet coated with cooking spray, and sprinkle with salt & pepper. Bake at 475 for 30 minutes or until potatoes are golden.",
 			"Combine reserved garlic, parsley and lemon rind in a small bowl; sprinkle mixture evenly over potatoes."
 		],
-		image: "no-photo.png",
+		image: "garlic-potatoes-herbs.png",
 		course: "sides",
 		notes: "",
 		submitDate: ""
@@ -898,7 +898,7 @@ export default [
 			"Press the soup through a strainer into a clean glass bowl, pushing it through with a spoon to extract the maximum amount of flavor.",
 			"Adjust the seasoning and chili. Serve sprinkled with the reserved chopped peppers, cucumber & onion. Add crushed ice to garnish."
 		],
-		image: "no-photo.png",
+		image: "gazpacho.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -934,7 +934,7 @@ export default [
 		submitDate: ""
 	},
 	{
-		name: "Grille Salmon with Roasted Corn Relish",
+		name: "Grilled Salmon with Roasted Corn Relish",
 		userId: "",
 		stars: "",
 		description: "",
@@ -957,7 +957,7 @@ export default [
 			"Combine chiles, corn, tomato, cilantro and juice; toss gently. Add 1/2 tsp salt and 1/4 tsp black pepper.",
 			"Combine remaining 1/2 tsp salt, 1/4 tsp pepper and cumin, stirring well. Rub spice mixture evenly over both sides of salmon. Place salmon on grill rack coated with cooking spray. Grill 4 minutes on each side or until fish flakes easily when tested with a fork or until desired degree of doneness. Serve with relish."
 		],
-		image: "no-photo.png",
+		image: "salmon-corn-salsa.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -985,7 +985,7 @@ export default [
 			"Combine the wine and oil; brush inside and outside of fish. Sprinkle the insides evenly with salt, pepper, onions and fresh herbs.",
 			"Place the fish, skin side down, on grill rack or broiler pan coated with cooking spray, and cook for 5 minutes or until the fish flakes easily when tested with a fork. Serve with lemon wedges."
 		],
-		image: "no-photo.png",
+		image: "herb-grilled-trout.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1009,7 +1009,7 @@ export default [
 			"Combine the first 5 ingredients in a small bowl. Rub butter mixture over pork.",
 			"Place pork on a broiler pan coated with cooking spray. Bake at 475 for 17 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5 minutes; slice thinly."
 		],
-		image: "no-photo.png",
+		image: "herb-pork-tenderloin.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1042,7 +1042,7 @@ export default [
 			"Place 3 cups lentil mixture in a blender. Remove center piece of blender lid to allow steam to escape; secure blender lid and place a paper towel over lide to avoid splatters. Blend until smooth and return pureed mixture to pan.",
 			"Stir in juice, salt and 1/4 tsp pepper. Sprinkle with remaining pepper."
 		],
-		image: "no-photo.png",
+		image: "lentil-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -1074,7 +1074,7 @@ export default [
 			"Add mussels; cover and cook 10 minutes or until mussels open. Discard bay leaves & any unopened shells. Remove mussels with a slotted spoon and divide into 5 individual shallow bowls.",
 			"Spoon tomato mixture over mussels. Serve over linguine. Garnish with basil sprigs, if desired."
 		],
-		image: "no-photo.png",
+		image: "mussels-marinara.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1104,7 +1104,7 @@ export default [
 			"Fold 4 (16x12 inch) sheets of heavy-duty aluminum foil in half crosswise. Open foil. Remove shrimp mixture from bowl; reserve marinade. Place about 2 1/4 cups shrimp mixture on half of each foil sheet. Drizzle remaining marinade evenly over shrimp. Top each serving with 1 tsp butter. Fold foil over shrimp and tighly seal edges.",
 			"Place packets on a baking sheet and bake and 425 for 20 minutes. Let stand 10 minutes. Place on plates. Unfold packets carefully; peel shrimp and serve immediately."
 		],
-		image: "no-photo.png",
+		image: "nola-shrimp.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1211,7 +1211,7 @@ export default [
 			"Add potatoes, water, salt, broth and 2 thyme sprigs. Bring to a boil; reduce heat and simmer, uncovered, for 20 minutes or until potatoes are very tender.",
 			"Remove pan from heat. Discard thyme sprigs. Partially mash potatoes with a potato masher. Sprinkle with black pepper. Garnish with thyme sprigs, if desired."
 		],
-		image: "no-photo.png",
+		image: "potato-leek-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -1241,7 +1241,7 @@ export default [
 		steps: [
 			"Combine first 12 ingredients in an electric slow cooker. Cover with lid and cook on high for 5 hours. Discard bay leaf; stir in salt. Serve over rice; sprinkle servings evenly with green onions."
 		],
-		image: "no-photo.png",
+		image: "red-beans-rice.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1267,7 +1267,7 @@ export default [
 			"To prepare lamb, sprinkle lamb evenly wth 3/4 tsp salt and pepper. Place lamb on a broiler pan coated with cooking spray and bake at 425 for 21 minutes or until a thermometer reads 120 degrees in the thickest part of the meat. Place lamb on a cutting board; let stand at room temperature 10 minutes before slicing.",
 			"To prepare saauce, combine sambal oelek and next 4 ingredients (through garlic) with a mortar and pestle; grind into a fine paste. Slowly drizzle oil into sambal mixture, stirring until thoroughly combined. Serve sauce with lamb."
 		],
-		image: "no-photo.png",
+		image: "lamb-chile-sauce.png",
 		course: "main",
 		notes: "",
 		submitDate: ""
@@ -1293,7 +1293,7 @@ export default [
 			"Preheat oven to 450 degrees.",
 			"Place cauliflower in a large roasting pan or jelly-roll pan. Drizzle with oil; toss well to coat. Bake at 450 for 20 minutes or until tender and browned, stirring every 5 minutes. Sprinkle with parsley, thyme, tarragon and garlic. Bake 5 minutes. Combine cauliflower mixture, cheese, and remaining ingredients in a large bowl; toss well to combine."
 		],
-		image: "no-photo.png",
+		image: "roasted-cauliflower.png",
 		course: "sides",
 		notes: "",
 		submitDate: ""
@@ -1358,7 +1358,7 @@ export default [
 			"Heat pan over medium-high heat. Coat pan with cooking spray. Add 5 cakes to pan; cook 4 minutes on each side or until browned. Remove from pan; cover and keep warm. Repeat with remaining cakes.",
 			"To prepare salsa, combine remaining ingredients and stir gently to mix. Serve immediately with shrimp cakes."
 		],
-		image: "no-photo.png",
+		image: "shrimp-cakes.png",
 		course: "main",
 		notes: "I often substitute a can of salmon for the shrimp.",
 		submitDate: ""
@@ -1409,7 +1409,7 @@ export default [
 			"In a large saucepan, bring the broth, lemongrass, and ginger to a simmer. Add the rice; simmer until rice is almost done, about 15 minutes.",
 			"Add the coconut milk and bring back to a simmer. Stir in the chicken and marinade and cook until the chicken is just done, about 2 minutes. Stir in the chiles and cilantro."
 		],
-		image: "no-photo.png",
+		image: "thai-coconut-soup.png",
 		course: "soups",
 		notes: "",
 		submitDate: ""
@@ -1441,29 +1441,84 @@ export default [
 			"Combine first 10 ingredients, stirring with a whisk.",
 			"Heat oil in a large nonstick skillet over medium-high heat. Sprinkle tuna with salt. Combine sesame seeds in a shallow dish. Dredge tuna in sesame seeds. Add tuna to pan; cook 3 minutes on each side or until desired degree of doneness. Garnish with green onions, if desired. Serve tuna with sauce."
 		],
-		image: "no-photo.png",
+		image: "sesame-tuna-ponzu.png",
 		course: "main",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Vegan Chili",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 1/2 tbsp vegetable oil",
+			"1 onion, chopped",
+			"1 stalk celery, sliced",
+			"28 oz diced tomatoes",
+			"2 cups vegetable broth",
+			"1-2 tbsp molasses",
+			"2 tsp cumin",
+			"1 1/2 tsp sage",
+			"1/2 tsp black pepper",
+			"8 cups beans (Great Northern, kidney, chili), drained"
+
+		],
+		steps: [
+			"Heat oil to a large pot over medium heat. Add onion to pot and cook until just tender. Add the celery and continue cooking until celery softens.",
+			"Add rest of ingredients except beans; simmmer for 20 minutes.",
+			"Add beans; simmer for 15 more minutes."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "For a non-vegan version: ",
+		submitDate: ""
+	},
+	{
+		name: "White Chili with Chicken",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 medium onion, chopped",
+			"1 jalapeno pepper, seeded and chopped",
+			"2 garlic cloves, minced",
+			"1 tbsp vegetable oil",
+			"4 cups chicken broth",
+			"2 15.5-oz cans great northern beans, rinsed & drained",
+			"2 tbsp minced fresh parsley",
+			"1 tbsp lime juice",
+			"1 tsp ground cumin",
+			"2 tbsp cornstarch",
+			"1/4 cup water",
+			"2 cups cubed cooked chicken",
+			"1 cup shredded carrots"
+		],
+		steps: [
+			"In a large saucepan, cook onion, jalapeno and garlic in oil until tender.",
+			"Stir in broth, beans, parsley, lime juice and cumin; bring to a boil. Reduce heat; cover and simmer for 1o minutes, stirring occasionally.",
+			"Combine cornstarch and water until smooth; stir into chili.",
+			"Add chicken and carrots. Bring to a boil; cook and stir for 2 minutes or until thickened."
+		],
+		image: "no-photo.png",
+		course: "soups",
 		notes: "",
 		submitDate: ""
 	}
 ]
 
-,
-	{
-		name: "",
-		userId: "",
-		stars: "",
-		description: "",
-		ingredients: [
-		],
-		steps: [
-		],
-		image: "no-photo.png",
-		course: "",
-		notes: "",
-		submitDate: ""
-	}
-
-
-
-
+// ,
+// 	{
+// 		name: "",
+// 		userId: "",
+// 		stars: "",
+// 		description: "",
+// 		ingredients: [
+// 		],
+// 		steps: [
+// 		],
+// 		image: "no-photo.png",
+// 		course: "",
+// 		notes: "",
+// 		submitDate: ""
+// 	}
