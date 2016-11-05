@@ -350,6 +350,16 @@ body {
 	.col-4:last-of-type {
 		border: 2px solid $carbon;
 	}
+
+	.recipeDiv {
+	
+		.recipeContain {
+
+			img {
+				width: 15em;
+			}
+		}
+	}
 }
 
 @media (min-width: 768px) {
