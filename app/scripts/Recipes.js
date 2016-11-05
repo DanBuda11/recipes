@@ -1504,6 +1504,80 @@ export default [
 		course: "soups",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Salad Nicoise with Seared Tuna",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"Romaine or other salad greens",
+			"Tomatoes, cut into medium sized slices",
+			"Hard-boiled eggs, sliced",
+			"Red onion, cut into thin slices",
+			"Kalamata or Nicoise olives, pitted",
+			"Green beans",
+			"Redskin potatoes, cut into large chunks",
+			"Capers",
+			"Sushi-grade tuna steaks",
+			"1/2 cup olive oil",
+			"2-3 tbsp brown mustard",
+			"2 garlic cloves, minced",
+			"Salt & pepper"
+		],
+		steps: [
+			"In a steamer pan, steam green beans until just starting to get tender. Set aside.",
+			"In a large pot, place potatoes and cover with water. Bring to a boil and cook until potatoes can be pierced easily with a fork. Remove from pot and set aside.",
+			"Place green beans and potatoes in fridge until cold.",
+			"To prepare tuna, pat dry with paper towel. Rub lightly with olive oil and sprinkle with salt & pepper. Place in a grill pan on high heat and cook each side until just seared. Remove from pan, let cool slightly, then cut into thin slices.",
+			"For dressing, conbine oil, mustard, garlic, and salt & pepper to taste and whisk together.",
+			"Place lettuce in a salad bowl. Top with desired amounts of tomato, onion, green beans, potato, eggs, olives and capers. Add sliced tuna and drizzle with dressing."
+		],
+		image: "tuna-nicoise.png",
+		course: "salads",
+		notes: "I have no idea the amounts I typiclally use when I make this. I prep all the ingredients and then just throw whatever I want into a bowl.",
+		submitDate: ""
+	},
+	{
+		name: "Paleo Crockpot Turkey Chili",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 lbs. of ground beef or turkey",
+			"1 onion, diced",
+			"3 cloves of garlic, minced",
+			"1 red and 1 green bell pepper, both diced",
+			"1 cup of carrots, finely diced",
+			"1 cup of celery, diced",
+			"1 jalapeno, minced",
+			"(1) 28-ounce can of crushed or stewed tomatoes",
+			"(1) 14-ounce can of diced tomatoes",
+			"(1) 15-ounce can of tomato sauce",
+			"3 Tbsp. of chili powder",
+			"1 Tbsp. of oregano",
+			"1 Tbsp. of basil",
+			"2 tsp. of cumin",
+			"1 tsp. of salt",
+			"1 tsp. pepper",
+			"1 tsp. onion powder",
+			"1/2 tsp cayenne",
+			"About 4 strips of cooked bacon, crumbled (optional)",
+			"1 or 2 avocados, diced (optional)"
+		],
+		steps: [
+			"Sauté onions and garlic together in a large saucepan over medium heat.",
+			"Add in ground beef (or turkey) to the saucepan and cook just until browned. Drain excess fat.",
+			"Transfer the cooked onions, garlic and meat to your crockpot/slow-cooker.",
+			"Add all the above vegetables and spices (except bacon & avocados) to the crockpot.",
+			"Give the pot a good stir.",
+			"Set crockpot to low, cover, and slow cook for about 6 hours.",
+			"Spoon into individual bowls. Garnish with crumbled bacon and avocado slices."
+		],
+		image: "crockpot-turkey-chili.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
 	}
 ]
 

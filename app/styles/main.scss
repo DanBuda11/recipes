@@ -327,7 +327,30 @@ body {
 	.col-4 {
 		width: 46%;
 		float: left;
-		margin: 2%; } }
+		margin: 2%;
+		padding: 0.5em 0 0.5em 0.5em;
+		border: 2px solid $carbon;
+
+		.thumbContainer {
+
+			img {
+				width: 5.2em;
+			}
+
+			.recipeTitle {
+				padding: 0.2em 0.1em;
+			}
+
+			.recipeCourse {
+				padding: 1.8em 0;
+			}
+		}
+	}
+
+	.col-4:last-of-type {
+		border: 2px solid $carbon;
+	}
+}
 
 @media (min-width: 768px) {
 	.col-4 {
@@ -337,4 +360,31 @@ body {
 @media (min-width: 992px) {
 	.col-4 {
 		width: 23%;
-		margin: 1%; } }
+		margin: 1%;
+		padding: 0;
+
+		.thumbContainer {
+			padding: 0.5em;
+			height: 15em;
+
+			img {
+				height: 11em;
+				width: 100%;
+			}
+
+			.recipeTitle {
+				height: 3em;
+				padding: 0.5em 0 0;
+				float: none;
+				width: 100%;
+				clear: both;
+			}
+
+			.recipeCourse {
+				margin: -1em auto 0;
+				float: none;
+				padding: 0.8em;
+			}
+		}
+	}
+}
