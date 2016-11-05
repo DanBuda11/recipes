@@ -6,7 +6,7 @@ export default React.createClass({
 	render: function() {
 		return (
 			<div>
-				<div className="page-wrap">
+				<div>
 					<Header />
 					{this.props.children}
 				</div>
