@@ -4,19 +4,29 @@ import Recipes from './Recipes';
 
 export default React.createClass({
 	getInitialState: function() {
-		const recipes = Recipes.sort(function(a,b) {
-			let nameA = a.name.toLowerCase();
-			let nameB = b.name.toLowerCase();
-			if (nameA < nameB) {
-				return -1;
-			}
-			if (nameA > nameB) {
-				return 1;
-			}
-			return 0;
-		});
-		let recipe = recipes[this.props.params.recipeId];
+		let recipe = Recipes.filter((recipe, i) => {
+				if (recipe.id === this.props.params.recipeId) {
+					return true;
+				} else {
+					return false;
+				}
+			}).pop();
 		return {recipe: recipe};
+		// const recipes = Recipes.sort(function(a,b) {
+		// 	let nameA = a.name.toLowerCase();
+		// 	let nameB = b.name.toLowerCase();
+		// 	if (nameA < nameB) {
+		// 		return -1;
+		// 	}
+		// 	if (nameA > nameB) {
+		// 		return 1;
+		// 	}
+		// 	return 0;
+		// });
+		// let recipe = Recipes.id[this.props.params.recipeId];
+		// console.log('recipe is: ' + recipe);
+		// console.log('recipe recipeID is: ' + this.props.params.recipeId);
+		// return {recipe: recipe};
 	},
 	render: function() {
 		const ingredients = this.state.recipe.ingredients.map((ingredient, i) => {

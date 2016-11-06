@@ -118,12 +118,17 @@ body {
 	background-color: $sky;
 	border-bottom: 1px solid $watermelon;
 
-	h1 {
-		margin: 0;
-		padding: 1em;
+	a {
+		text-decoration: none;
+		color: #000;
+		
+		h1 {
+			margin: 0;
+			padding: 1em;
 
-		i {
-			margin-left: 0.3em;
+			i {
+				margin-left: 0.3em;
+			}
 		}
 	}
 }
@@ -400,7 +405,7 @@ body {
 
 		.thumbContainer {
 			padding: 0.5em;
-			height: 15em;
+			height: 17em;
 
 			img {
 				height: 11em;
@@ -409,7 +414,7 @@ body {
 
 			.recipeTitle {
 				height: 3em;
-				padding: 0.5em 0 0;
+				padding: 1em 0 0;
 				float: none;
 				width: 100%;
 				clear: both;
@@ -418,7 +423,7 @@ body {
 			.recipeCourse {
 				margin: -1em auto 0;
 				float: none;
-				padding: 0.8em;
+				padding: 1.5em;
 			}
 		}
 	}

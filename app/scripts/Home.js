@@ -66,8 +66,8 @@ export default React.createClass({
 		}).map((recipe, i) => {
 			return (
 			<RecipeThumb
-				key={i}
-				id={i}
+				key={recipe.id}
+				id={recipe.id}
 				image={recipe.image}
 				name={recipe.name}
 				course={recipe.course}
