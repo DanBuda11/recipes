@@ -19,7 +19,6 @@ body {
 }
 
 .gridContainer {
-	// background-color: $neutral;
 	width: 100%;
 	overflow: hidden;
 
@@ -38,28 +37,40 @@ body {
 			outline: none;
 		}
 	}
+
+	.nextLast {
+		color: $watermelon;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 1em;
+
+		i {
+			display: inline-block;
+		}
+
+		p {
+			display: inline-block;
+			margin: 1em;
+		}
+	}
 }
 
 .grid {
 	max-width: 900px;
 	margin: 0 auto; 
 	overflow: hidden;
-	// background-color: $neutral;
 	text-align: center;
 	padding: 0.6em 0;
 }
 
 .col-4 {
 	width: 90%;
-	// margin: 0.3em auto;
 	box-sizing: border-box; 
-	// border: 1px solid $carbon;
 	cursor: pointer;
 	text-decoration: none;
 	display: inline-block;
 	border-bottom: 2px solid $carbon;
 	padding: 0.5em 0;
-	// margin: -0.1em;
 
 	.thumbContainer {
 		height: 6em;
@@ -73,13 +84,9 @@ body {
 		}
 
 		.recipeTitle {
-			// text-align: center;
-			// background-color: #fff;;
 			margin: 0;
 			padding: 0.6em 0.1em;
 			color: #000;
-			// border-left: 1px solid $carbon;
-			// font-size: 0.9em;
 			float: right;
 			font-family: 'Lato', sans-serif;
 			width: 60%;
@@ -92,8 +99,6 @@ body {
 			margin: 0;
 			padding: 0.6em 0;
 			color: #000;
-			// border-left: 1px solid $carbon;
-			// font-size: 0.9em;
 			float: right;
 			font-family: 'Lato', sans-serif;
 			width: 60%;
@@ -148,7 +153,6 @@ body {
 
 .recipeDiv {
 	padding: 1em;
-	// background-color: $neutral;
 
 	.homeLink {
 		text-decoration: none;
@@ -249,20 +253,6 @@ body {
 		margin: 0 auto;
 	}
 
-	ul {
-
-		li {
-
-		}
-	}
-
-	ol {
-
-		li {
-
-		}
-	}
-
 	p {
 		font-size: 1em;
 	}
@@ -284,10 +274,6 @@ body {
 .loginPage {
 
 	form {
-
-		input {
-
-		}
 
 		button {
 			@extend .standardButton;
@@ -379,10 +365,6 @@ body {
 
 			h4 {
 				font-size: 1.3em;
-			}
-
-			ul {
-
 			}
 		}
 

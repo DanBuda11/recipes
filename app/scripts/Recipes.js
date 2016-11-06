@@ -2,7 +2,7 @@ export default [
 	{
 		name: "Tabbouleh",
 		id: "1",
-		description: "",
+		description: "This is a modified version (or at least as close as I could come) to my favorite tabbouleh from a restaurant outside of Detroit.",
 		ingredients: [
 			"4 bunches curly-leaf parsley",
 			"1/2 cucumber",
@@ -21,12 +21,12 @@ export default [
 		],
 		image: "tabbouleh.png",
 		course: "sides",
-		notes: "This is a modified version (or at least as close as I could come) to my favorite tabbouleh from a restaurant outside of Detroit."
+		notes: "Feel free to adjust amounts of oil, lemon juice and salt to taste. Best to do after chilling tabbouleh in fridge for a few hours."
 	},
 	{
 		name: "Caldo de Pollo",
 		id: "2",
-		description: "",
+		description: "Based on one of my favorite menu items at a restaurant I will never go to again because of the horrid service.",
 		ingredients: [
 			"1 whole chicken (3-4 pounds), cut into large pieces",
 			"8-10 cups water, depending on size of chicken",
@@ -56,7 +56,7 @@ export default [
 	{
 		name: "Potatoes, Tomatoes & Meat",
 		id: "3",
-		description: "",
+		description: "THE Buda family recipe. The name says it all.",
 		ingredients: [
 			"1 good sized flank steak or top sirloin, cut into small pieces",
 			"1 lb. pork steak or pork chops, cut into small pieces",
@@ -75,12 +75,12 @@ export default [
 		],
 		image: "potatoes-tomatoes-meat.png",
 		course: "main",
-		notes: "THE Buda family recipe. The name says it all."
+		notes: ""
 	},
 	{
 		name: "Cajun Blackening Dry Rub",
 		id: "4",
-		description: "",
+		description: "Great to use on white-fleshed fish, chicken breast, shrimp or corn on the cob.",
 		ingredients: [
 			"2 1/2 Tbsp. paprika",
 			"1 Tbsp kosher salt",
@@ -95,7 +95,7 @@ export default [
 		],
 		image: "cajun-dry-rub.png",
 		course: "seasonings",
-		notes: "Great to use on white-fleshed fish, chicken breast, shrimp or corn on the cob."
+		notes: ""
 	},
 	{
 		name: "Wild Rice & Celery Root Soup",
@@ -169,7 +169,7 @@ export default [
 		id: "7",
 		userId: "",
 		stars: "",
-		description: "For real, Mom's actual apple crisp. This recipe has been taught to middle school kids for decades.",
+		description: "For real, Mom's actual apple crisp. This recipe was taught to middle school home economics kids for decades.",
 		ingredients: [
 			"4-6 medium apples",
 			"1/2 Cup flour",
@@ -1209,7 +1209,7 @@ export default [
 		id: "41",
 		userId: "",
 		stars: "",
-		description: "",
+		description: "Grandma Buda's original recipe. Although nobody will ever be able to make is as good.",
 		ingredients: [
 			"2 eggs",
 			"2 tsp salt, divided",
@@ -1522,7 +1522,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
-		notes: "For a non-vegan version: ",
+		notes: "For a non-vegan version, use chicken broth instead of vegetable broth, and replace 4 cups of the beans with 1/2 pound lean ground turkey and 1/2 pound ground sausage.",
 		submitDate: ""
 	},
 	{
@@ -1588,7 +1588,7 @@ export default [
 		],
 		image: "tuna-nicoise.png",
 		course: "salads",
-		notes: "I have no idea the amounts I typiclally use when I make this. I prep all the ingredients and then just throw whatever I want into a bowl.",
+		notes: "I have no idea the amounts I typically use when I make this. I prep all the ingredients and then just throw whatever I want into a bowl.",
 		submitDate: ""
 	},
 	{

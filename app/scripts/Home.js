@@ -6,7 +6,10 @@ import $ from 'jquery';
 
 export default React.createClass({
 	getInitialState: function() {
-		return {recipes: Recipes};
+		return {
+			recipes: Recipes,
+			currentPage: 1
+		};
 	},
 	// componentDidMount: function() {
 	// 	// Recipes.on('update', this.updateRecipes);
@@ -73,6 +76,7 @@ export default React.createClass({
 				course={recipe.course}
 				/>);
 		});
+		// const maxPages = Math.ceil(recipes.length / 10);
 		return (
 			<div className="gridContainer">
 				<div className="courseFilterDiv">
@@ -122,3 +126,36 @@ export default React.createClass({
 // 				</div>
 // 			</div>
 // 		);
+
+// Below is code for pageup/down functions when clicking page arrows
+
+// pageDown: function() {
+// 		console.log('page down clicked');
+// 		if (this.state.currentPage !== 1) {
+// 			this.setState({currentPage: this.state.currentPage - 1});
+// 		}
+// 		console.log(this.state.currentPage);
+// 	},
+// 	pageUp: function() {
+// 		console.log('page up clicked');
+// 		if (this.state.currentPage !== Math.ceil(this.state.recipes.length / 10)) {
+// 			this.setState({currentPage: this.state.currentPage + 1});
+// 			const nextRecipes = this.state.recipes.filter((recipe, i) => {
+// 				if (recipe.id >  && recipe.id <= this.state.currentPage * 10) {
+// 					return true;
+// 				} else {
+// 					return false;
+// 				}
+// 			});
+
+// 		}
+// 		console.log('current page: ' + this.state.currentPage);
+// 		console.log('next set of recipes: ' + nextRecipes)
+// 		this.setState({recipes: nextRecipes});
+// 	}
+
+// Below is code for pageup/down arrows
+
+// <div className="nextLast">
+// 					<a onClick={this.pageDown}><i className="fa fa-long-arrow-left"></i></a><p>Page {this.state.currentPage} of {maxPages}</p><a onClick={this.pageUp}><i className="fa fa-long-arrow-right"></i></a>
+// 				</div>
