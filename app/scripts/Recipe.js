@@ -4,7 +4,18 @@ import Recipes from './Recipes';
 
 export default React.createClass({
 	getInitialState: function() {
-		let recipe = Recipes[this.props.params.recipeId];
+		const recipes = Recipes.sort(function(a,b) {
+			let nameA = a.name.toLowerCase();
+			let nameB = b.name.toLowerCase();
+			if (nameA < nameB) {
+				return -1;
+			}
+			if (nameA > nameB) {
+				return 1;
+			}
+			return 0;
+		});
+		let recipe = recipes[this.props.params.recipeId];
 		return {recipe: recipe};
 	},
 	render: function() {
