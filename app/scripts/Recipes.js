@@ -13,14 +13,14 @@ export default [
 			"1/2 to 2/3 tsp salt"
 		],
 		steps: [
-			"Rinse all vegetables and pat dry, especially parsley.",
+			"Rinse all vegetables; pay parsley dry or put it in a salad spinner.",
 			"Remove as much parsley stem as possible then finely chop and add to large bowl.",
 			"Chop tomatoes to desired size then place in strainer to remove juice; place in bowl.",
 			"Chop onion and cucumber to desired size and place in bowl.",
 			"Add olive oil, lemon juice and salt to bowl and mix thoroughly."
 		],
 		image: "tabbouleh.png",
-		course: "sides",
+		course: "salads",
 		notes: "Feel free to adjust amounts of oil, lemon juice and salt to taste. Best to do after chilling tabbouleh in fridge for a few hours."
 	},
 	{
@@ -32,11 +32,11 @@ export default [
 			"8-10 cups water, depending on size of chicken",
 			"2-3 tsp salt",
 			"1/2 white onion",
-			"4 garlic gloves, peeled",
-			"3 celery branches",
-			"4 large carrots",
+			"4 garlic gloves, peeled & cut into large pieces",
+			"3 celery branches, cut in half",
+			"4 large carrots, cut in half",
 			"2 cilantro branches",
-			"Other vegetables as desired (potatoes, corn on the cob, cabbage, zucchini).",
+			"Other vegetables as desired (potatoes, corn on the cob, cabbage, zucchini, chayotes) cut into large pieces.",
 			"Avocado, cilantro, diced onion, lime, diced serrano or jalapeno peppers, cooked white rice, chipotle or adobo sauce to garnish."
 		],
 		steps: [
@@ -111,7 +111,7 @@ export default [
 			"3 Cups cubed peeled celery root (about 3/4 lb)",
 			"3 Cups chicken broth",
 			"1 Cup water",
-			"1/2 tsp salt",
+			"1/2 tsp kosher salt",
 			"1/2 tsp black pepper",
 			"1 3/4 Cups cooked wild rice",
 			"2 Tbsp minced fresh chives"
@@ -119,8 +119,8 @@ export default [
 		steps: [
 			"Heat oil in a large saucepan over medium heat. Add leek & carrot; cover & cook 5 minutes or until tender.",
 			"Stir in wine, scraping pan to loosen browned bits.",
-			"Add celery root, broth, 1 Cup water, salt and pepper; bring to a boil. Cover & cook 10 muntes or until celery root is tender.",
-			"Optional: Place 1 Cup soup mixture in a blender; blend until smooth. Add pureed soup mixture back to saucepan.",
+			"Add celery root, broth, 1 cup water, salt and pepper; bring to a boil. Cover & cook 10 muntes or until celery root is tender.",
+			"Optional: Place 1 cup soup mixture in a blender; blend until smooth. Add pureed soup mixture back to saucepan.",
 			"Add wild rice and cook 15 minutes.",
 			"Sprinkle with chives."
 		],
@@ -141,15 +141,16 @@ export default [
 			"12 oz skinless, boneless chicken breast, trimmed & diced",
 			"1 Cup chopped onion",
 			"1 Cup chopped green bell pepper",
-			"1 jalapeno chile, diced (seeds optional",
+			"1 jalapeno chile, diced (seeds optional)",
 			"2 cloves garlic, minced",
 			"3/4 tsp ground cumin",
 			"3/4 tsp chili powder (or chipotle chili powder",
 			"2 14-oz cans chicken broth",
-			"1 14.5-oz can diced tomatoes",
+			"1 14.5-oz can diced tomatoes, undrained",
 			"1/4 tsp black pepper",
 			"1/3 Cup chopped cilantro",
-			"Avocado and crumbly queso fresco to garnish"
+			"Avocado and crumbly queso fresco to garnish",
+			"Lime wedges"
 		],
 		steps: [
 			"Heat oil over medium-high heat. Add tortillas and cook, stirring frequently, until brown and crisp, 3-4 minutes. Remove and drain on paper towel.",
@@ -157,7 +158,7 @@ export default [
 			"Add chicken, onion, bell pepper, garlic and jalapeno to pan, adding more oil if needed. Cook 5 minutes or until chicken cooked through.",
 			"Stir in cumin, chili powder, black pepper, broth & tomatoes. Bring to a boil, reduce heat, and simmer 10 minutes.",
 			"Add cilantro and heat through.",
-			"Ladle into bowls and garnish with tortilla strips, avocado, queso fresco and chopped chiles."
+			"Ladle into bowls and garnish with tortilla strips, avocado, queso fresco and chopped chiles. Serve with a lime wedge."
 		],
 		image: "tortilla-soup.png",
 		course: "soups",
@@ -189,7 +190,7 @@ export default [
 		],
 		image: "apple-crisp.png",
 		course: "desserts",
-		notes: "",
+		notes: "If doubling recipe, use a 9x13 inch pan.",
 		submitDate: ""
 	},
 	{
@@ -329,7 +330,7 @@ export default [
 			"1/4 cup red wine vinegar",
 			"1 clove minced garlic",
 			"1 tsp chili powder",
-			"1/2 tbsp salt",
+			"1/2 tsp salt",
 			"1/4 tsp black pepper",
 			"1/4 tsp red pepper flakes",
 			"1/2 cup olive oil"
@@ -479,7 +480,7 @@ export default [
 			"2 1/2 tbsp fresh lime juice",
 			"1 1/2 tbsp olive oil",
 			"4 6-oz skinless, boneless chicken breast halves",
-			"1/2 tsp salt, separated",
+			"1/2 tsp salt, divided",
 			"Cooking spray",
 			"1 cup chopped plum tomato (about 2)",
 			"2 tbsp finely chopped onion",
@@ -490,7 +491,7 @@ export default [
 		steps: [
 			"Combine first 4 ingredients in a large bowl; toss and let stand 3 minutes. Remove chicken from marinade; discard marinade. Sprinkle chicken evenly with 1/4 tsp salt.",
 			"Heat a grill pan over medium-high heat. Coat pan with cooking spray. Add chicken to pan and cook 6 minutes on each side or until done.",
-			"To prepare salsa, combine tomato & next 4 ingredients (thru pepper) in a medium bowl. Add avocado; stir gently to combine. Serve salsa over chicken."
+			"To prepare salsa, combine tomato & next 4 ingredients (thru pepper) & remaining 1/4 tsp salt in a medium bowl. Add avocado; stir gently to combine. Serve salsa over chicken."
 		],
 		image: "cilantro-chicken.png",
 		course: "main",
@@ -576,7 +577,7 @@ export default [
 			"1/2 tsp black pepper, divided",
 			"3 cups fat-free, less-sodium chicken broth",
 			"2 cups plus 3 tbsp water",
-			"8 cups thinly sliced savoy cabbage (about 1 lb",
+			"8 cups thinly sliced savoy cabbage (about 1 lb)",
 			"1 tbsp chopped fresh thyme leaves"
 		],
 		steps: [
@@ -826,14 +827,14 @@ export default [
 			"6 large ripe tomatoes, cored & cut in half crosswise (about 4 lbs)",
 			"1/3 cup sugar",
 			"1/3 cup grated onion",
-			"5 garlic cloves, minced, separated",
-			"4 jalapeno peppes, minced, separated",
+			"5 garlic cloves, minced, divided",
+			"4 jalapeno peppes, minced, divided",
 			"1/4 cup chopped fresh cilantro",
-			"1/3 cup & 3 tbsp lime juice, separated",
-			"3/4 tsp salt, separated",
+			"1/3 cup & 3 tbsp lime juice, divided",
+			"3/4 tsp salt, divided",
 			"1 tbsp grated lime rind",
 			"2 tsp olive oil",
-			"2 lbs flank steak, trimmed",
+			"2 lb. flank steak, trimmed",
 			"Cooking spray",
 			"Lemon slices, optional"
 		],
@@ -868,7 +869,7 @@ export default [
 		],
 		steps: [
 			"Preheat oven to 400.",
-			"Combine first 3 ingredients in a large zip-top plastic bag, tossing to coat. Arrange potatoes in a asingle layer on a baking sheet coated with cooking spray. Bake at 400 for 50 minutes or until potatoes are tender and golden brown, turning after 20 minutes.",
+			"Combine first 3 ingredients in a large zip-top plastic bag, tossing to coat. Arrange potatoes in a single layer on a baking sheet coated with cooking spray. Bake at 400 for 50 minutes or until potatoes are tender and golden brown, turning after 20 minutes.",
 			"Place butter and garlic in a large nonstick skillet, and cook over low heat 2 minutes, stirring constantly. Add potatoes, parsley and cheese to pan; toss to coat."
 		],
 		image: "garlic-fries.png",
@@ -957,7 +958,7 @@ export default [
 		],
 		steps: [
 			"Heat oil in a Dutch oven over medium-high heat. Add onion & saute 5 minutes or until lightly browned. Add potato & water; bring to a boil. Cover, reduce heat and cook 5 minutes.",
-			"Stir in zucchini and the next 3 ingredients (through Great Northern beans). Cover and cook 35 minutes or until vegetables are tener.",
+			"Stir in zucchini and the next 3 ingredients (through Great Northern beans). Cover and cook 35 minutes or until vegetables are tender.",
 			"Stir in parsley & next 3 ingredients (through pepper). Serve with cheese."
 		],
 		image: "no-photo.png",
@@ -1021,7 +1022,7 @@ export default [
 		],
 		image: "herb-grilled-trout.png",
 		course: "main",
-		notes: "",
+		notes: "If you don't want to use wine, it turns out fine without it. Also, instead of cutting the lemon into wedges, I often slice the lemon really thing and place the slices inside the fish and then cook it.",
 		submitDate: ""
 	},
 	{
@@ -1042,11 +1043,11 @@ export default [
 		steps: [
 			"Preheat oven to 475 degrees.",
 			"Combine the first 5 ingredients in a small bowl. Rub butter mixture over pork.",
-			"Place pork on a broiler pan coated with cooking spray. Bake at 475 for 17 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5 minutes; slice thinly."
+			"Place pork on a broiler pan coated with cooking spray. Bake at 475 for 17 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5 minutes; slice thin."
 		],
 		image: "herb-pork-tenderloin.png",
 		course: "main",
-		notes: "",
+		notes: "Olive or other vegetable oil can replace the butter.",
 		submitDate: ""
 	},
 	{
@@ -1056,7 +1057,7 @@ export default [
 		stars: "",
 		description: "",
 		ingredients: [
-			"2 tsp olive oil",
+			"2 tbsp olive oil",
 			"2 1/2 cups chopped Rio or other sweet onion",
 			"1 cup chopped celery",
 			"1 cup chopped carrot",
@@ -1108,8 +1109,8 @@ export default [
 		steps: [
 			"Heat oil in a large stockpot over medium-high heat. Add onion and garlic; saute 3 minutes.",
 			"Add tomato and next 7 ingredients (through bay leaves). Cook over medium heat 5 minutes.",
-			"Add mussels; cover and cook 10 minutes or until mussels open. Discard bay leaves & any unopened shells. Remove mussels with a slotted spoon and divide into 5 individual shallow bowls.",
-			"Spoon tomato mixture over mussels. Serve over linguine. Garnish with basil sprigs, if desired."
+			"Add mussels; cover and cook 10 minutes or until mussels open. Discard bay leaves & any unopened shells. Remove mussels with a slotted spoon.",
+			"Serve mussels and tomato mixture over linguine. Garnish with basil sprigs, if desired."
 		],
 		image: "mussels-marinara.png",
 		course: "main",
@@ -1209,7 +1210,7 @@ export default [
 		id: "41",
 		userId: "",
 		stars: "",
-		description: "Grandma Buda's original recipe. Although nobody will ever be able to make is as good.",
+		description: "Grandma Buda's original recipe. Although nobody will ever be able to make it quite like she did.",
 		ingredients: [
 			"2 eggs",
 			"2 tsp salt, divided",
@@ -1278,7 +1279,7 @@ export default [
 			"1 bay leaf",
 			"5 garlic cloves, minced",
 			"1/2 tsp salt",
-			"3 cups hot cooked long-grain rice",
+			"3 cups cooked long-grain rice",
 			"1/4 cup chopped green onions"
 		],
 		steps: [
@@ -1300,7 +1301,7 @@ export default [
 			"3/4 tsp and 1/8 tsp salt, divided",
 			"1/2 tsp ground black pepper",
 			"Cooking spray",
-			"1 tbsp sambal oelek (ground fresh chile paste",
+			"1 tbsp sambal oelek (ground fresh chile paste)",
 			"1/2 tsp ground cumin",
 			"1/4 tsp ground coriander",
 			"3 garlic cloves, minced",
@@ -1308,8 +1309,8 @@ export default [
 		],
 		steps: [
 			"Preheat oven to 425 degrees.",
-			"To prepare lamb, sprinkle lamb evenly wth 3/4 tsp salt and pepper. Place lamb on a broiler pan coated with cooking spray and bake at 425 for 21 minutes or until a thermometer reads 120 degrees in the thickest part of the meat. Place lamb on a cutting board; let stand at room temperature 10 minutes before slicing.",
-			"To prepare saauce, combine sambal oelek and next 4 ingredients (through garlic) with a mortar and pestle; grind into a fine paste. Slowly drizzle oil into sambal mixture, stirring until thoroughly combined. Serve sauce with lamb."
+			"To prepare lamb, sprinkle evenly wth 3/4 tsp salt and pepper. Place lamb on a broiler pan coated with cooking spray and bake at 425 for 20 minutes or until a thermometer reads 120 degrees in the thickest part of the meat. Place lamb on a cutting board; let stand at room temperature 10 minutes before slicing.",
+			"To prepare sauce, combine sambal oelek and next 4 ingredients (through garlic) with a mortar and pestle; grind into a fine paste. Slowly drizzle oil into sambal mixture, stirring until thoroughly combined. Serve sauce with lamb."
 		],
 		image: "lamb-chile-sauce.png",
 		course: "main",
@@ -1323,7 +1324,7 @@ export default [
 		stars: "",
 		description: "",
 		ingredients: [
-			"12 cups cauliflower, chopped coarsely (about 2 heads)",
+			"12 cups cauliflower, coarsley chopped (about 2 heads)",
 			"1 1/2 tbsp olive oil",
 			"1 tbsp chopped fresh parsley",
 			"2 tsp chopped fresh thyme",
@@ -1446,8 +1447,8 @@ export default [
 			"3 tbsp Asian fish sauce (nam pla or nuoc mam)",
 			"1 1/2 tbsp lime juice",
 			"1 quart plus 3/4 cup canned low-sodium chicken broth or homemade stock",
-			"3 stalks lemongrass, bottom third only, peeled, smashed, and cut into 2-inch pieces, or three 3-inch-by-1/4-inch strips lemon zest",
-			" 1 1-inch piece peeled fresh ginger, cut into thirds",
+			"3 stalks lemongrass, bottom third only, peeled, smashed, and cut into 2-inch pieces; or three 3-inch-by-1/4-inch strips lemon zest",
+			"1 1-inch piece peeled fresh ginger, cut into thirds",
 			"1/2 cup long-grain rice",
 			"1 3/4 cups unsweetened coconut milk (15-oz can)",
 			"2 fresh red chiles or jalapeno peppers, seeds & ribs removed, cut crosswise into thin slices",
@@ -1481,7 +1482,7 @@ export default [
 			"1 1/4 tsp prepared wasabi paste",
 			"1 tsp grated peeled fresh ginger",
 			"2 tsp vegetable oil",
-			"4 (6-oz) tuna steaks (about 3/4 inch thick",
+			"4 (6-oz) tuna steaks (about 3/4 inch thick)",
 			"1/4 tsp salt",
 			"3 tbsp sesame seeds",
 			"2 tbsp black sesame seeds",
@@ -1540,7 +1541,7 @@ export default [
 			"2 15.5-oz cans great northern beans, rinsed & drained",
 			"2 tbsp minced fresh parsley",
 			"1 tbsp lime juice",
-			"1 tsp ground cumin",
+			"1 to 1-1/4 tsp ground cumin",
 			"2 tbsp cornstarch",
 			"1/4 cup water",
 			"2 cups cubed cooked chicken",
