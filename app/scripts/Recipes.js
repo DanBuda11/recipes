@@ -1633,13 +1633,40 @@ export default [
 		course: "soups",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Bok Choy & Mushrooms",
+		id: "55",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 cups bok choy, stems & leaves, chopped",
+			"1 1.15 cup chopped mushrooms (any kind)",
+			"1 Tbsp garlic powder",
+			"1/2 tsp ground black pepper",
+			"1 Tbsp sesame oil",
+			"1.5 Tbsp olive oil",
+			"1/2 tsp salt",
+			"1/4 tsp ground chili flakes, optional"
+		],
+		steps: [
+			"Heat olive oil in a large saucepan over medium heat.",
+			"Add bok choy stems to saucepan.",
+			"Once stems start becoming tender, add remaining ingredients except for sesame oil. Continue cooking 5 minutes or until mushrooms become tender and bok choy leaves begin to wilt.",
+			"Add sesame oil and cook, stirring constantly for 1 minute. Remove from heat and serve immediately."
+		],
+		image: "no-photo.png",
+		course: "sides",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
 // ,
 // 	{
 // 		name: "",
-//		id: "",
+// 		id: "",
 // 		userId: "",
 // 		stars: "",
 // 		description: "",
