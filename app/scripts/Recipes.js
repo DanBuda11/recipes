@@ -683,7 +683,7 @@ export default [
 			"Remove chicken and shred with two forks. Add chicken back into the soup, adjust salt and cumin to taste. Serve in bowls and top with fat free sour cream, cheese, scallions and cilantro. You can also top with avocado or crushed tortilla chips. Enjoy!"
 		],
 		image: "chicken-enchilada-soup.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -718,7 +718,7 @@ export default [
 			"Discard the bay leaves and remove the chicken, shred with 2 forks and place back in the slow cooker along with the zucchini and cook on high until the zucchini is tender crisp, about 5 minutes. To serve, ladle into bowls and serve topped with sliced avocado and remaining cilantro."
 		],
 		image: "chicken-zucchini-soup.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -753,7 +753,7 @@ export default [
 			"To the skillet add the olive oil, onions, pepper, carrots, and celery and sauté until soft, about 8 minutes.  Add garlic and sauté for another 2 minutes. Transfer to slow cooker along with diced tomatoes, chick peas, spices, broth and gently mix well.  Cover and cook on LOW heat 6 to 8 hours.  Remove bay leaves and serve; garnish with fresh herbs."
 		],
 		image: "moroccan-chickpea-turkey.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -786,7 +786,7 @@ export default [
 			"After it's done, remove chicken and shred with 2 forks. Place back into the slow cooker and add fresh scallions, remainder cilantro and adjust salt and cumin, to taste."
 		],
 		image: "picante-chicken-black-bean.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -813,7 +813,7 @@ export default [
 			"Heat the olive oil in a heavy saucepan. Season the pork (or other meat) generously with salt and pepper. Brown the meat on all sides for several minutes or until golden. Add the garlic and onions and cook for 2 minutes. Ad the white wine, chicken stock, fresh tomatoes and water and bring to a boil. Pour into a slow cooker and cook on high for 4 hours or until the meat is tender and falling apart. In the last 15-20 minutes of cooking, stir in the cauliflower and fresh oregano. "
 		],
 		image: "tomato-pork-soup.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -1201,7 +1201,7 @@ export default [
 			"Place 1 chicken thigh in each of 6 soup bowls. Ladle 1 1/4 cups stew into each bowl. Top with cilantro and sour cream."
 		],
 		image: "no-photo.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -1286,7 +1286,7 @@ export default [
 			"Combine first 12 ingredients in an electric slow cooker. Cover with lid and cook on high for 5 hours. Discard bay leaf; stir in salt. Serve over rice; sprinkle servings evenly with green onions."
 		],
 		image: "red-beans-rice.png",
-		course: "main",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -1630,7 +1630,7 @@ export default [
 			"Spoon into individual bowls. Garnish with crumbled bacon and avocado slices."
 		],
 		image: "crockpot-turkey-chili.png",
-		course: "soups",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	},
@@ -1658,6 +1658,34 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "sides",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Crockpot Curried Chicken & Butternut Squash",
+		id: "56",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 medium butternut squash, peeled, seeded & diced",
+			"1 1/2 lbs. chicken breast, cubed",
+			"2 Tbsp curry powder",
+			"1 tsp fresh grated ginger",
+			"1 garlic clove, minced",
+			"3 Tbsp tomato paste",
+			"1 can cocunut milk, full fat",
+			"Juice of 1 medium lime",
+			"2 Tsbp cilantro, for garnish",
+			"1/8 tsp salt, to taste",
+			"1/8 tsp black pepper, to taste"
+		],
+		steps: [
+			"Put all of the ingredients except salt, pepper, lime juice, cilantro into a crockpot. Stir to make sure all ingredients are coated, and add water if necessary to make sure everything is covered.",
+			"Cover & cook on low for 6-8 hours. Before serving, stir in lime juice, season with salt & pepper, and garnish with cilantro."
+		],
+		image: "no-photo.png",
+		course: "crockpot",
 		notes: "",
 		submitDate: ""
 	}
