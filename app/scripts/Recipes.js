@@ -1688,6 +1688,28 @@ export default [
 		course: "crockpot",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Baked Eggplant",
+		id: "57",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"1 eggplant, cut into 1/2 inch slices",
+			"Olive oil",
+			"Oregano, thyme, garlic powder, salt & pepper to taste"
+		],
+		steps: [
+			"Preheat oven to 425 degrees.",
+			"Rub each side of eggplant slices with enough olive oil to coat.",
+			"Sprinkle each side of eggplant slices with oregano, thyme, garlic powder, salt & pepper to taste.",
+			"Place eggplant slices on a baking sheet and place in oven for 25 minutes, flipping once."
+		],
+		image: "eggplant.jpg",
+		course: "sides",
+		notes: "Eggplant soaks up oil extremely fast. To reduce this, you can salt the slices first and let them sit for about 30 minutes.",
+		submitDate: ""
 	}
 ]
 

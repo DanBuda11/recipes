@@ -4,6 +4,9 @@ import RecipeThumb from './RecipeThumb';
 import { Link } from 'react-router';
 import $ from 'jquery';
 
+// For pagination, should make different # of recipes on page based
+// on size of screen: mobile 10, others 20?
+
 export default React.createClass({
 	getInitialState: function() {
 		return {
