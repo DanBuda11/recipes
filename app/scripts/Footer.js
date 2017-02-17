@@ -4,7 +4,7 @@ export default React.createClass({
 	render: function() {
 		return (
 			<div className="footer">
-				<p>&copy;2016 Dan Buda</p>
+				<p>&copy;2017 Dan Buda</p>
 			</div>
 		);
 	}
