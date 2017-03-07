@@ -60,8 +60,10 @@ Home</Link>
 							{steps}
 						</ol>
 					</div>
-					{(this.state.recipe.notes !== "") ? (<h4>Notes</h4>) : ("")}
-					{(this.state.recipe.notes !== "") ? (<p>{this.state.recipe.notes}</p>) : ("")}
+					<div className="notes">
+						{(this.state.recipe.notes !== "") ? (<h4>Notes</h4>) : ("")}
+						{(this.state.recipe.notes !== "") ? (<p>{this.state.recipe.notes}</p>) : ("")}
+					</div>
 				</div>
 			</div>
 		);
