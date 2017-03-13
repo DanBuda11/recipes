@@ -1710,6 +1710,35 @@ export default [
 		course: "sides",
 		notes: "Eggplant soaks up oil extremely fast. To reduce this, you can salt the slices first and let them sit for about 30 minutes.",
 		submitDate: ""
+	},
+	{
+		name: "Paleo Chicken & Cauliflower Stew",
+		id: "57",
+		userId: "",
+		stars: "",
+		description: "",
+		ingredients: [
+			"2 Tbsp olive oil",
+			"2 cloves garlic, minced",
+			"2 cups spinach, chopped",
+			"2 cups cauliflower florets",
+			"6 cups chicken broth",
+			"1/2 cup coconut milk",
+			"2 Tbsp capers",
+			"3 chicken breasts",
+			"1 onion, diced",
+			"Sea salt & fresh ground pepper, to taste"
+		],
+		steps: [
+			"Heat the oil in a large stockpot or Dutch oven. Add the onions and cook until soft. Add garlic and cook for another minute.",
+			"Stir in spinach & cauliflower and add broth. Bring to a boil and add chicken breasts. Reduce to a simmer and simmer until chicken is cooked, about 20 minutes.",
+			"Remove chicken from pot and shred> Add back to pot and lightly mash cauliflower.",
+			"Stir in coconut milk & capers, and simmer until heated through before serving."
+		],
+		image: "no-photo.png",
+		course: "soups",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
