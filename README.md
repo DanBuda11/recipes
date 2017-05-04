@@ -4,7 +4,7 @@ I love to cook. A lot. And while I currently store all my recipes in Google Driv
 ###Built With
 * React
 * React Router
-* Sass
+* SCSS
 
 ###Version 1
 * Static front-end-only site with recipe information stored locally
