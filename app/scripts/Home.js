@@ -39,6 +39,21 @@ export default React.createClass({
 			this.setState({recipes: filteredCourses});
 		}
 	},
+	paleoFilter() {
+		let select = document.getElementById('paleoFilter');
+		if (select.value === 'all') {
+			this.setState({recipes: Recipes});
+		} else {
+			let filteredCourses = Recipes.filter((recipe, i) => {
+				if (recipe.paleo === select.value) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+			this.setState({recipes: filteredCourses});
+		}
+	},
 	// search: function() {
 	// 	// this will need to filter over the recipeData array
 	// 	// when filtering over, check to see if input keyword matches anything in
@@ -94,6 +109,14 @@ export default React.createClass({
 						<option value="breakfasts">Breakfasts</option>
 						<option value="seasonings">Seasonings</option>
 						<option value="desserts">Desserts</option>
+					</select>
+				</div>
+				<div className="paleoFilterDiv">
+					<label htmlFor="paleoFilter">Search by paleo-friendly:</label>
+					<select id="paleoFilter" onChange={this.paleoFilter}>
+						<option value="all">Show All</option>
+						<option value="paleo">Paleo</option>
+						<option value="non-paleo">Non-Paleo</option>
 					</select>
 				</div>
 				<div className="grid">

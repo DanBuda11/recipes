@@ -21,6 +21,7 @@ export default [
 		],
 		image: "tabbouleh.png",
 		course: "salads",
+		paleo: "paleo",
 		notes: "Feel free to adjust amounts of oil, lemon juice and salt to taste. Best to do after chilling tabbouleh in fridge for a few hours."
 	},
 	{
@@ -51,6 +52,7 @@ export default [
 		],
 		image: "caldo.png",
 		course: "soups",
+		paleo: "paleo",
 		notes: ""
 	},
 	{
@@ -75,6 +77,7 @@ export default [
 		],
 		image: "potatoes-tomatoes-meat.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: ""
 	},
 	{
@@ -95,6 +98,7 @@ export default [
 		],
 		image: "cajun-dry-rub.png",
 		course: "seasonings",
+		paleo: "paleo",
 		notes: ""
 	},
 	{
@@ -126,6 +130,7 @@ export default [
 		],
 		image: "wild-rice-celery-root-soup.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -162,6 +167,7 @@ export default [
 		],
 		image: "tortilla-soup.png",
 		course: "soups",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -190,6 +196,7 @@ export default [
 		],
 		image: "apple-crisp.png",
 		course: "desserts",
+		paleo: "non-paleo",
 		notes: "If doubling recipe, use a 9x13 inch pan.",
 		submitDate: ""
 	},
@@ -217,6 +224,7 @@ export default [
 		],
 		image: "polynesian-flank-steak.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -245,6 +253,7 @@ export default [
 		],
 		image: "arctic-char.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -276,6 +285,7 @@ export default [
 		],
 		image: "banana-chip-bars.png",
 		course: "desserts",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -309,6 +319,7 @@ export default [
 		],
 		image: "roasted-garlic-kale.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -343,6 +354,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -375,6 +387,7 @@ export default [
 		],
 		image: "beef-barley-stew.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -410,6 +423,7 @@ export default [
 		],
 		image: "black-bean-tostadas.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -435,6 +449,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "seasonings",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -466,6 +481,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "breakfasts",
+		paleo: "non-paleo",
 		notes: "For a lower carb version, substitute cauliflower for potato. And for additional spice, add red chili flakes to the potato, salt & pepper.",
 		submitDate: ""
 	},
@@ -495,6 +511,7 @@ export default [
 		],
 		image: "cilantro-chicken.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -528,6 +545,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -560,6 +578,7 @@ export default [
 		],
 		image: "clam-chowder.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -589,6 +608,7 @@ export default [
 		],
 		image: "colcannon-thyme-soup.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -623,6 +643,7 @@ export default [
 		],
 		image: "corn-fingerling-chowder.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -650,6 +671,7 @@ export default [
 		],
 		image: "parmesan-orzo.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -684,6 +706,7 @@ export default [
 		],
 		image: "chicken-enchilada-soup.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -719,6 +742,7 @@ export default [
 		],
 		image: "chicken-zucchini-soup.png",
 		course: "crockpot",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -754,6 +778,7 @@ export default [
 		],
 		image: "moroccan-chickpea-turkey.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -787,6 +812,7 @@ export default [
 		],
 		image: "picante-chicken-black-bean.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -814,6 +840,7 @@ export default [
 		],
 		image: "tomato-pork-soup.png",
 		course: "crockpot",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -848,6 +875,7 @@ export default [
 		],
 		image: "fiery-flank-steak.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -874,6 +902,7 @@ export default [
 		],
 		image: "garlic-fries.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -901,6 +930,7 @@ export default [
 		],
 		image: "garlic-potatoes-herbs.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -932,6 +962,7 @@ export default [
 		],
 		image: "gazpacho.png",
 		course: "soups",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -963,6 +994,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -993,6 +1025,7 @@ export default [
 		],
 		image: "salmon-corn-salsa.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1022,6 +1055,7 @@ export default [
 		],
 		image: "herb-grilled-trout.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "If you don't want to use wine, it turns out fine without it. Also, instead of cutting the lemon into wedges, I often slice the lemon really thing and place the slices inside the fish and then cook it.",
 		submitDate: ""
 	},
@@ -1047,6 +1081,7 @@ export default [
 		],
 		image: "herb-pork-tenderloin.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "Olive or other vegetable oil can replace the butter.",
 		submitDate: ""
 	},
@@ -1081,6 +1116,7 @@ export default [
 		],
 		image: "lentil-soup.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1114,6 +1150,7 @@ export default [
 		],
 		image: "mussels-marinara.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1145,6 +1182,7 @@ export default [
 		],
 		image: "nola-shrimp.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1172,6 +1210,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "To kick it up a few notches, you can also add fresh spinach, olives, shrimp or grilled chicken.",
 		submitDate: ""
 	},
@@ -1202,6 +1241,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1230,6 +1270,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1256,6 +1297,7 @@ export default [
 		],
 		image: "potato-leek-soup.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1287,6 +1329,7 @@ export default [
 		],
 		image: "red-beans-rice.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1314,6 +1357,7 @@ export default [
 		],
 		image: "lamb-chile-sauce.png",
 		course: "main",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1341,6 +1385,7 @@ export default [
 		],
 		image: "roasted-cauliflower.png",
 		course: "sides",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1370,6 +1415,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1408,6 +1454,7 @@ export default [
 		],
 		image: "shrimp-cakes.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "I often substitute a can of salmon for the shrimp.",
 		submitDate: ""
 	},
@@ -1433,6 +1480,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "seasonings",
+		paleo: "paleo",
 		notes: "This is a great seasoning mix to add to a crockpot filled with chicken breast and enough chicken broth to cover the chicken. Cook on low about 8 hours then shred the chicken, return to the pot and stir it all together.",
 		submitDate: ""
 	},
@@ -1461,6 +1509,7 @@ export default [
 		],
 		image: "thai-coconut-soup.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1494,6 +1543,7 @@ export default [
 		],
 		image: "sesame-tuna-ponzu.png",
 		course: "main",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1523,6 +1573,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "For a non-vegan version, use chicken broth instead of vegetable broth, and replace 4 cups of the beans with 1/2 pound lean ground turkey and 1/2 pound ground sausage.",
 		submitDate: ""
 	},
@@ -1555,6 +1606,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1589,6 +1641,7 @@ export default [
 		],
 		image: "tuna-nicoise.png",
 		course: "salads",
+		paleo: "non-paleo",
 		notes: "I have no idea the amounts I typically use when I make this. I prep all the ingredients and then just throw whatever I want into a bowl.",
 		submitDate: ""
 	},
@@ -1631,6 +1684,7 @@ export default [
 		],
 		image: "crockpot-turkey-chili.png",
 		course: "crockpot",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1658,6 +1712,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "sides",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1686,6 +1741,7 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "crockpot",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
@@ -1708,12 +1764,13 @@ export default [
 		],
 		image: "eggplant.jpg",
 		course: "sides",
+		paleo: "paleo",
 		notes: "Eggplant soaks up oil extremely fast. To reduce this, you can salt the slices first and let them sit for about 30 minutes.",
 		submitDate: ""
 	},
 	{
 		name: "Paleo Chicken & Cauliflower Stew",
-		id: "57",
+		id: "58",
 		userId: "",
 		stars: "",
 		description: "",
@@ -1737,12 +1794,13 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "soups",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	},
 	{
 		name: "Crockpot Beef Stew",
-		id: "58",
+		id: "59",
 		userId: "",
 		stars: "",
 		description: "A hearty, easy to make beef stew.",
@@ -1763,12 +1821,13 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "crockpot",
+		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
 	}
 ]
 
-,
+// ,
 	// {
 	// 	name: "",
 	// 	id: "",

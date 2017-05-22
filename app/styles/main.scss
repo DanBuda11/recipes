@@ -38,6 +38,22 @@ body {
 		}
 	}
 
+	.paleoFilterDiv {
+		margin: 1em auto 0;
+		text-align: center;
+
+		label {
+			margin-right: 0.5em;
+		}
+
+		select {
+			font-family: 'Lato', sans-serif;
+			font-size: 0.9em;
+			border-color: #000;
+			outline: none;
+		}
+	}
+ 
 	.nextLast {
 		color: $watermelon;
 		text-align: center;
