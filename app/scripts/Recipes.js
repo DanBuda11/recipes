@@ -1739,22 +1739,48 @@ export default [
 		course: "soups",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Crockpot Beef Stew",
+		id: "58",
+		userId: "",
+		stars: "",
+		description: "A hearty, easy to make beef stew.",
+		ingredients: [
+			"1 medium onion, chopped",
+			"2 cups baby carrots",
+			"2 cups sliced celery",
+			"1 pound red potatoes, unpeeled, cubed",
+			"2 pounds beef stew meat, cut into bite-size chunks",
+			"2 tsp dried thyme leaves",
+			"1 (14.5 oz) can diced tomatoes, undrained",
+			"1/4 cup water",
+			"1 6 oz can tomato paste",
+			"red chili flakes (optional) for a little kick"
+		],
+		steps: [
+			"Toss everything into a crockpot and cook on low 8-10 hours or until meat is tender."
+		],
+		image: "no-photo.png",
+		course: "crockpot",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
-// ,
-// 	{
-// 		name: "",
-// 		id: "",
-// 		userId: "",
-// 		stars: "",
-// 		description: "",
-// 		ingredients: [
-// 		],
-// 		steps: [
-// 		],
-// 		image: "no-photo.png",
-// 		course: "",
-// 		notes: "",
-// 		submitDate: ""
-// 	}
+,
+	// {
+	// 	name: "",
+	// 	id: "",
+	// 	userId: "",
+	// 	stars: "",
+	// 	description: "",
+	// 	ingredients: [
+	// 	],
+	// 	steps: [
+	// 	],
+	// 	image: "no-photo.png",
+	// 	course: "",
+	// 	notes: "",
+	// 	submitDate: ""
+	// }
