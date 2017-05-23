@@ -8,12 +8,15 @@ import $ from 'jquery';
 // on size of screen: mobile 10, others 20?
 
 export default React.createClass({
-	getInitialState: function() {
+	getInitialState() {
 		return {
 			recipes: Recipes,
-			currentPage: 1
+			currentPage: 1,
+			course: 'all',
+			paleo: 'all'
 		};
 	},
+
 	// componentDidMount: function() {
 	// 	// Recipes.on('update', this.updateRecipes);
 	// 	Recipes.fetch();
@@ -21,13 +24,14 @@ export default React.createClass({
 	// componentWillUnmount: function() {
 	// 	Recipes.off('update');
 	// },
-	updateRecipes: function() {
+	updateRecipes() {
 		this.setState({recipes: Recipes});
 	},
-	courseFilter: function() {
+
+	courseFilter() {
 		let select = document.getElementById('courseFilter');
 		if (select.value === 'all') {
-			this.setState({recipes: Recipes});
+			this.setState({recipes: Recipes, course: 'all'});
 		} else {
 			let filteredCourses = Recipes.filter((recipe, i) => {
 				if (recipe.course === select.value) {
@@ -36,24 +40,80 @@ export default React.createClass({
 					return false;
 				}
 			});
-			this.setState({recipes: filteredCourses});
+			this.setState({recipes: filteredCourses, course: select.value});
 		}
 	},
+
 	paleoFilter() {
 		let select = document.getElementById('paleoFilter');
-		if (select.value === 'all') {
+		console.log('paleo: ', select.value);
+		console.log('course: ', this.state.course);
+		if (select.value === 'all' && this.state.course === 'all') {
 			this.setState({recipes: Recipes});
-		} else {
-			let filteredCourses = Recipes.filter((recipe, i) => {
+		} else if (select.value === 'all' && this.state.course !== 'all') {
+			let filtered = Recipes.filter((recipe, i) => {
+				if (recipe.course === this.state.course) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+			this.setState({recipes: filtered});
+		} else if (select.value !== 'all' && this.state.course === 'all') {
+			let filtered = Recipes.filter((recipe, i) => {
 				if (recipe.paleo === select.value) {
 					return true;
 				} else {
 					return false;
 				}
 			});
-			this.setState({recipes: filteredCourses});
-		}
+			this.setState({recipes: filtered});
+		} 
+		// else {
+		// 	let filtered = Recipes.filter((recipe, i) => {
+		// 		console.log('recipe.course: ', recipe.course);
+		// 		console.log('recipe.paleo: ', recipe.paleo);
+		// 	});
+		// }
 	},
+
+
+
+
+			// let filtered = Recipes.filter((recipe, i) => {
+			// 	if (recipe.course = this.state.course) {
+			// 		return true;
+			// 	} else {
+			// 		return false;
+			// 	}
+			// });
+			// this.setState({recipes: filtered});
+		
+	// 		if (this.state.course === 'all') {
+	// 			this.setState({recipes: Recipes});
+	// 		} else {
+	// 			let filtered = Recipes.filter((recipe, i) => {
+	// 				if (recipe.paleo === select.value && recipe.course === this.state.course) {
+	// 					return true;
+	// 				} else {
+	// 					return false;
+	// 				}
+	// 			});
+	// 			this.setState({recipes: filtered, paleo: select.value});
+	// 		}
+	// 		// this.setState({recipes: , paleo: 'all'});
+	// 	} else {
+	// 		let filteredCourses = Recipes.filter((recipe, i) => {
+	// 			if (recipe.paleo === select.value && recipe.course === this.state.course) {
+	// 				return true;
+	// 			} else {
+	// 				return false;
+	// 			}
+	// 		});
+	// 		this.setState({recipes: filteredCourses});
+	// 	}
+	// }
+
 	// search: function() {
 	// 	// this will need to filter over the recipeData array
 	// 	// when filtering over, check to see if input keyword matches anything in
@@ -72,8 +132,9 @@ export default React.createClass({
 	// 		}
 	// 	});
 	// 	this.setState({recipes: searchResults});
-	// },
-	render: function() {
+	// }
+
+	render() {
 		const recipes = this.state.recipes.sort(function(a,b) {
 			let nameA = a.name.toLowerCase();
 			let nameB = b.name.toLowerCase();
