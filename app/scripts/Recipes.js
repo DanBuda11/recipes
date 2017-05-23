@@ -1808,13 +1808,18 @@ export default [
 			"1 medium onion, chopped",
 			"2 cups baby carrots",
 			"2 cups sliced celery",
+			"1 poblano pepper, diced",
+			"1 jalapeno pepper, diced",
 			"1 pound red potatoes, unpeeled, cubed",
 			"2 pounds beef stew meat, cut into bite-size chunks",
-			"2 tsp dried thyme leaves",
-			"1 (14.5 oz) can diced tomatoes, undrained",
-			"1/4 cup water",
+			"2 tsp each of dried thyme leaves, oregano, sage, rosemary, basil",
+			"2 bay leafs",
+			"2 (14.5 oz) cans diced tomatoes, undrained",
 			"1 6 oz can tomato paste",
-			"red chili flakes (optional) for a little kick"
+			"2 cans of tomate paste worth of water",
+			"2 (6 oz) cans mushrooms)",
+			"red chili flakes (optional) for a little kick",
+			"salt to taste"
 		],
 		steps: [
 			"Toss everything into a crockpot and cook on low 8-10 hours or until meat is tender."
