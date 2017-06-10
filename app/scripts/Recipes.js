@@ -1829,22 +1829,48 @@ export default [
 		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Massaged Kale Salad",
+		id: "60",
+		userId: "",
+		stars: "",
+		description: "Simple kale salad",
+		ingredients: [
+			"2 bunches kale",
+			"1/2 cup grated Parmesan cheese",
+			"1/3 cup extra-virgin olive oil",
+			"1/4 cup lemon juice",
+			"3 garlic cloves, minced",
+			"1 tbsp soy sauce",
+			"1/2 tsp ground pepper",
+			"1/2 tsp salt"
+		],
+		steps: [
+			"Strip leaves from the stems (discard stems). Wash and dry the leaves. Tear the leaves into small pieces and place in a large bowl.",
+			"Add Parmesan, oil, lemon juice, garlic, soy sauce, pepper and salt.",
+			"With clean hands, firmly massage and crush the greens to work in the flavoring. Stop when the volume of greens is reduced by about half. The greens should look a little darker and somewhat shiny. Taste and adjust seasoning with more Parmesan, lemon juice, garlic, soy sauce and/or pepper, if desired."
+		],
+		image: "no-photo.png",
+		course: "salads",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
 // ,
-	// {
-	// 	name: "",
-	// 	id: "",
-	// 	userId: "",
-	// 	stars: "",
-	// 	description: "",
-	// 	ingredients: [
-	// 	],
-	// 	steps: [
-	// 	],
-	// 	image: "no-photo.png",
-	// 	course: "",
-	// 	notes: "",
-	// 	submitDate: ""
-	// }
+// 	{
+// 		name: "",
+// 		id: "",
+// 		userId: "",
+// 		stars: "",
+// 		description: "",
+// 		ingredients: [
+// 		],
+// 		steps: [
+// 		],
+// 		image: "no-photo.png",
+// 		course: "",
+// 		notes: "",
+// 		submitDate: ""
+// 	}
