@@ -1853,6 +1853,36 @@ export default [
 		],
 		image: "no-photo.png",
 		course: "salads",
+		paleo: "paleo",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Pan-Grilled Steak with Garlic and Herbs",
+		id: "61",
+		userId: "",
+		stars: "",
+		description: "Seared and baked steak with great seasoning mix",
+		ingredients: [
+			"2 boneless strip steaks (1-1 1/2 inches thick",
+			"1/4 cup minced fresh rosemary, thyme",
+			"3 garlic cloves",
+			"1 tbsp smoked paprika",
+			"1/2-1 tsp cayenne powder",
+			"1/2 tsp white pepper",
+			"2-4 tsp oil"
+		],
+		steps: [
+			"Let steak reach room temperature while preheating oven to 425 degrees.",
+			"Rub steaks with oil then season with remaining ingredients.",
+			"Place oven-save pan on burner turned to medium-high heat.",
+			"Sear steaks in pan for 2-3 minutes per side then place in oven.",
+			"Check steaks for doneness (140-160 degrees in center depending on desired doneness).",
+			"Remove from oven and let sit for a few minutes before serving."
+		],
+		image: "no-photo.png",
+		course: "main",
+		paleo: "paleo",
 		notes: "",
 		submitDate: ""
 	}
@@ -1871,6 +1901,7 @@ export default [
 // 		],
 // 		image: "no-photo.png",
 // 		course: "",
+//		paleo: "",
 // 		notes: "",
 // 		submitDate: ""
 // 	}

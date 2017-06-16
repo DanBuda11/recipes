@@ -130,6 +130,10 @@ body {
 	}
 }
 
+.col-4:hover {
+	background-color: $neutral;
+}
+
 .col-4:last-of-type {
 	border: none;
 }
