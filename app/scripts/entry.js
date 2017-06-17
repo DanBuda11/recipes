@@ -1,7 +1,8 @@
 import './../styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router';
+import { Router, Route, useRouterHistory, IndexRoute } from 'react-router';
+import { createHashHistory } from 'history';
 import App from './app';
 import Home from './Home';
 import Recipe from './Recipe';
@@ -11,8 +12,10 @@ import Login from './Login';
 import EditProfile from './EditProfile';
 import ManageRecipes from './ManageRecipes';
 
+const appHistory = useRouterHistory(createHashHistory)({queryKey: false});
+
 ReactDOM.render((
-	<Router history={hashHistory} onUpdate={() => {
+	<Router history={appHistory} onUpdate={() => {
 		window.scrollTo(0, 0);
 	}}>
 		<Route path="/" component={App}>
