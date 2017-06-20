@@ -1,10 +1,9 @@
 {
   "name": "BudaFooda",
   "version": "1.0.0",
-  "description": "",
+  "description": "A little recipe storage project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --progress --colors"
   },
   "keywords": [],

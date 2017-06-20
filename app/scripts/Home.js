@@ -17,13 +17,6 @@ export default React.createClass({
 		};
 	},
 
-	// componentDidMount: function() {
-	// 	// Recipes.on('update', this.updateRecipes);
-	// 	Recipes.fetch();
-	// },
-	// componentWillUnmount: function() {
-	// 	Recipes.off('update');
-	// },
 	updateRecipes() {
 		this.setState({recipes: Recipes});
 	},
@@ -155,7 +148,6 @@ export default React.createClass({
 				course={recipe.course}
 				/>);
 		});
-		// const maxPages = Math.ceil(recipes.length / 10);
 		return (
 			<div className="gridContainer">
 				<div className="courseFilterDiv">

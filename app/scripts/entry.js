@@ -29,7 +29,3 @@ ReactDOM.render((
 		</Route>
 	</Router>
 ), document.querySelector('main'));
-
-// Things this will need:
-// responsive design, especially for phone & tablet
-// storage of recipe info in a separate file in an array w/objects for recipess
