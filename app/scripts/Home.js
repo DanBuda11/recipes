@@ -162,6 +162,7 @@ export default React.createClass({
 						<option value="breakfasts">Breakfasts</option>
 						<option value="seasonings">Seasonings</option>
 						<option value="desserts">Desserts</option>
+						<option value="appetizers">Appetizers</option>
 					</select>
 				</div>
 				<div className="paleoFilterDiv">

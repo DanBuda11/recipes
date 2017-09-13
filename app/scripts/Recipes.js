@@ -1885,6 +1885,35 @@ export default [
 		paleo: "paleo",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Baked Buffalo Wings",
+		id: "62",
+		userId: "",
+		stars: "",
+		description: "Paleo-friendly version of everyone's favorite appetizer!",
+		ingredients: [
+			"2 1/2 pounds chicken wings",
+			"2 Tbsp avocado oil",
+			"1 tsp salt",
+			"2 tsp garlic powder",
+			"1/4 cup ghee or clarified butter",
+			"1/2 cup hot sauce"
+		],
+		steps: [
+			"Preheat oven to 400 degrees and line a tray with foil. Place a wire rack on top of the tray.",
+			"Place wings in a large bowl and pat dry with paper towel.",
+			"Add oil, salt and garlic powder and toss until evenly coated.",
+			"Place wings on the wire rack, skin side up.",
+			"Bake for 40 minutes.",
+			"Prepare the sauce during the last 10 minutes of cooking: whisk the ghee (or clarified butter) and hot sauce in a sauce pan until combined.",
+			"Once wings are done, coat them in the sauce and place back on the wire rack. Bake for 5 more minutes and repeat the process one more time."
+		],
+		image: "no-photo.png",
+		course: "appetizers",
+		paleo: "paleo",
+		notes: "Makes about 26-28 wings.",
+		submitDate: ""
 	}
 ]
 
@@ -1901,7 +1930,7 @@ export default [
 // 		],
 // 		image: "no-photo.png",
 // 		course: "",
-//		paleo: "",
+// 		paleo: "",
 // 		notes: "",
 // 		submitDate: ""
 // 	}
