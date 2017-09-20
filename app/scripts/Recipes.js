@@ -1914,6 +1914,63 @@ export default [
 		paleo: "paleo",
 		notes: "Makes about 26-28 wings.",
 		submitDate: ""
+	},
+	{
+		name: "Sheet Pan Chicken with Sourdough & Bacon",
+		id: "63",
+		userId: "",
+		stars: "",
+		description: "Roast chicken on a smoky, peppery bed of potatoes, red onion and crisp, fat-basted croutons.",
+		ingredients: [
+			"1/2 lb. sourdough boule, cut or torn into 2-inch pieces",
+			"1/2 lb. slab bacon, cut into 1-by-1/2 inch lardons",
+			"1 large baking potato scrubbed, halved crosswide and cut into 3/4 inch wedges",
+			"1 large red onion, cut into 1 inch wedges",
+			"2 Tbsp cold unsalted butter, diced",
+			"4 oregano sprigs",
+			"1/2 tsp crushed red pepper",
+			"1/4 cup olive oil",
+			"Kosher salt & black pepper",
+			"6 whole chicken legs"
+		],
+		steps: [
+			"Preheat oven to 400 degrees. On a large rimmed baking sheet, toss the bread, bacon, potato, onion, butter, oregano and crushed red pepper with the olive oil and season generously with salt and black pepper. Spread into an even layer. Season chicken with salt and black pepper and arrange on the bread mixture.",
+			"Roast chicken and bread mixture for about 45 minutes, until the bread is crisp and a thermometer in the chicken registers 160 degrees."
+		],
+		image: "no-photo.png",
+		course: "main",
+		paleo: "non-paleo",
+		notes: "",
+		submitDate: ""
+	},
+	{
+		name: "Steak and Brassicas with Red Wine Sauce",
+		id: "64",
+		userId: "",
+		stars: "",
+		description: "Pan sauce pulls together the steak and roasted vegetables.",
+		ingredients: [
+			"1 1/2 lbs. multicolored brassicas, such as baby cauliflower and Romanesco, cut into 1 inch florets",
+			"4 thyme sprigs",
+			"5 Tbsp olive oil",
+			"Kosher salt and black pepper",
+			"7 Tbsp cold, unsalted butter, diced",
+			"2 lb. hanger steaks",
+			"2 small shallots, minced",
+			"2 garlic cloves, minced",
+			"1/2 cup red wine",
+			"1/2 cup chicken stock"
+		],
+		steps: [
+			"Preheat oven to 425 degrees. On a large rimmed baking sheet, toss the brassicas and thyme with 1/2 cup olive oil and season generously with salt and pepper. Spread in a layer and scatter 2 Tbsp butter on top. Roast for 20-25 minutes until golden and tender.",
+			"Meanwhile, in a large cast iron skillet, heat the remaining 1 Tbsp oil. Season steak with salt and pepper. Add to skillet and cook over moderately high heat, turning often, until a thermoteter reads 120 degrees, 15-20 minutes. Transfer to a carving board and let rest for 10 minutes. Do not wipe out the skillet.",
+			"In the same skillet, cook the shallot and garlic over moderate heat, stirring, until softened, 2 minutes. Add the wine and cook, scraping up any browned bits, until almost evaporated, 3 minutes. Add the stock and cook until slightly reduced, 2 minutes. Remove from heat and gradually whisk in the remaining 5 Tbsp butter until emulsified; season with salt and pepper. Carve the steaks against the grain. Serve with the brassicas and sauce."
+		],
+		image: "no-photo.png",
+		course: "main",
+		paleo: "non-paleo",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
