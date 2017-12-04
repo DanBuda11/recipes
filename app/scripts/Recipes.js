@@ -1971,6 +1971,36 @@ export default [
 		paleo: "non-paleo",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Slow Cooker Vegetable Soup",
+		id: "65",
+		userId: "",
+		stars: "",
+		description: "Easy to make slow cooker vegetable soup.",
+		ingredients: [
+			"4 cups vegetable (or chicken) broth",
+			"3 cups diced tomatoes (or 1 28oz can)",
+			"1 sweet onion, diced",
+			"3 celery stalks, chopped",
+			"3-4 carrots, chopped",
+			"1 sweet potato, peeled and chopped",
+			"1 cup green beans, halved",
+			"1 bell pepper, chopped (I substitute a poblano)",
+			"3 cloves garlic, minced",
+			"2 tsp dried parsley",
+			"1 bay leaf",
+			"salt and black pepper to taste",
+			"dash of red chili flakes (optional)"
+		],
+		steps: [
+			"Add all ingredients to slow cooker and cook on high for 3-5 hours until vegetables soft."
+		],
+		image: "no-photo.png",
+		course: "crockpot",
+		paleo: "paleo",
+		notes: "I add 2-3 chicken breasts and shred them once the soup is done cooking.",
+		submitDate: ""
 	}
 ]
 
