@@ -1696,7 +1696,7 @@ export default [
 		description: "",
 		ingredients: [
 			"2 cups bok choy, stems & leaves, chopped",
-			"1 1.15 cup chopped mushrooms (any kind)",
+			"1 cup chopped mushrooms (any kind)",
 			"1 Tbsp garlic powder",
 			"1/2 tsp ground black pepper",
 			"1 Tbsp sesame oil",

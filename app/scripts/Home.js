@@ -37,38 +37,38 @@ export default React.createClass({
 		}
 	},
 
-	paleoFilter() {
-		let select = document.getElementById('paleoFilter');
-		console.log('paleo: ', select.value);
-		console.log('course: ', this.state.course);
-		if (select.value === 'all' && this.state.course === 'all') {
-			this.setState({recipes: Recipes});
-		} else if (select.value === 'all' && this.state.course !== 'all') {
-			let filtered = Recipes.filter((recipe, i) => {
-				if (recipe.course === this.state.course) {
-					return true;
-				} else {
-					return false;
-				}
-			});
-			this.setState({recipes: filtered});
-		} else if (select.value !== 'all' && this.state.course === 'all') {
-			let filtered = Recipes.filter((recipe, i) => {
-				if (recipe.paleo === select.value) {
-					return true;
-				} else {
-					return false;
-				}
-			});
-			this.setState({recipes: filtered});
-		} 
-		// else {
-		// 	let filtered = Recipes.filter((recipe, i) => {
-		// 		console.log('recipe.course: ', recipe.course);
-		// 		console.log('recipe.paleo: ', recipe.paleo);
-		// 	});
-		// }
-	},
+	// paleoFilter() {
+	// 	let select = document.getElementById('paleoFilter');
+	// 	console.log('paleo: ', select.value);
+	// 	console.log('course: ', this.state.course);
+	// 	if (select.value === 'all' && this.state.course === 'all') {
+	// 		this.setState({recipes: Recipes});
+	// 	} else if (select.value === 'all' && this.state.course !== 'all') {
+	// 		let filtered = Recipes.filter((recipe, i) => {
+	// 			if (recipe.course === this.state.course) {
+	// 				return true;
+	// 			} else {
+	// 				return false;
+	// 			}
+	// 		});
+	// 		this.setState({recipes: filtered});
+	// 	} else if (select.value !== 'all' && this.state.course === 'all') {
+	// 		let filtered = Recipes.filter((recipe, i) => {
+	// 			if (recipe.paleo === select.value) {
+	// 				return true;
+	// 			} else {
+	// 				return false;
+	// 			}
+	// 		});
+	// 		this.setState({recipes: filtered});
+	// 	} 
+	// 	// else {
+	// 	// 	let filtered = Recipes.filter((recipe, i) => {
+	// 	// 		console.log('recipe.course: ', recipe.course);
+	// 	// 		console.log('recipe.paleo: ', recipe.paleo);
+	// 	// 	});
+	// 	// }
+	// },
 
 
 
@@ -165,14 +165,6 @@ export default React.createClass({
 						<option value="appetizers">Appetizers</option>
 					</select>
 				</div>
-				<div className="paleoFilterDiv">
-					<label htmlFor="paleoFilter">Search by paleo-friendly:</label>
-					<select id="paleoFilter" onChange={this.paleoFilter}>
-						<option value="all">Show All</option>
-						<option value="paleo">Paleo</option>
-						<option value="non-paleo">Non-Paleo</option>
-					</select>
-				</div>
 				<div className="grid">
 					{recipes}
 				</div>
@@ -239,4 +231,14 @@ export default React.createClass({
 
 // <div className="nextLast">
 // 					<a onClick={this.pageDown}><i className="fa fa-long-arrow-left"></i></a><p>Page {this.state.currentPage} of {maxPages}</p><a onClick={this.pageUp}><i className="fa fa-long-arrow-right"></i></a>
+// 				</div>
+
+// Below is JSX for the Paleo/Non-Paleo dropdown selector
+// <div className="paleoFilterDiv">
+// 					<label htmlFor="paleoFilter">Search by paleo-friendly:</label>
+// 					<select id="paleoFilter" onChange={this.paleoFilter}>
+// 						<option value="all">Show All</option>
+// 						<option value="paleo">Paleo</option>
+// 						<option value="non-paleo">Non-Paleo</option>
+// 					</select>
 // 				</div>
