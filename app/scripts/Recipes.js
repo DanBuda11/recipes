@@ -2001,6 +2001,35 @@ export default [
 		paleo: "paleo",
 		notes: "I add 2-3 chicken breasts and shred them once the soup is done cooking.",
 		submitDate: ""
+	},
+	{
+		name: "Crockpot Brisket",
+		id: "66",
+		userId: "",
+		stars: "",
+		description: "Simple brisket in a crockpot recipe. Set it and forget it.",
+		ingredients: [
+			"1/2 'super trimmed' brisket or untrimmed brisket and cut off most of the fat",
+			"1 can of Rotel or diced tomatoes",
+			"1 or more jalapenos",
+			"Chicken broth",
+			"Kosher salt",
+			"Black pepper",
+			"Tortillas",
+			"Cotija cheese"
+		],
+		steps: [
+			"Rub brisket liberally with a 50/50 salt/pepper mixture.",
+			"Cut brisket into chunks about 4 inch by 4 inch and place meat in crockpot with tomatoes and jalapeno(s).",
+			"Pour chicken broth into crockpot until it is deep enough to cover almost everything (but leave 1-1.5 inches to the top of crockpot to avoid boiling over).",
+			"Turn crockpot on to low and cook for a minimum of 12-15 hours. Once done, use tongs to pull meat chunks apart into strings and let cook for anouther 1-2 hours.",
+			"Serve with tortillas and cotija cheese."
+		],
+		image: "no-photo.png",
+		course: "crockpot",
+		paleo: "paleo",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
