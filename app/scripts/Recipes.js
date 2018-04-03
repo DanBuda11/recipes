@@ -2030,6 +2030,39 @@ export default [
 		paleo: "paleo",
 		notes: "",
 		submitDate: ""
+	},
+	{
+		name: "Grandma's Swedish Meatballs",
+		id: "67",
+		userId: "",
+		stars: "",
+		description: "Grandma's famous Swedish meatball recipe.",
+		ingredients: [
+			"1 pound ground beef",
+			"1/4 pound ground pork",
+			"1 1/2 Cups breadcrumbs",
+			"1 Cup milk",
+			"2 eggs",
+			"1 medium onion, finely chopped",
+			"1 1/2 tsp salt (or less)",
+			"1/4 tsp allspice",
+			"1/8 tsp nutmeg",
+			"1/8 tsp cardamom",
+			"1/8 tsp black pepper",
+			"1 can (10 oz) beef broth",
+			"1/2 Cup cream",
+			"3/4 tsp dill",
+			"3 Tbsp butter",
+		],
+		steps: [
+			"Mix all ingredients together except broth, cream, dill and butter.",
+			"Shape into small balls and brown in butter in a pan. Add in the broth, cream, dill and butter. Cover and steam for 1 hour."
+		],
+		image: "no-photo.png",
+		course: "main",
+		paleo: "non-paleo",
+		notes: "Great over mashed potatoes or egg noodles. Grandma liked to substitute the cream for sour cream and chicken broth for beef broth.",
+		submitDate: ""
 	}
 ]
 
