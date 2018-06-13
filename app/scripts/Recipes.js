@@ -2063,6 +2063,31 @@ export default [
 		paleo: "non-paleo",
 		notes: "Great over mashed potatoes or egg noodles. Grandma liked to substitute the cream for sour cream and chicken broth for beef broth.",
 		submitDate: ""
+	},
+	{
+		name: "Indian Spice Mix",
+		id: "68",
+		userId: "",
+		stars: "",
+		description: "Simple mix of spices to use as a rub for chicken or whatever.",
+		ingredients: [
+			"2 Tbsp curry",
+			"2 Tbsp cumin",
+			"2 tsp turmeric",
+			"2 tsp ground coriander",
+			"1 tsp ground ginger",
+			"1/2 tsp ground cardamom",
+			"1/2 tsp ground cinnamon",
+			"salt to taste (optional)"
+		],
+		steps: [
+			"Combine all ingredients in a small bowl and mix together."
+		],
+		image: "no-photo.png",
+		course: "seasonings",
+		paleo: "paleo",
+		notes: "",
+		submitDate: ""
 	}
 ]
 
