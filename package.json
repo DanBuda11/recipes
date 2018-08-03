@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
-    "bulid": "webpack"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Dan Buda",
