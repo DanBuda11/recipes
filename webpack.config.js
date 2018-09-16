@@ -41,7 +41,8 @@ module.exports = {
     // create an instance of the extract-text-webpack-plugin which will create the style.css file. this tells the style loader (above) where to put that text it extracted from the scss files after it finishes processing it.
     new ExtractTextPlugin("style.css"),
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: 'index.html',
+      favicon: 'pestle.ico'
     })
   ]
 }
