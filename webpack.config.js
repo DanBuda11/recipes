@@ -42,7 +42,7 @@ module.exports = {
     new ExtractTextPlugin("style.css"),
     new HtmlWebpackPlugin({
       template: 'index.html',
-      favicon: 'pestle.ico'
+      favicon: 'favicon.ico'
     })
   ]
 }
