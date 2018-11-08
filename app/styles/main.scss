@@ -337,6 +337,14 @@ body {
   p {
     margin: 0;
     padding: 1em;
+
+    a {
+      color: #000;
+    }
+
+    a:visited {
+      color: #000;
+    }
   }
 }
 
