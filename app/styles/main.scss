@@ -20,6 +20,26 @@ body {
   min-height: 100%;
 }
 
+.nav {
+  text-align: center;
+  background-color: $sky;
+  border-bottom: 1px solid $watermelon;
+
+  a {
+    text-decoration: none;
+    color: #000;
+
+    h1 {
+      margin: 0;
+      padding: 1em;
+
+      i {
+        margin-left: 0.3em;
+      }
+    }
+  }
+}
+
 .gridContainer {
   width: 100%;
   overflow: hidden;
@@ -138,26 +158,6 @@ body {
 
 .col-4:last-of-type {
   border: none;
-}
-
-.nav {
-  text-align: center;
-  background-color: $sky;
-  border-bottom: 1px solid $watermelon;
-
-  a {
-    text-decoration: none;
-    color: #000;
-
-    h1 {
-      margin: 0;
-      padding: 1em;
-
-      i {
-        margin-left: 0.3em;
-      }
-    }
-  }
 }
 
 .addNew {
