@@ -255,18 +255,18 @@ body {
     padding-left: 0.4em;
   }
 
-  input:focus,
-  textarea:focus {
-    outline: none;
-    border: 1px solid #000;
-  }
-
   input {
     margin-top: 1em;
   }
 
   textarea {
     margin: 1em 0;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 1px solid #000;
   }
 
   button {
