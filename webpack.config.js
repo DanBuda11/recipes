@@ -1,6 +1,7 @@
 // import the text plugin used to handle the stylesheets
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // specify the path for the entrypoint into our app.
@@ -41,7 +42,17 @@ module.exports = {
     new ExtractTextPlugin('style.css'),
     new HtmlWebpackPlugin({
       template: 'index.html',
-      favicon: 'favicon.ico',
+      inject: true,
     }),
+    new CopyWebpackPlugin([
+      {
+        // test: /\.(png|xml|ico|svg|webmanifest)$/,
+        // ignore: ['budafooda.png'],
+        from: './*',
+        // to: 'dist',
+        test: /\.(png|xml|ico|svg|webmanifest)$/,
+        ignore: ['budafooda.png', '*.json', '*.js', '*.md', '*.html'],
+      },
+    ]),
   ],
 };
