@@ -677,7 +677,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Chicken Enchilada Soup',
+    name: 'Chicken Enchilada Soup',
     id: '23',
     userId: '',
     stars: '',
@@ -712,7 +712,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Chipotle Chicken Zucchini Soup',
+    name: 'Chipotle Chicken Zucchini Soup',
     id: '24',
     userId: '',
     stars: '',
@@ -748,7 +748,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Moroccan Chickpea Turkey Stew',
+    name: 'Moroccan Chickpea Turkey Stew',
     id: '25',
     userId: '',
     stars: '',
@@ -784,7 +784,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Picante Chicken Black Bean',
+    name: 'Picante Chicken Black Bean',
     id: '26',
     userId: '',
     stars: '',
@@ -818,7 +818,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Pork & Tomato Soup',
+    name: 'Pork & Tomato Soup',
     id: '27',
     userId: '',
     stars: '',
@@ -1650,7 +1650,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Paleo Crockpot Turkey Chili',
+    name: 'Turkey Chili',
     id: '54',
     userId: '',
     stars: '',
@@ -1721,7 +1721,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Curried Chicken & Butternut Squash',
+    name: 'Curried Chicken & Butternut Squash',
     id: '56',
     userId: '',
     stars: '',
@@ -1774,7 +1774,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Paleo Chicken & Cauliflower Stew',
+    name: 'Chicken & Cauliflower Stew',
     id: '58',
     userId: '',
     stars: '',
@@ -1806,7 +1806,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Crockpot Beef Stew',
+    name: 'Beef Stew',
     id: '59',
     userId: '',
     stars: '',
@@ -1979,7 +1979,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Slow Cooker Vegetable Soup',
+    name: 'Vegetable Soup',
     id: '65',
     userId: '',
     stars: '',
@@ -2194,7 +2194,7 @@ export default [
     submitDate: '',
   },
   {
-    name: 'Keto Crockpot Avocado Chicken Posole',
+    name: 'Avocado Chicken Posole',
     id: '72',
     userId: '',
     stars: '',
