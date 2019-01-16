@@ -2331,21 +2331,28 @@ export default [
     notes: '',
     submitDate: '',
   },
+  {
+    name: 'Super Healthy Salad',
+    id: '78',
+    userId: '',
+    stars: '',
+    description: 'Just as the name says.',
+    ingredients: [
+      'Spinach',
+      'Salmon, cooked to preference',
+      'Walnuts',
+      'Blueberries',
+      'Beets',
+      'Pomegranate',
+      'Hemp seeds',
+      'Ginger',
+      'Avocado',
+    ],
+    steps: ['Put it all in a bowl or other container that can hold a salad.'],
+    image: 'no-photo.png',
+    course: 'salads',
+    paleo: 'non-paleo',
+    notes: '',
+    submitDate: '',
+  },
 ];
-
-// {
-// 	name: "",
-// 	id: "",
-// 	userId: "",
-// 	stars: "",
-// 	description: "",
-// 	ingredients: [
-// 	],
-// 	steps: [
-// 	],
-// 	image: "no-photo.png",
-// 	course: "",
-// 	paleo: "",
-// 	notes: "",
-// 	submitDate: ""
-// }
