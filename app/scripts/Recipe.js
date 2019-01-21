@@ -17,14 +17,14 @@ export default React.createClass({
     const ingredients = this.state.recipe.ingredients.map((ingredient, i) => {
       return (
         <li className="ingredients" key={i}>
-          {this.state.recipe.ingredients[i]}
+          {ingredient}
         </li>
       );
     });
     const steps = this.state.recipe.steps.map((step, i) => {
       return (
         <li className="steps" key={i}>
-          {this.state.recipe.steps[i]}
+          {step}
         </li>
       );
     });
@@ -36,7 +36,10 @@ export default React.createClass({
         </Link>
         <div className="recipeContain">
           <h1>{this.state.recipe.name}</h1>
-          <img src={require('./../images/' + this.state.recipe.image)} />
+          <img
+            src={require('./../images/' + this.state.recipe.image)}
+            alt={this.state.recipe.name}
+          />
           {this.state.recipe.description !== '' ? <h4>Description</h4> : ''}
           {this.state.recipe.description !== '' ? <p>{this.state.recipe.description}</p> : ''}
           <div className="ingredientsDiv">
