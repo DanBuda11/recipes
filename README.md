@@ -10,12 +10,12 @@ I love to cook. A lot. And while I currently store all my recipes in Google Driv
 - React Router
 - SCSS
 
-### Version 1
+### Includes
 
 - Static front-end-only site with recipe information stored locally
 - Responsive, mobile-first design
 - Custom grid for recipe layout
-- Recipe sorting by course & paleo/non-paleo friendly
+- Recipe sorting by course
 
 ### See It In Action
 
