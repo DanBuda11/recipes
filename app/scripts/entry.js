@@ -7,15 +7,19 @@ import App from './app';
 import Home from './Home';
 import Recipe from './Recipe';
 
-const appHistory = useRouterHistory(createHashHistory)({queryKey: false});
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false });
 
-ReactDOM.render((
-	<Router history={appHistory} onUpdate={() => {
-		window.scrollTo(0, 0);
-	}}>
-		<Route path="/" component={App}>
-			<IndexRoute component={Home} />
-			<Route path="/:recipeId/recipe" component={Recipe} />
-		</Route>
-	</Router>
-), document.querySelector('main'));
+ReactDOM.render(
+  <Router
+    history={appHistory}
+    onUpdate={() => {
+      window.scrollTo(0, 0);
+    }}
+  >
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="/:recipeId/recipe" component={Recipe} />
+    </Route>
+  </Router>,
+  document.getElementById('main'),
+);

@@ -8,7 +8,6 @@ export default React.createClass({
       recipes: Recipes,
       currentPage: 1,
       course: 'all',
-      paleo: 'all',
     };
   },
 
