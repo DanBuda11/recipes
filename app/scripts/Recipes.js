@@ -2077,4 +2077,14 @@ export default [
     course: 'sides',
     notes: '',
   },
+  {
+    name: 'Molasses Crinkles',
+    id: '80',
+    description: 'Mom\'s famous molasses cookies.',
+    ingredients: ['3/4 cup soft shortening or salted butter', '1 cup brown sugar', '1 egg', '1/4 cup molasses (not blackstrap)', '2 1/4 cups sifted flour', '2 tsp baking soda', '1/4 tsp salt (can omit if using salted butter)', '1/2 tsp cloves', '1 tsp cinnamon', '1 tsp ginger'],
+    steps: ['Mix together shortening/butter, brown sugar egg and molasses.', 'Sift or stir together flour, baking soda, salt, cloves, cinnamon, ginger.', 'Add both mixtures together and chill the dough.', 'Preheat oven to 375 and grease cooking sheets.', 'Roll the dough into small round shapes the size of a large walnut or quarter.', 'Dip the tops of the round shapes in sugar and place on greased sheets sugar-side up.', 'Sprinkle each with a few drops of water.', 'Bake until set but not hard, 10-12 minutes.'],
+    image: 'no-photo.png',
+    course: 'desserts',
+    notes: 'Make about 4 dozen.',
+  },
 ];
