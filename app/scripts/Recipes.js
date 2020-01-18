@@ -2087,4 +2087,14 @@ export default [
     course: 'desserts',
     notes: 'Make about 4 dozen.',
   },
+  {
+    name: 'Susie\'s Meatloaf',
+    id: '81',
+    description: 'Susie\'s meatloaf or one big meatball.',
+    ingredients: ['1 lb ground chuck', '1/4 lb ground pork', '1/2 yellow onion', '1 cup Romano (1.5 for 3 lbs)', '2 eggs per lb of meat', '1 cup breadcrumbs (1.5 for 3 lbs)', '1/2 cup parsley (for 3 lbs)', 'pepper', 'salt', 'sugar', 'carrots', 'potatoes'],
+    steps: ['Preheat overn to 350 degrees.', 'Mix all ingredients together except potatoes and carrots.', 'Place carrots and potatoes at the bottom of a baking pan and place meatloaf on top.', 'Cook for 45 minutes and continue to cook and check until 160 degrees.'],
+    image: 'no-photo.png',
+    course: 'main',
+    notes: '',
+  },
 ];
