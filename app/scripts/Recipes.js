@@ -2160,7 +2160,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Slow Cooker Buttern Chicken',
+    name: 'Slow Cooker Butter Chicken',
     id: '85',
     description: 'An easy way to make butter chicken.',
     ingredients: [
