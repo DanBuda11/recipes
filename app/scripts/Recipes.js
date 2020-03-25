@@ -1601,7 +1601,7 @@ export default [
       '2 bay leafs',
       '2 (14.5 oz) cans diced tomatoes, undrained',
       '1 6-oz can tomato paste',
-      '2 cans of tomate paste worth of water',
+      '2 cans of tomato paste worth of water',
       '2 (6 oz) cans mushrooms)',
       'red chili flakes (optional) for a little kick',
       'salt to taste',
