@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "backbone": "^1.4.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mime": "^1.6.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
