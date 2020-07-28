@@ -62,6 +62,7 @@ export default React.createClass({
           <select id="courseFilter" onChange={this.courseFilter}>
             <option value="all">Show All</option>
             <option value="appetizers">Appetizers</option>
+            <option value="beverages">Beverages</option>
             <option value="breakfasts">Breakfasts</option>
             <option value="crockpot">Crockpot</option>
             <option value="desserts">Desserts</option>

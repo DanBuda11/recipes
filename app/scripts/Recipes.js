@@ -2443,17 +2443,23 @@ export default [
     notes: '',
   },
   {
-    name: '',
+    name: 'Fireball Apple Cider',
     id: '96',
-    description: '',
+    description: 'Perfect for the holidays!',
     ingredients: [
-
+      '1 jug apple cider',
+      '1 bottle Fireball',
+      '1 orange, thinly sliced',
+      '3-5 whole star anise',
+      '1 Tbsp whole cloves',
+      'Dash cinnamon',
+      'Dash nutmeg',
     ],
     steps: [
-
+      'Combine all ingredients in a crockpot and simmer on high until desired temperature is reached, then turn to low heat.',
     ],
     image: 'no-photo.png',
-    course: '',
+    course: 'beverages',
     notes: '',
   },
 ];
