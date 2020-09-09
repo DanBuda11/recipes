@@ -2546,7 +2546,7 @@ export default [
       '1 stalk lemongrass (finely sliced or minced)',
       '1 thumb-size piece galangal (or ginger) grated or sliced into thin strips',
       '1 large carrot, sliced',
-      '3-4 makru lime leaves (or substitute 1 bay leaf)',
+      '3-4 makrut lime leaves (or substitute 1 bay leaf)',
       '4 bunches baby bok choy (separated) and/or other vegetables of your choice (broccoli, mushrooms, Chinese cabbage, celery, spinach)',
       '1 red chili, minced, or 1 tsp chili sauce, or 1/2 tsp cayenne pepper',
       '3 cloves garlic, minced',
@@ -2689,7 +2689,7 @@ export default [
       '1 tsp chili oil (optional)',
       'Brown sugar, to taste (optional)',
       'Crushed chili pepper flakes, to taste (optional)',
-      '1/3 fresh cilantro',
+      '1/3 cup fresh cilantro',
     ],
     steps: [
       'Pour the stock into a deep cooking pot and over medium-high heat. Add the prepared lemongrass, including the upper sections of the stalk you didn\'t mince. Boil 5 to 6 minutes to soften.',
