@@ -2786,7 +2786,6 @@ export default [
     steps: [
       'Tear pita into small pieces, add to a food processor and pulse until finely ground, 15 seconds. Add eggs, 2 Tbsp parsley, cumin, salt, pepper, the chickpeas. Pulse until chickpeas are coarsely chopped and mixture is cohesive - 10 pulses.',
       'Form chickpea mixture into patties about 2 inches in diameter (should have around 20-24 patties).',
-      'Adjust oven rack to upper-middle and preheat broiler.',
       'Heat olive oil in skillet over medium-high heat until shimmering. Add chickpea patties and cook until deep golden brown on both sides - 3 minutes per side. Transfer to a paper towel-lined plate.',
     ],
     image: 'no-photo.png',
