@@ -34,7 +34,8 @@
     "style-loader": "^0.13.2",
     "stylelint-config-recommended": "^2.2.0",
     "url-loader": "^0.6.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.11.5"
   },
   "dependencies": {
     "backbone": "^1.4.0",
