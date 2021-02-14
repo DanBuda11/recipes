@@ -6,7 +6,6 @@ export default React.createClass({
   getInitialState() {
     return {
       recipes: Recipes,
-      currentPage: 1,
       course: 'all',
     };
   },
@@ -16,16 +15,15 @@ export default React.createClass({
   },
 
   courseFilter() {
-    let select = document.getElementById('courseFilter');
+    const select = document.getElementById('courseFilter');
     if (select.value === 'all') {
       this.setState({ recipes: Recipes, course: 'all' });
     } else {
-      let filteredCourses = Recipes.filter((recipe, i) => {
+      const filteredCourses = Recipes.filter((recipe, i) => {
         if (recipe.course === select.value) {
           return true;
-        } else {
-          return false;
         }
+        return false;
       });
       this.setState({ recipes: filteredCourses, course: select.value });
     }
@@ -33,9 +31,9 @@ export default React.createClass({
 
   render() {
     const recipes = this.state.recipes
-      .sort(function(a, b) {
-        let nameA = a.name.toLowerCase();
-        let nameB = b.name.toLowerCase();
+      .sort((a, b) => {
+        const nameA = a.name.toLowerCase();
+        const nameB = b.name.toLowerCase();
         if (nameA < nameB) {
           return -1;
         }
@@ -44,17 +42,15 @@ export default React.createClass({
         }
         return 0;
       })
-      .map((recipe, i) => {
-        return (
-          <RecipeThumb
-            key={recipe.id}
-            id={recipe.id}
-            image={recipe.image}
-            name={recipe.name}
-            course={recipe.course}
-          />
-        );
-      });
+      .map((recipe, i) => (
+        <RecipeThumb
+          key={recipe.id}
+          id={recipe.id}
+          image={recipe.image}
+          name={recipe.name}
+          course={recipe.course}
+        />
+      ));
     return (
       <div className="gridContainer">
         <div className="courseFilterDiv">

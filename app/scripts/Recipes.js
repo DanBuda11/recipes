@@ -1368,7 +1368,7 @@ export default [
     description: '',
     ingredients: [
       '1 1/2 tbsp vegetable oil',
-      '1 onion, chopped',
+      '1 yellow or white onion, chopped',
       '1 stalk celery, sliced',
       '28 oz diced tomatoes',
       '2 cups vegetable broth',
@@ -1376,7 +1376,9 @@ export default [
       '2 tsp cumin',
       '1 1/2 tsp sage',
       '1/2 tsp black pepper',
-      '8 cups beans (Great Northern, kidney, chili), drained',
+      '1/2 tsp cayenne pepper',
+      '1 tsp chili powder',
+      '8 cups beans (Great Northern, kidney, pinto, chili), drained',
     ],
     steps: [
       'Heat oil to a large pot over medium heat. Add onion to pot and cook until just tender. Add the celery and continue cooking until celery softens.',
@@ -1386,7 +1388,7 @@ export default [
     image: 'no-photo.png',
     course: 'soups',
     notes:
-      'For a non-vegan version, use chicken broth instead of vegetable broth, and replace 4 cups of the beans with 1/2 pound lean ground turkey and 1/2 pound ground sausage.',
+      'For a non-vegan version, use chicken broth instead of vegetable broth, and replace 4 cups of the beans with 1/2 pound lean ground turkey and 1/2 pound ground sausage. Molasses can be omitted.',
   },
   {
     name: 'White Chili with Chicken',

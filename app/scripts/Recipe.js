@@ -3,31 +3,26 @@ import { Link } from 'react-router';
 import Recipes from './Recipes';
 
 export default React.createClass({
-  getInitialState: function() {
-    let recipe = Recipes.filter((recipe, i) => {
+  getInitialState() {
+    const recipe = Recipes.filter((recipe, i) => {
       if (recipe.id === this.props.params.recipeId) {
         return true;
-      } else {
-        return false;
       }
+      return false;
     }).pop();
-    return { recipe: recipe };
+    return { recipe };
   },
-  render: function() {
-    const ingredients = this.state.recipe.ingredients.map((ingredient, i) => {
-      return (
-        <li className="ingredients" key={i}>
-          {ingredient}
-        </li>
-      );
-    });
-    const steps = this.state.recipe.steps.map((step, i) => {
-      return (
-        <li className="steps" key={i}>
-          {step}
-        </li>
-      );
-    });
+  render() {
+    const ingredients = this.state.recipe.ingredients.map((ingredient, i) => (
+      <li className="ingredients" key={i}>
+        {ingredient}
+      </li>
+    ));
+    const steps = this.state.recipe.steps.map((step, i) => (
+      <li className="steps" key={i}>
+        {step}
+      </li>
+    ));
     return (
       <div className="recipeDiv">
         <Link className="homeLink" to="/">
@@ -37,7 +32,7 @@ export default React.createClass({
         <div className="recipeContain">
           <h1>{this.state.recipe.name}</h1>
           <img
-            src={require('./../images/' + this.state.recipe.image)}
+            src={require(`./../images/${this.state.recipe.image}`)}
             alt={this.state.recipe.name}
           />
           {this.state.recipe.description !== '' ? <h4>Description</h4> : ''}
