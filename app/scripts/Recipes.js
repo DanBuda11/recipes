@@ -3162,4 +3162,18 @@ export default [
     course: 'main',
     notes: 'Great as a breakfast with a couple fried eggs on top.',
   },
+  {
+    name: 'Perfect Boiled Eggs',
+    id: '120',
+    description: '',
+    ingredients: [
+      'Eggs',
+    ],
+    steps: [
+      'Bring a pot of water to a boil with enough water to cover eggs by 1 inch. Reduce heat to low and use a skimmer or slotted spoon to gently place eggs in pot. Bring water back to a boil. Immediately set a timer for desired doneness of eggs (see notes below). When timer goes off, immediately place eggs in an ice bath to stop cooking.',
+    ],
+    image: 'no-photo.png',
+    course: 'breakfast',
+    notes: 'Cook 6 minutes for a liquidy yolk and soft white (perfect for egg cups), 6 1/2 minutes for a soft jammy yolk (great for soft boiled eggs on toast or a salad), 8 minutes for a soft but firm yolk, 10 minutes for just a tiny bit of yolk softness, 12 minutes for a hard boiled egg with a ligher yolk, and 14 minutes for the traditional hard boiled egg.',
+  },
 ];
