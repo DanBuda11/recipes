@@ -3155,7 +3155,7 @@ export default [
       'Trim & thinly slice scallions, separating the whites from the greens. Heat a drizzle of oil in a small pot over medium-high heat. Add scallion whites and cook until softened, 1 minute. Stir in rice & 1 1/4 cups water. Bring to a boil then reduce heat to a low simmer and cook until rice is tender, 15-18 minutes. Keep covered off heat until ready to serve.',
       'Finely dice tomato. In a small bowl, combine tomato, half the scallion greens, a large drizzle of olive oil, and salt & pepper to taste.',
       'Core, deseed, and dice poblano into 1/2 inch pieces. Heat a drizzle of olive oil in a large pan over medium-high heat. Add poblano and cook, stirring occassionally, until softened and lightly browned, 4-5 minutes. Season with salt & pepper. Reduce heat to medium.',
-      'Drain & rinse beans. Add beans & southwest spice mixture to pan with poblano. Cook, stirring until mixture is fragrant, 1-2 minuntes. Stir in green salsa and cook, stirring occasionally, until beans are softeened, 1-3 minutes. Season with salt & pepper. Turn off heat.',
+      'Drain & rinse beans. Add beans & southwest spice mixture to pan with poblano. Cook, stirring until mixture is fragrant, 1-2 minuntes. Stir in green salsa and cook, stirring occasionally, until beans are softened, 1-3 minutes. Season with salt & pepper. Turn off heat.',
       'Divide rice between bowls and top with bean mixture, pepper jack cheese, tomato mixture, and remaining scallion greens.',
     ],
     image: 'no-photo.png',
