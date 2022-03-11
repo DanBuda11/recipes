@@ -3231,4 +3231,89 @@ export default [
     course: 'sides',
     notes: '',
   },
+  {
+    name: 'Skillet Chicken Thighes with Broccoli & Orzo',
+    id: '123',
+    description: '',
+    ingredients: [
+      '1 1/2 - 2 lbs boneless, skinless chicken thighs',
+      '1 1/2 tsp kosher salt',
+      '1/2 tsp black pepper',
+      '2 Tbsp extra virgin olive oil',
+      '2 Tsbp unsalted butter',
+      '1 lemon, thinly sliced and seeds removed',
+      '12 oz broccoli florets, cut into smaller pieces if larger (about 4 cups)',
+      '8 oz dried orzo (about 1 1/4 cups)',
+      '1 tsp fresh thyme leaves',
+      '2 garlic cloves, minced',
+      '1/2 cup dry white wine',
+      '2 cups low sodium chicken broth',
+    ],
+    steps: [
+      'Season chicekn thighs on both sides with 1 tsp salt & 1/2 tsp pepper. In a large heavy skillet (preferably cast-iron or stainless steel), heat oil over medium-high heat. Cook chicken until golden brown, about 7 minutes, then flip and cook until golden on the other side, about 5 minutes more. Transfer to a plate and set aside.',
+      'Decrease heat to medium, add butter and lemon slices, and cook until lemons release their juices and start to brown, 1-2 minutes. Transfer to plate with chicken.',
+      'Add broccoli, orzo, thyme, garlic and remaining 1/2 tsp salt to skill at stir to coat. Cook, stirring occassionally, until orzo is lightly toasted and broccoli is bright green, about 5 minutes.',
+      'Deglaze with wine and cook until liquid is mostly absorbed, 1-2 minutes.',
+      'Add broth and lemon slices to skills, then add chicken thighs along with any liquid from the plate. Cover skillet and continue cooking until orzo is tender, most of the liquid is absorbed, and chicken is cooked through, 13-15 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'main',
+    notes: 'If you want to add a little texture and crunch to the dish, uncover and continue to cook until browned and crisp on the bottom, 3-5 minutes.',
+  },
+  {
+    name: '',
+    id: '124',
+    description: '',
+    ingredients: [
+
+    ],
+    steps: [
+
+    ],
+    image: 'no-photo.png',
+    course: '',
+    notes: '',
+  },
+  {
+    name: '',
+    id: '125',
+    description: '',
+    ingredients: [
+
+    ],
+    steps: [
+
+    ],
+    image: 'no-photo.png',
+    course: '',
+    notes: '',
+  },
+  {
+    name: '',
+    id: '126',
+    description: '',
+    ingredients: [
+
+    ],
+    steps: [
+
+    ],
+    image: 'no-photo.png',
+    course: '',
+    notes: '',
+  },
+  {
+    name: '',
+    id: '127',
+    description: '',
+    ingredients: [
+
+    ],
+    steps: [
+
+    ],
+    image: 'no-photo.png',
+    course: '',
+    notes: '',
+  },
 ];
