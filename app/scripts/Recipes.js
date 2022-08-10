@@ -83,7 +83,8 @@ export default [
   {
     name: 'Cajun Blackening Dry Rub',
     id: '4',
-    description: 'Great to use on white-fleshed fish, chicken breast, shrimp or corn on the cob.',
+    description:
+      'Great to use on white-fleshed fish, chicken breast, shrimp or corn on the cob.',
     ingredients: [
       '2 1/2 Tbsp. paprika',
       '1 Tbsp kosher salt',
@@ -93,7 +94,9 @@ export default [
       '1/2 tsp garlic powder',
       '1/2 tsp ground red pepper',
     ],
-    steps: ['Combine all ingredients. Store in an airtight container for up to 2 weeks.'],
+    steps: [
+      'Combine all ingredients. Store in an airtight container for up to 2 weeks.',
+    ],
     image: 'cajun-dry-rub.png',
     course: 'seasonings',
     notes: '',
@@ -101,7 +104,8 @@ export default [
   {
     name: 'Wild Rice & Celery Root Soup',
     id: '5',
-    description: 'Earthy flavor with the combination of celery root and wild rice.',
+    description:
+      'Earthy flavor with the combination of celery root and wild rice.',
     ingredients: [
       '2 Tbsp oil',
       '1 Cup thinly sliced leek',
@@ -1608,7 +1612,9 @@ export default [
       'red chili flakes (optional) for a little kick',
       'salt to taste',
     ],
-    steps: ['Toss everything into a crockpot and cook on low 8-10 hours or until meat is tender.'],
+    steps: [
+      'Toss everything into a crockpot and cook on low 8-10 hours or until meat is tender.',
+    ],
     image: 'no-photo.png',
     course: 'crockpot',
     notes: '',
@@ -1760,7 +1766,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'crockpot',
-    notes: 'I add 2-3 chicken breasts and shred them once the soup is done cooking.',
+    notes:
+      'I add 2-3 chicken breasts and shred them once the soup is done cooking.',
   },
   {
     name: 'Crockpot Brisket',
@@ -1820,7 +1827,8 @@ export default [
   {
     name: 'Indian Spice Mix',
     id: '68',
-    description: 'Simple mix of spices to use as a rub for chicken or whatever.',
+    description:
+      'Simple mix of spices to use as a rub for chicken or whatever.',
     ingredients: [
       '2 Tbsp curry',
       '2 Tbsp cumin',
@@ -1894,7 +1902,8 @@ export default [
   {
     name: 'Creamy Cauliflower Ham & Cheese Soup',
     id: '71',
-    description: 'Great hearty soup, perfect for using up leftover Thanksgiving ham.',
+    description:
+      'Great hearty soup, perfect for using up leftover Thanksgiving ham.',
     ingredients: [
       '2 Tbsp vegetable oil for cooking',
       '1 small yellow onion',
@@ -1966,7 +1975,9 @@ export default [
       '1 tsp black pepper',
       '1 tsp lemon zest',
     ],
-    steps: ['Whisk all ingredients in a small bowl or shake them in a jar and serve.'],
+    steps: [
+      'Whisk all ingredients in a small bowl or shake them in a jar and serve.',
+    ],
     image: 'no-photo.png',
     course: 'dressings',
     notes: '',
@@ -1998,7 +2009,9 @@ export default [
       '1/2 tsp black pepper',
       '1 tsp honey',
     ],
-    steps: ['Shake all ingredients in a jar or whisk in a small bowl and serve.'],
+    steps: [
+      'Shake all ingredients in a jar or whisk in a small bowl and serve.',
+    ],
     image: 'no-photo.png',
     course: 'dressings',
     notes: '',
@@ -2015,7 +2028,9 @@ export default [
       '1 tsp black pepper',
       '1 tsp honey',
     ],
-    steps: ['Shake all ingredients in a jar or whisk in a small bowl and serve.'],
+    steps: [
+      'Shake all ingredients in a jar or whisk in a small bowl and serve.',
+    ],
     image: 'no-photo.png',
     course: 'dressings',
     notes: '',
@@ -2032,7 +2047,9 @@ export default [
       '2 tsp balck pepper',
       '1/2 tsp salt',
     ],
-    steps: ['Shake all ingredients in a jar or whisk in a small bowl and serve.'],
+    steps: [
+      'Shake all ingredients in a jar or whisk in a small bowl and serve.',
+    ],
     image: 'no-photo.png',
     course: 'dressings',
     notes: '',
@@ -2060,7 +2077,8 @@ export default [
   {
     name: 'Savory Butternut Squash',
     id: '79',
-    description: 'A great winter side dish using the ingredients from Simon & Garfunkel\'s Scarborough Fair.',
+    description:
+      "A great winter side dish using the ingredients from Simon & Garfunkel's Scarborough Fair.",
     ingredients: [
       '1 butternut squash',
       '1/2 Tbsp onion powder',
@@ -2074,7 +2092,14 @@ export default [
       'Cooking spray',
       'Salt to taste',
     ],
-    steps: ['Preheat oven to 425 degrees', 'Pierce the squash all over with a fork and place on a microwave-safe plate. Microwave on high for 2 minutes. Flip squash and microwave another 2 minutes. Flip again and microwave 1 1/2 minutes. Flip a final time and microwave 1 1/2 minutes. Let cool.', 'Using a vegetable peeler, peel the squash. Cut squash in half and scoop out fleshy middle. Cut into 3/4 inch cubes.', 'Line a baking sheet with aluminum foil and coat with cooking spray', 'Place squash pieces on baking sheet and sprinkle with spices and salt.', 'Place baking sheet in oven and cook for 20 minutes, checking for consistency, cooking longer if needed.'],
+    steps: [
+      'Preheat oven to 425 degrees',
+      'Pierce the squash all over with a fork and place on a microwave-safe plate. Microwave on high for 2 minutes. Flip squash and microwave another 2 minutes. Flip again and microwave 1 1/2 minutes. Flip a final time and microwave 1 1/2 minutes. Let cool.',
+      'Using a vegetable peeler, peel the squash. Cut squash in half and scoop out fleshy middle. Cut into 3/4 inch cubes.',
+      'Line a baking sheet with aluminum foil and coat with cooking spray',
+      'Place squash pieces on baking sheet and sprinkle with spices and salt.',
+      'Place baking sheet in oven and cook for 20 minutes, checking for consistency, cooking longer if needed.',
+    ],
     image: 'no-photo.png',
     course: 'sides',
     notes: '',
@@ -2082,27 +2107,66 @@ export default [
   {
     name: 'Molasses Crinkles',
     id: '80',
-    description: 'Mom\'s famous molasses cookies.',
-    ingredients: ['3/4 cup soft shortening or salted butter', '1 cup brown sugar', '1 egg', '1/4 cup molasses (not blackstrap)', '2 1/4 cups sifted flour', '2 tsp baking soda', '1/4 tsp salt (can omit if using salted butter)', '1/2 tsp cloves', '1 tsp cinnamon', '1 tsp ginger'],
-    steps: ['Mix together shortening/butter, brown sugar egg and molasses.', 'Sift or stir together flour, baking soda, salt, cloves, cinnamon, ginger.', 'Add both mixtures together and chill the dough.', 'Preheat oven to 375 and grease cooking sheets.', 'Roll the dough into small round shapes the size of a large walnut or quarter.', 'Dip the tops of the round shapes in sugar and place on greased sheets sugar-side up.', 'Sprinkle each with a few drops of water.', 'Bake until set but not hard, 10-12 minutes.'],
+    description: "Mom's famous molasses cookies.",
+    ingredients: [
+      '3/4 cup soft shortening or salted butter',
+      '1 cup brown sugar',
+      '1 egg',
+      '1/4 cup molasses (not blackstrap)',
+      '2 1/4 cups sifted flour',
+      '2 tsp baking soda',
+      '1/4 tsp salt (can omit if using salted butter)',
+      '1/2 tsp cloves',
+      '1 tsp cinnamon',
+      '1 tsp ginger',
+    ],
+    steps: [
+      'Mix together shortening/butter, brown sugar egg and molasses.',
+      'Sift or stir together flour, baking soda, salt, cloves, cinnamon, ginger.',
+      'Add both mixtures together and chill the dough.',
+      'Preheat oven to 375 and grease cooking sheets.',
+      'Roll the dough into small round shapes the size of a large walnut or quarter.',
+      'Dip the tops of the round shapes in sugar and place on greased sheets sugar-side up.',
+      'Sprinkle each with a few drops of water.',
+      'Bake until set but not hard, 10-12 minutes.',
+    ],
     image: 'no-photo.png',
     course: 'desserts',
     notes: 'Make about 4 dozen.',
   },
   {
-    name: 'Susie\'s Meatloaf',
+    name: "Susie's Meatloaf",
     id: '81',
-    description: 'Susie\'s meatloaf or one big meatball.',
-    ingredients: ['1 lb ground chuck', '1/4 lb ground pork', '1/2 yellow onion', '1 cup Romano (1.5 for 3 lbs)', '2 eggs per lb of meat', '1 cup breadcrumbs (1.5 for 3 lbs)', '1/2 cup parsley (for 3 lbs)', 'pepper', 'salt', 'sugar', 'carrots', 'potatoes'],
-    steps: ['Preheat overn to 350 degrees.', 'Mix all ingredients together except potatoes and carrots.', 'Place carrots and potatoes at the bottom of a baking pan and place meatloaf on top.', 'Cook for 45 minutes and continue to cook and check until 160 degrees.'],
+    description: "Susie's meatloaf or one big meatball.",
+    ingredients: [
+      '1 lb ground chuck',
+      '1/4 lb ground pork',
+      '1/2 yellow onion',
+      '1 cup Romano (1.5 for 3 lbs)',
+      '2 eggs per lb of meat',
+      '1 cup breadcrumbs (1.5 for 3 lbs)',
+      '1/2 cup parsley (for 3 lbs)',
+      'pepper',
+      'salt',
+      'sugar',
+      'carrots',
+      'potatoes',
+    ],
+    steps: [
+      'Preheat overn to 350 degrees.',
+      'Mix all ingredients together except potatoes and carrots.',
+      'Place carrots and potatoes at the bottom of a baking pan and place meatloaf on top.',
+      'Cook for 45 minutes and continue to cook and check until 160 degrees.',
+    ],
     image: 'no-photo.png',
     course: 'main',
     notes: '',
   },
   {
-    name: 'Mom\'s Meatballs',
+    name: "Mom's Meatballs",
     id: '82',
-    description: 'A variation on my wife Susie\'s meatballs which I\'ll get around to adding eventually.',
+    description:
+      "A variation on my wife Susie's meatballs which I'll get around to adding eventually.",
     ingredients: [
       '2 eggs',
       '1/2 cup seasoned breadcrumbs',
@@ -2115,10 +2179,11 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'main',
-    notes: 'All ingredients are per 1 pound of meat, using 2/3 ground chuck and 1/3 ground pork.',
+    notes:
+      'All ingredients are per 1 pound of meat, using 2/3 ground chuck and 1/3 ground pork.',
   },
   {
-    name: 'Susie\'s Pumpkin Pie',
+    name: "Susie's Pumpkin Pie",
     id: '83',
     description: 'The very best pumpkin pie on Earth.',
     ingredients: [
@@ -2139,7 +2204,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'desserts',
-    notes: 'Uncooked pie can be made a day ahead of time, covered, and refrigerated.',
+    notes:
+      'Uncooked pie can be made a day ahead of time, covered, and refrigerated.',
   },
   {
     name: 'Oven Baked Steak Fries',
@@ -2213,7 +2279,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Mom\'s Turkey Stuffing',
+    name: "Mom's Turkey Stuffing",
     id: '87',
     description: 'Another Strzelec Thanksgiving staple.',
     ingredients: [
@@ -2235,12 +2301,14 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'sides',
-    notes: 'This dish can also use cauliflower instead of bread stuffing for a low carb option.',
+    notes:
+      'This dish can also use cauliflower instead of bread stuffing for a low carb option.',
   },
   {
     name: 'Basil Pesto',
     id: '88',
-    description: 'Basil pesto recipe from the Italian Community Center cookbook.',
+    description:
+      'Basil pesto recipe from the Italian Community Center cookbook.',
     ingredients: [
       '4 garlic cloves, minced',
       '1/3 cup flat Italian parsley, minced',
@@ -2254,12 +2322,13 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'sauces',
-    notes: 'Add to hot drained pasta. Toss well and serve at once. Top with additional grated cheese if desired. Sauce is enough for 1 pound of pasta.',
+    notes:
+      'Add to hot drained pasta. Toss well and serve at once. Top with additional grated cheese if desired. Sauce is enough for 1 pound of pasta.',
   },
   {
     name: 'French Onion Soup',
     id: '89',
-    description: 'Mama Carini\'s French Onion Soup',
+    description: "Mama Carini's French Onion Soup",
     ingredients: [
       '4-5 large yellow onions, sliced',
       '2 sticks of butter',
@@ -2305,7 +2374,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Strzelec\'s French Onion Soup',
+    name: "Strzelec's French Onion Soup",
     id: '91',
     description: 'Another version of french onion soup.',
     ingredients: [
@@ -2313,7 +2382,6 @@ export default [
       '3 cans beef consume soup',
       'Butter',
       'Sliced French bread',
-
     ],
     steps: [
       'Cut onions and saute in butter until golden. Add consume and 2 cups water. Cook for about an hour on simmer. Place into crocks.',
@@ -2394,7 +2462,7 @@ export default [
   {
     name: 'Rosemary Focacia',
     id: '94',
-    description: 'Susie\'s Rosemary Focaccia',
+    description: "Susie's Rosemary Focaccia",
     ingredients: [
       '1 (1/4 oz) package active dry yeast',
       '5 cups unbleached all-purpose flour plus additional for kneading',
@@ -2418,7 +2486,7 @@ export default [
   {
     name: 'Sweet Potato Gnocchi with Brown Butter and Sage',
     id: '95',
-    description: 'Susie\'s Gnocchi',
+    description: "Susie's Gnocchi",
     ingredients: [
       '2 1-pound red-skinned sweet potatoes (yams), rinsed, patted dry, pierced all over with fork',
       '1 12-oz container fresh ricotta cheese, drained in sieve 2 hours',
@@ -2593,10 +2661,10 @@ export default [
       'Steamed white rice',
     ],
     steps: [
-      'Pour chicken stock into a deep cooking pot and turn heat to medium-high. Add prepared lemongrass to the pot, including upper parts of the stalk you didn\'t mince. Boil 5 to 6 minutes, or until fragrant.',
+      "Pour chicken stock into a deep cooking pot and turn heat to medium-high. Add prepared lemongrass to the pot, including upper parts of the stalk you didn't mince. Boil 5 to 6 minutes, or until fragrant.",
       'Reduce heat slightly to achieve a nice simmer. Add garlic, chili, lime leaves, and mushrooms to broth. Continue simmering for another 5 minutes.',
       'Add shrimp, bell pepper, and cherry tomatoes (if using). Simmer 5 to 6 minutes, or until shrimp are pink and plump.',
-      'Turn down the heat to low and add coconut milk and fish sauce. Taste-test the soup for spice and salt, adding more chili and/or fish sauce (instead of salt) as desired. If too sour for your taste, add 1 teaspoon brown sugar; if too salty, add a squeeze of lime juice. Add more coconut milk if you want your soup richer or creamier, or if it\'s too spicy for your taste.',
+      "Turn down the heat to low and add coconut milk and fish sauce. Taste-test the soup for spice and salt, adding more chili and/or fish sauce (instead of salt) as desired. If too sour for your taste, add 1 teaspoon brown sugar; if too salty, add a squeeze of lime juice. Add more coconut milk if you want your soup richer or creamier, or if it's too spicy for your taste.",
       'Serve in bowls over rice with fresh cilantro sprinled over.',
     ],
     image: 'no-photo.png',
@@ -2627,7 +2695,7 @@ export default [
     ],
     steps: [
       'In a large soup pot over medium-high heat, combine the vegetable broth, garlic, onion, carrots, broccoli, black pepper, ginger, cinnamon, anise pods, sambal oelek, 2 tablespoons soy sauce, and 1 teaspoon salt. Bring to a boil and then reduce heat to low. Simmer gently, just until the broccoli is bright green in color and slightly tender. Do not overcook or else you will have mushy vegetables. Keep the cook-time short and the veggies crunchy!',
-      'In a separate, medium-sized pot, cook the thin rice noodles according to the package\'s instructions. Once cooked, rinse very well in cold water to remove any extra starch. Toss the noodles with the 2 teaspoons soy sauce and then divide among serving bowls: 2 large bowls or 4 medium-sized bowls.',
+      "In a separate, medium-sized pot, cook the thin rice noodles according to the package's instructions. Once cooked, rinse very well in cold water to remove any extra starch. Toss the noodles with the 2 teaspoons soy sauce and then divide among serving bowls: 2 large bowls or 4 medium-sized bowls.",
       'Slice the drained and pressed tofu into 20 even squares. Divide evenly among the 2 or 4 serving bowls and place on top of the cooked rice noodles. Gently pour the broth and vegetables over the tofu and noodles. Top each bowl with lime juice and fresh Thai basil leaves.',
       'Serve very hot and enjoy immediately. Store any leftovers in an airtight container in the refrigerator for up to 3 days. To reheat, simply heat quickly over medium heat until the desired temperature is reached. You can also freeze this soup once combined. Freeze soup in an airtight container and thaw in the refrigerator before reheating. Freeze soup for up to 2 months.',
     ],
@@ -2694,7 +2762,7 @@ export default [
       '1/3 cup fresh cilantro',
     ],
     steps: [
-      'Pour the stock into a deep cooking pot and over medium-high heat. Add the prepared lemongrass, including the upper sections of the stalk you didn\'t mince. Boil 5 to 6 minutes to soften.',
+      "Pour the stock into a deep cooking pot and over medium-high heat. Add the prepared lemongrass, including the upper sections of the stalk you didn't mince. Boil 5 to 6 minutes to soften.",
       'Add carrot, garlic, onion, galangal or ginger, lime leaves, 1 1/2 tablespoons fish sauce, soy sauce, and lime juice. Reduce heat slightly, cover, and continue simmering 5 minutes. Add the mushrooms and zucchini, and continue simmering another 5 minutes.',
       'Add shrimp and cherry tomatoes. Cook 3 minutes, or until shrimp are pink and plump.',
       'Turn down the heat to low and add 1/4 can coconut milk, chili oil, and brown sugar and red pepper flakes to taste (if using). Add another teaspoon of fish sauce or more chili oil to taste. Discard the lime or bay leaves and the zest, if using.',
@@ -2917,13 +2985,14 @@ export default [
       '2-4 Tbp basil pesto',
     ],
     steps: [
-      'Position a rack in the center of the oven and preheat the oven to 375ºF. Place the tomatoes, onions, garlic, and carrots on one large baking sheet. It\'s okay if some of the ingredients are overlapping. Drizzle the olive oil along with a generous pinch of salt and pepper and give it a good toss so it\'s all evenly seasoned. Place the baking tray in the oven and allow the ingredients to bake for 1 hour. Check on the ingredients around 30 minutes and give it a toss as needed.',
-      'Transfer the ingredients along with any juices from the baking tray to a blender and blend the veggies until they are completely smooth. If you\'ve got a super powerful blender it will go in one batch and be super quick. If you\'ve got a regular blender, you may need to add a little broth to help it along. If you\'ve got a hand blender, you can skip this step and add all the remaining ingredients into a large pot and just blend it all there.',
+      "Position a rack in the center of the oven and preheat the oven to 375ºF. Place the tomatoes, onions, garlic, and carrots on one large baking sheet. It's okay if some of the ingredients are overlapping. Drizzle the olive oil along with a generous pinch of salt and pepper and give it a good toss so it's all evenly seasoned. Place the baking tray in the oven and allow the ingredients to bake for 1 hour. Check on the ingredients around 30 minutes and give it a toss as needed.",
+      "Transfer the ingredients along with any juices from the baking tray to a blender and blend the veggies until they are completely smooth. If you've got a super powerful blender it will go in one batch and be super quick. If you've got a regular blender, you may need to add a little broth to help it along. If you've got a hand blender, you can skip this step and add all the remaining ingredients into a large pot and just blend it all there.",
       'Transfer the puree into a large dutch oven over medium heat. Add the chicken broth and allow the soup to heat all the way through, about 5-7 minutes. Add the balsamic vinegar and red pepper flakes. Add two tablespoons of the pesto and give the soup a taste. If desired, add more. I used 4 in total because I love a little extra punch of basil. Season with additional salt and pepp as desired. Serve with cheese toasts.',
     ],
     image: 'no-photo.png',
     course: 'soups',
-    notes: 'To make cheese toasts: On slices of baguette, place sliced provolone cheese, top with a sprinkle of salt, garlic powder, and Italian seasoning. Bake in a 400ºF oven for 4-5 minutes or until the cheese is bubbly.',
+    notes:
+      'To make cheese toasts: On slices of baguette, place sliced provolone cheese, top with a sprinkle of salt, garlic powder, and Italian seasoning. Bake in a 400ºF oven for 4-5 minutes or until the cheese is bubbly.',
   },
   {
     name: 'Roasted Veggie Creamy Tortellini Soup',
@@ -3018,7 +3087,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'main',
-    notes: 'Instead of the broccoli topping, try it instead with grilled scallops or shrimp.',
+    notes:
+      'Instead of the broccoli topping, try it instead with grilled scallops or shrimp.',
   },
   {
     name: 'Coconut Jasmine Rice Bowl',
@@ -3166,15 +3236,14 @@ export default [
     name: 'Perfect Boiled Eggs',
     id: '120',
     description: '',
-    ingredients: [
-      'Eggs',
-    ],
+    ingredients: ['Eggs'],
     steps: [
       'Bring a pot of water to a boil with enough water to cover eggs by 1 inch. Reduce heat to low and use a skimmer or slotted spoon to gently place eggs in pot. Bring water back to a boil. Immediately set a timer for desired doneness of eggs (see notes below). When timer goes off, immediately place eggs in an ice bath to stop cooking.',
     ],
     image: 'no-photo.png',
     course: 'breakfast',
-    notes: 'Cook 6 minutes for a liquidy yolk and soft white (perfect for egg cups), 6 1/2 minutes for a soft jammy yolk (great for soft boiled eggs on toast or a salad), 8 minutes for a soft but firm yolk, 10 minutes for just a tiny bit of yolk softness, 12 minutes for a hard boiled egg with a ligher yolk, and 14 minutes for the traditional hard boiled egg.',
+    notes:
+      'Cook 6 minutes for a liquidy yolk and soft white (perfect for egg cups), 6 1/2 minutes for a soft jammy yolk (great for soft boiled eggs on toast or a salad), 8 minutes for a soft but firm yolk, 10 minutes for just a tiny bit of yolk softness, 12 minutes for a hard boiled egg with a ligher yolk, and 14 minutes for the traditional hard boiled egg.',
   },
   {
     name: 'Mushroom & Zucchini Bibimbap Bowls',
@@ -3258,7 +3327,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'main',
-    notes: 'If you want to add a little texture and crunch to the dish, uncover and continue to cook until browned and crisp on the bottom, 3-5 minutes.',
+    notes:
+      'If you want to add a little texture and crunch to the dish, uncover and continue to cook until browned and crisp on the bottom, 3-5 minutes.',
   },
   {
     name: 'Skillet Chicken with Mushrooms & Carmelized Onions',
@@ -3280,7 +3350,7 @@ export default [
     ],
     steps: [
       'In a large mixing bowl, combine 2 tablespoons oil, 2 tablespoons vinegar, the honey, mustard, red-pepper flakes and 1 teaspoon salt; whisk until smooth. Pat the chicken dry and season with salt and pepper, then add to the mixture, coating it well. Set aside at room temperature, stirring it once while you make the onions.',
-      'Heat a 12-inch cast-iron or heavy skillet over medium-high until very hot, 1 1/2 to 2 minutes, then add the onions in an even layer. Season with salt, then cook, mostly undisturbed, for 4 minutes more, stirring every minute or so. Add the mushrooms, season with salt, and stir to combine. (It will look crowded, and that\'s OK.) Allow to cook mostly undisturbed until the mushrooms shrink and start to brown, about 4 minutes, stirring every minute or so.',
+      "Heat a 12-inch cast-iron or heavy skillet over medium-high until very hot, 1 1/2 to 2 minutes, then add the onions in an even layer. Season with salt, then cook, mostly undisturbed, for 4 minutes more, stirring every minute or so. Add the mushrooms, season with salt, and stir to combine. (It will look crowded, and that's OK.) Allow to cook mostly undisturbed until the mushrooms shrink and start to brown, about 4 minutes, stirring every minute or so.",
       'Stir in the remaining 3 tablespoons olive oil and allow the onions to cook until they start to color, stirring and lowering the heat as necessary to avoid burning, about 2 minutes. Push the onions and mushrooms to the edges of the skillet, then add the chicken pieces to the center. Pour any remaining marinade (there will be very little) over the onions and mushrooms. Cook undisturbed for 4 to 5 minutes, then combine the chicken and vegetables and cook, stirring occasionally, until the chicken is cooked through, about 10 minutes more. (Reduce the heat to medium if the onions look like they are burning at any point.)',
       'Add the remaining 2 teaspoons sherry vinegar, stirring and scraping up anything on the bottom of the skillet. Season to taste with salt.',
       'Remove from the heat and top with the parsley and cheese, if using. Serve with bread or pasta.',
@@ -3307,7 +3377,7 @@ export default [
     ],
     steps: [
       'In a large pot over medium-high, heat the oil. Add the onion, season with salt and cook, stirring just a few times, until translucent and browned, 6 to 9 minutes. Add the peppers, tomato paste, brown sugar and cumin, and cook, stirring constantly, until the paste is a shade darker and starts to stick to the bottom of the pot, 2 to 3 minutes.',
-      'Add the broth, chicken, greens and pickled-pepper brine. Season with salt and stir to combine. Cover the pot, keep on medium-high and bring to a simmer. Uncover, reduce heat to low, and cook uncovered until the chicken is cooked through and the greens are tender, 15 to 20 minutes. Using two forks, shred the chicken right in the pot into pieces, then stir to combine. Taste and adjust with salt, sugar (if it\'s too tangy or spicy) and brine (if it\'s too sweet or flat).',
+      "Add the broth, chicken, greens and pickled-pepper brine. Season with salt and stir to combine. Cover the pot, keep on medium-high and bring to a simmer. Uncover, reduce heat to low, and cook uncovered until the chicken is cooked through and the greens are tender, 15 to 20 minutes. Using two forks, shred the chicken right in the pot into pieces, then stir to combine. Taste and adjust with salt, sugar (if it's too tangy or spicy) and brine (if it's too sweet or flat).",
     ],
     image: 'no-photo.png',
     course: 'main',
@@ -3338,7 +3408,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'main',
-    notes: 'Serving over rice wouldn\'t be a bad idea. I also use more miso and sesame seeds than the recipe calls for.',
+    notes:
+      "Serving over rice wouldn't be a bad idea. I also use more miso and sesame seeds than the recipe calls for.",
   },
   {
     name: 'Simple Skillet Chicken & Vegeatbles with Rice',
@@ -3374,5 +3445,37 @@ export default [
     image: 'no-photo.png',
     course: 'main',
     notes: '',
+  },
+  {
+    name: 'Corn & Poblano Chowder',
+    id: '128',
+    description: '',
+    ingredients: [
+      '3 Tbsp unsalted butter',
+      '1 medium yellow onion, coarsley chopped',
+      '1 poblano, seeded and coarsley chopped',
+      '1 medium carrot, peeled and coarsley chopped',
+      '1 medium rib celery, thinly sliced',
+      '1/2 tsp ground coriander',
+      '1/2 tsp ground cumin',
+      '1/2 tsp chopped fresh thyme',
+      'Kosher salt and freshly ground black pepper',
+      '2 Tbsp all-purpose flour',
+      '1 Tbsp tomato paste',
+      '2 cups lower-salt vegetable or chicken broth',
+      '1 1/2 cups whole milk',
+      '1 medium red potato, cut into 1/2-inch chunks',
+      '2 cups fresh corn kernels (from about 3 cobs)',
+      '1 Tbsp fresh lemon juice',
+      'Cayenne, to taste',
+    ],
+    steps: [
+      'Melt butter in a large Dutch oven. Add onion, poblano, carrot, celery, coriander, cumin, thyme, 1 tsp salt, 1/4 tsp pepper, and cook, stirring occassionally, until the onion is translucent, about 6 minutes. Sprinkle flour over vegetables and cook, stirring constantly for 30 seconds. Stir in tomato paste then add broth and milk. Add potatoes and corn and bring to a simmer over medium-low heat. Cover, reduce to a low simmer, and cook, stirring occassionally, until potato is tender, about 15 minutes.',
+      'Using a potato masher, slightly mash vegetables in the pot to thicken the chowder to desired consistency. Add lemon juice and season to taste with cayenne, salt and pepper.',
+    ],
+    image: 'no-photo.png',
+    course: 'main',
+    notes:
+      'This is a great recipe to make a douhble batch of. Also it may work bette to add cayenne during the cooking time instead of only at the end.',
   },
 ];
