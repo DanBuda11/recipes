@@ -287,7 +287,7 @@ export default [
     steps: [
       'Preheat oven to 425',
       'Wrap garlic head in tinfoil & bake for 40 minutes or until soft. Remove from oven and cool. Remove cloves from papery shell and set aside.',
-      'Cook pasted in salted water until al dente. Drain & set aside.',
+      'Cook pasta in salted water until al dente. Drain & set aside.',
       'Pour oil into a large soup pan over medium-high heat. Add leeks, rosemary & roasted garlic, and saute, stirring constantly until leeks are transparent, about 5 minutes.',
       'Add kale & sweet potato, continue to stir for 5 minutes.',
       'Add chicken broth and basil, return to gentle boil, reduce heat and simmer until potato is soft but firm, approximately 15 minutes.',
