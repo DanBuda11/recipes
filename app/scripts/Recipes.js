@@ -3559,4 +3559,30 @@ export default [
     notes:
       'Can add cilantro, cotija or cheddar cheese, Mexican crema or sour cream, avocados, tortilla chips as garnish.',
   },
+  {
+    name: 'Split Pea Soup',
+    id: '132',
+    description: '',
+    ingredients: [
+      '2 1/4 cups dried split peas',
+      '2 quarts cold water',
+      '1 1/2 lbs ham bone',
+      '2 onions, thinly sliced',
+      '1/2 tsp salt',
+      '1/4 tsp ground black pepper',
+      '1 pinch dried marjoram',
+      '3 stalks celery, chopped',
+      '3 carrots, chopped',
+      '1 potato, diced',
+    ],
+    steps: [
+      'Place peas in a large stockpot and cover with several inches of cold water; let soak, 8 hours to overnight. Drain, rinse, and return peas to pot.',
+      'Add cold water, ham bone, onion, salt, pepper, and marjoram to the stockpot. Cover, bring to a boil, and simmer for 1 1/2 hours, stirring occassionally.',
+      'Remove ham bone, cut off meat, and return meat to pot. Add celery, carrots, and potatoes and cook slowly, uncovered, until vegetables are tender, about 30-40 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'soups',
+    notes:
+      "May want to reduce the amount of water used if it comes out too watery. Peas don't have to be soaked if you want to just cook them longer.",
+  },
 ];
