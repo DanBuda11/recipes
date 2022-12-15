@@ -3585,4 +3585,26 @@ export default [
     notes:
       "May want to reduce the amount of water used if it comes out too watery. Peas don't have to be soaked if you want to just cook them longer.",
   },
+  {
+    name: 'Cauliflower Cheese Soup',
+    id: '133',
+    description: '',
+    ingredients: [
+      '4 cups cauliflower, cut into florets',
+      '4 cloves garlic, minced',
+      '3 1/2 cups chicken broth',
+      '1 cup heavy cream',
+      '3 cups shredded cheddar cheese',
+    ],
+    steps: [
+      'In a dutch oven over medium heat, saute garlic for 1 minute, until fragrant.',
+      'Add broth, cream, and cauliflower and increase heat to bring to a boil. Reduce heat and simmer 10-20 minutes until cauliflower is tender.',
+      'Use an immersion blender to puree the soup.',
+      'Reduce heat to low. Add cheese 1/2 cup at a time, stirring constantly, and continue until melted. Puree again to make it smooth.',
+    ],
+    image: 'no-photo.png',
+    course: 'soups',
+    notes:
+      'Garnish with fresh cracked black pepper, red chili flakes, bacon crumbles. Also can add onion by dicing and sauteing before adding garlic to pot.',
+  },
 ];
