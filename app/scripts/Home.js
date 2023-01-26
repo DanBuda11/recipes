@@ -68,6 +68,7 @@ export default React.createClass({
             <option value="sauces">Sauces</option>
             <option value="seasonings">Seasonings</option>
             <option value="sides">Sides</option>
+            <option value="smoothies">Smoothies</option>
             <option value="soups">Soups</option>
           </select>
         </div>

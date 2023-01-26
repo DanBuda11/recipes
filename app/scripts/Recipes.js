@@ -3666,4 +3666,41 @@ export default [
     course: 'main',
     notes: '',
   },
+  {
+    name: 'Vegan Smoothies',
+    id: '136',
+    description: '',
+    ingredients: [
+      '1 to 1 1/2 cups almond or soy milk, or a combination of both',
+      '1-2 scoops pea protein powder',
+      '1/2 to 1 banana, frozen or fresh',
+      '1-2 cups fruit, frozen or fresh (strawberry, orange, mango, peach, blueberry, pineapple, cranberry, mixed berries, apple, avocado)',
+      '1 loose cup greens (spinach or kale)',
+      '1-2 Tbsp flax, chia seeds, nut butter (optional)',
+    ],
+    steps: ['Combine all ingredients in blender and blend until smooth.'],
+    image: 'no-photo.png',
+    course: 'smoothies',
+    notes:
+      'Other add-ins can include cinnamon, turmeric, vanilla extract, ground ginger. Use a frozen banana with fresh fruit and a fresh banana with frozen fruit.',
+  },
+  {
+    name: 'Build-Your-Own Salad Dressing',
+    id: '137',
+    description: '',
+    ingredients: [
+      'Extra virgin olive oil (see notes below for amount)',
+      'Vinegar, either balsamic, white balsamic, red wine, white wine, rice, sherry, champagne, apple cider or lemon juice (see notes below for amount)',
+      'Salt & pepper to taste',
+      'Mustard or honey, 1/2 to 1 tsp for every 6 Tbsp oil used (optional)',
+      'Other optional ingredients include garlic, roasted garlic, garlic powder, shallot, fresh or dried herbs (parsley, chives, basil, tarragon, oregano, thyme, dill), chili flakes, anchovy, capers, poppy seeds, lemon zest',
+    ],
+    steps: [
+      'Place all ingredients into a small container and either vigorously shake or mix with an immersion blender. Can also use a small blender to mix.',
+    ],
+    image: 'no-photo.png',
+    course: 'dressings',
+    notes:
+      'Ratio of olive oil to vinegar (or lemon juice) should be 3 to 1. 6 Tbsp oil = 2 Tbsp vinegar. 1/2 cup oil = 5 Tbsp + 1 tsp vinegar. 1 medium lemon should have about 3 Tbsp juice. Garlic can be crushed with salt before adding to other ingredients.',
+  },
 ];
