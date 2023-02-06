@@ -3703,4 +3703,31 @@ export default [
     notes:
       'Ratio of olive oil to vinegar (or lemon juice) should be 3 to 1. 6 Tbsp oil = 2 Tbsp vinegar. 1/2 cup oil = 5 Tbsp + 1 tsp vinegar. 1 medium lemon should have about 3 Tbsp juice. Garlic can be crushed with salt before adding to other ingredients.',
   },
+  {
+    name: 'Cuban Black Bean Soup',
+    id: '138',
+    description: '',
+    ingredients: [
+      '1 Tsbp olive oil',
+      '4 cans black beans, drained but not rinsed',
+      '1 large white onion, chopped',
+      '4 garlic cloves, chopped',
+      '2 stalks celery, chopped',
+      '2 medium carrots, chopped',
+      '1 medium red bell pepper, cored & chopped',
+      '2 bay leaves',
+      '2 tsp cumin',
+      '2 tsp smoked paprika',
+      '3 cups vegetable broth',
+      'Salt and pepper to taste',
+    ],
+    steps: [
+      'Heat oil in a large soup pot. Add onion, celery, carrots and cook 5 minutes or until onion and celery tender. Add garlic and cook an additional 1 minute.',
+      'Add remaining ingredients. Bring to a boil then reduce heat to simmer, cover, and cook 40 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'soups',
+    notes:
+      'Top with onion, green onion, sour cream, fresh diced jalapeno or serrano pepper, diced tomatoes, pico de gallo, avocado. For a creamier texture, use an immersion blender to blend once soup is done cooking.',
+  },
 ];
