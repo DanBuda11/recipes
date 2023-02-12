@@ -3671,18 +3671,21 @@ export default [
     id: '136',
     description: '',
     ingredients: [
-      '1 to 1 1/2 cups almond or soy milk, or a combination of both',
+      '3/4 cup almond or soy milk, or a combination of both',
       '1-2 scoops pea protein powder',
-      '1/2 to 1 banana, frozen or fresh',
-      '1-2 cups fruit, frozen or fresh (strawberry, orange, mango, peach, blueberry, pineapple, cranberry, mixed berries, apple, avocado)',
+      '1 ripe banana',
+      '1 1/2 cups fruit, frozen or fresh (strawberry, orange, mango, peach, blueberry, pineapple, cranberry, mixed berries, apple, avocado)',
       '1 loose cup greens (spinach or kale)',
       '1-2 Tbsp flax, chia seeds, nut butter (optional)',
     ],
-    steps: ['Combine all ingredients in blender and blend until smooth.'],
+    steps: [
+      'Combine all ingredients in blender and blend until smooth.',
+      'If too thick, add more liquid 1/4 cup at a time until desired consistency.',
+    ],
     image: 'no-photo.png',
     course: 'smoothies',
     notes:
-      'Other add-ins can include cinnamon, turmeric, vanilla extract, ground ginger. Use a frozen banana with fresh fruit and a fresh banana with frozen fruit.',
+      'If using frozen fruit, partially thaw before using. Other add-ins can include cinnamon, turmeric, vanilla extract, ground ginger. Use a frozen banana with fresh fruit and a fresh banana with frozen fruit.',
   },
   {
     name: 'Build-Your-Own Salad Dressing',
