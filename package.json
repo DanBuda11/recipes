@@ -4,7 +4,7 @@
   "description": "A little recipe storage project.",
   "main": "index.js",
   "engines": {
-    "node": ">=18.0.0<19.0.0"
+    "node": ">=18.19.0"
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors",

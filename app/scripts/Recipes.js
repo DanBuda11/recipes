@@ -957,9 +957,9 @@ export default [
       'Cooking spray',
     ],
     steps: [
-      'Preheat oven to 475 degrees.',
+      'Preheat oven to 40 degrees.',
       'Combine the first 5 ingredients in a small bowl. Rub butter mixture over pork.',
-      'Place pork on a broiler pan coated with cooking spray. Bake at 475 for 17 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5 minutes; slice thin.',
+      'Place pork on a broiler pan coated with cooking spray. Bake for 32 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5-10 minutes; slice thin.',
     ],
     image: 'herb-pork-tenderloin.png',
     course: 'main',
@@ -4010,6 +4010,20 @@ export default [
       'Put chicken thighs in a bowl. Mince garlic, ginger and pepper. Toss with all remaining ingredients or put in a small food processor, and grind to a paste. (It is O.K. if the coriander seeds are not fully pulverized. They will add a little crunch.)',
       'Rub mixture thoroughly into chicken. At this point, you can cover, and refrigerate for up to a day.',
       'Heat oven to 400 degrees. Put thighs, skin side up, in a roasting pan. Roast for 35 to 45 minutes or until done.',
+    ],
+    image: 'no-photo.png',
+    course: 'main',
+    notes: '',
+  },
+  {
+    name: 'Oven Baked Chicken',
+    id: '149',
+    description: 'How to make various chicken parts in the oven.',
+    ingredients: [
+      'Chicken (breast, thigh, leg, whole, leg quarters, whatever)',
+    ],
+    steps: [
+      'Breast: Preheat oven to 425. Place breasts in salted room temperature water for 15-30 minutes, then remove and pat dry with paper towel. Coat with olive oil and preferred seasoning then place in oven on pan covered with foil for 18 minutes. Remove and let sit for 5 minutes.',
     ],
     image: 'no-photo.png',
     course: 'main',
