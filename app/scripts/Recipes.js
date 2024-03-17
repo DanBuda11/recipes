@@ -488,7 +488,7 @@ export default [
     steps: [
       'Cut chiles in half; discard seeds & membranes. Place halves, skin sides up, on a foil-lined baking sheet; flatten with hand. Broil 5 minutes or until blackened. Place in a heavy-duty zip-top plastic bag; seal. Let stand 15 minutes. Peel chiles; discard skins. Chop chiles',
       'Heat oil in a large Dutch oven over medium-high heat. Add chicken; cook 4 minutes on each side or until browned. Remove chicken from pan. Add onion and garlic, and saute 6 minutes on each side or until browned, stirring frequently. Return chicken to pan. Add broth, 1 1/2 cups water, cumin; bring to a simmer. Cook 20 minutes or until chicken is done.',
-      'Remove chicken; cool slightly. Remove chicken from bones; cut meat into bite-size pieces. Add chicken to pan; stire in chopped chiles & beans.',
+      'Remove chicken; cool slightly. Remove chicken from bones; cut meat into bite-size pieces. Add chicken to pan; stir in chopped chiles & beans.',
       'Combine 1/2 cup water and flour, stirring with a whisk. Stir into chicken mixture. Bring to a simmer; cook 15 minutes. Stir in salt.',
       'Spoon about 1 1/2 cups soup into each of 6 bowls; top each with 1 1/2 tsp sour cream. Serve with lime slices',
     ],
