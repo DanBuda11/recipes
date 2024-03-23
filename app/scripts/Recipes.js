@@ -957,7 +957,7 @@ export default [
       'Cooking spray',
     ],
     steps: [
-      'Preheat oven to 40 degrees.',
+      'Preheat oven to 400 degrees.',
       'Combine the first 5 ingredients in a small bowl. Rub butter mixture over pork.',
       'Place pork on a broiler pan coated with cooking spray. Bake for 32 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5-10 minutes; slice thin.',
     ],
