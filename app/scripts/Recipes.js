@@ -1370,11 +1370,13 @@ export default [
     notes: '',
   },
   {
-    name: 'Vegan Chili',
+    name: 'Turkey & Sausage Chili',
     id: '51',
     description: '',
     ingredients: [
       '1 1/2 tbsp vegetable oil',
+      '1/2 lb ground turkey',
+      '1/2 lb ground sausage',
       '1 yellow or white onion, chopped',
       '1 stalk celery, sliced',
       '28 oz diced tomatoes',
@@ -1385,17 +1387,16 @@ export default [
       '1/2 tsp black pepper',
       '1/2 tsp cayenne pepper',
       '1 tsp chili powder',
-      '8 cups beans (Great Northern, kidney, pinto, chili), drained',
+      '4 cups beans (Great Northern, kidney, pinto, chili), drained',
     ],
     steps: [
-      'Heat oil to a large pot over medium heat. Add onion to pot and cook until just tender. Add the celery and continue cooking until celery softens.',
+      'Heat oil to a large pot over medium heat. Add sausage and turkey and cook, stirring occasionally, until meat browns. Add onion to pot and cook until just tender. Add the celery and continue cooking until celery softens.',
       'Add rest of ingredients except beans; simmmer for 20 minutes.',
       'Add beans; simmer for 15 more minutes.',
     ],
     image: 'no-photo.png',
     course: 'soups',
-    notes:
-      'For a non-vegan version, use chicken broth instead of vegetable broth, and replace 4 cups of the beans with 1/2 pound lean ground turkey and 1/2 pound ground sausage. Molasses can be omitted.',
+    notes: '',
   },
   {
     name: 'White Chili with Chicken',
