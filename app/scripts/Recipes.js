@@ -2210,11 +2210,11 @@ export default [
       'Uncooked pie can be made a day ahead of time, covered, and refrigerated.',
   },
   {
-    name: 'Oven Baked Steak Fries',
+    name: 'Oven Baked Circle Steak Fries',
     id: '84',
     description: 'The best and easiest homemade fries.',
     ingredients: [
-      'Baking potatoes (any amount you want',
+      'Baking potatoes (any amount you want)',
       'Butter',
       'Salt and pepper to taste',
     ],
@@ -4172,5 +4172,21 @@ export default [
     image: 'no-photo.png',
     course: 'desserts',
     notes: '',
+  },
+  {
+    name: 'Oven Baked Wedge Steak Fries',
+    id: '156',
+    description: '',
+    ingredients: ['Baking potatoes', 'Olive oil', 'Salt', 'Paprika'],
+    steps: [
+      'Preheat oven to 425 degrees.',
+      'Wash and slice potatoes into 12 wedges.',
+      'Toss potatoes in oil then place on a parchment paper lined baking sheet in a single layer.',
+      'Season with salt and paprika to taste.',
+      'Bake for 35 minutes, flipping after 20 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: 'Great with a homemade sriracha ketchup.',
   },
 ];
