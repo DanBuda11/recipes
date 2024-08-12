@@ -4189,4 +4189,27 @@ export default [
     course: 'sides',
     notes: 'Great with a homemade sriracha ketchup.',
   },
+  {
+    name: 'Oven Roasted Broccoli',
+    id: '157',
+    description: '',
+    ingredients: [
+      '1.5 lbs Brussels sprouts, washed and cut halfwise',
+      '1/2 tsp garlic powder',
+      '1/2 Tbsp kosher salt',
+      '1/2 tsp black pepper',
+      '1 Tbsp honey',
+      '1/2 cup olive oil, divided in half',
+    ],
+    steps: [
+      'Preheat oven to 450 degrees, place empty baking sheet in oven to preheat.',
+      'Place sprouts into a bowl and toss with 1/4 cup oil, salt, pepper, honey, and garlic powder.',
+      'Once baking sheet is hot, take out of oven and drizzle with remaining oil. Add sprouts to sheet.',
+
+      'Roast sprouts 25-30 minutes until crispy.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: '',
+  },
 ];
