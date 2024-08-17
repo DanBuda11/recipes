@@ -4212,4 +4212,22 @@ export default [
     course: 'sides',
     notes: '',
   },
+  {
+    name: 'Quick Pickled Red Onion',
+    id: '158',
+    description: '',
+    ingredients: [
+      '1 large red onion',
+      '2 tsp kosher salt',
+      '3/4 cup vinegar (white or red wine, distilled or apple cider)',
+    ],
+    steps: [
+      'Thinly slice and separate onion and pack into pint-size canning jar.',
+      'Add vinegar, salt, and 1/4 cup water to a small saucepan and heat. As soon as it comes to a boil, pour into jar. Cover the jar and set aside for 30 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'condiments',
+    notes:
+      'If wanting to make a larger batch, I find 2 onions in a quart jar requires tripling the brine amount.',
+  },
 ];
