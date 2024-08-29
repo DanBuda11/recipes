@@ -60,11 +60,11 @@ export default React.createClass({
             <option value="appetizers">Appetizers</option>
             <option value="beverages">Beverages</option>
             <option value="breakfasts">Breakfasts</option>
-            <option value="condiments">Condiments</option>
             <option value="crockpot">Crockpot</option>
             <option value="desserts">Desserts</option>
             <option value="dressings">Dressings</option>
-            <option value="main">Main Courses</option>
+            <option value="main">Entrees</option>
+            <option value="pickles">Pickles</option>
             <option value="salads">Salads</option>
             <option value="sauces">Sauces</option>
             <option value="seasonings">Seasonings</option>

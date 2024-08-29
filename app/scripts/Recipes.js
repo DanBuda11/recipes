@@ -4226,7 +4226,7 @@ export default [
       'Add vinegar, salt, and 1/4 cup water to a small saucepan and heat. As soon as it comes to a boil, pour into jar. Cover the jar and set aside for 30 minutes.',
     ],
     image: 'pickled-onion.png',
-    course: 'condiments',
+    course: 'pickles',
     notes:
       'If wanting to make a larger batch, I find 2 onions in a quart jar requires tripling the brine amount.',
   },
@@ -4285,7 +4285,7 @@ export default [
       'Let peppers cool to room temperature in the jar, then screw on a lid and refrigerate. They should keep well for at least a month.',
     ],
     image: 'no-photo.png',
-    course: 'condiments',
+    course: 'pickles',
     notes: '',
   },
   {
@@ -4337,6 +4337,30 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'desserts',
+    notes: '',
+  },
+  {
+    name: 'Refrigerator Pickles',
+    id: '164',
+    description: '',
+    ingredients: [
+      '1 1/4 cups distilled white vinegar (5% acidity)',
+      '3 Tbsp kosher salt',
+      '2 Tbsp sugar',
+      '2 cups cold water',
+      '1 3/4 to 2 lbs Kirby cucumbers (about 6), cut into halves or spears',
+      '2 Tbsp coriander seeds',
+      '6 large garlic cloves, peeled and halved',
+      '1 tsp mustard seeds',
+      '1/4 tsp red pepper flakes',
+      '16 dill sprigs',
+    ],
+    steps: [
+      'Divide coriander, garlic, mustard seeds, pepper flakes and dill between two 1-quart jars. Stuff cucumbers into jars.',
+      "Combine vinegar, salt, sugar in a small non-reactive saucepan (stainless steel, glass, ceramic, teflon) over high heat. Whisk until salt and sugar dissolve. Whisk in the water then pour into jars until brine covers the cucumbers. If necessary, add cold water to fill jars if brine isn't enough. Refrigerate about 24 hours then serve.",
+    ],
+    image: 'no-photo.png',
+    course: 'pickles',
     notes: '',
   },
 ];
