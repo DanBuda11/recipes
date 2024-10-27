@@ -1,58 +1,100 @@
 // import the text plugin used to handle the stylesheets
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+// const CopyPlugin = require('copy-webpack-plugin');
+
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path');
 
 module.exports = {
   // specify the path for the entrypoint into our app.
-  entry: './app/scripts/entry.js',
+  entry: {
+    main: path.resolve(__dirname, './src/scripts/index.js'),
+  },
 
   output: {
     // specify that all static assets should be sent to the dist folder
-    path: `${__dirname}/dist`,
+    path: path.resolve(__dirname, 'dist'),
 
     // specify that the resultant bundle should be built in the bundle.js file
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
+  // optimization: {
+  //   minimize: false,
+  // },
   module: {
-    loaders: [
+    rules: [
       {
         // configure our styles. watch specifically for any imports that have the file extension .scss
-        test: /\.scss$/,
-
-        // when matching files are imported, don't turn them into a js module, but instead, extract all the files contents into a single mass of text (that's what the plugin does, hence its name). The arguments to the plugin.extract fn tell it which loaders to run the file through first (in this case, we are processing sass into css then into the style loader)
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.scss$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: ['postcss-preset-env'],
+              },
+            },
+          },
+          // MiniCssExtractPlugin.loader,
+        ],
       },
       {
         // configure our javascript. watch specifically for any imports that have the file extension .js or .jsx
-        test: /\.jsx?/,
+        test: /\.jsx?$/,
         // don't try to compile node_modules into memory!
         exclude: /node_modules/,
-        // when matching files are imported, run them through the babel loader to process them. Babel is being configured in the .babelrc file (also in this root directory) to include the preset for es2015, giving this app es2015 capabilities!
-        loader: 'babel-loader',
+        // when matching files are imported, run them through the babel loader to process them.
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+          },
+        },
       },
-      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
+      {
+        test: /\.(png|jpg)$/i,
+        use: {
+          loader: 'url-loader',
+          options: {
+            esModule: false,
+            limit: 8192,
+          },
+        },
+      },
     ],
   },
   // turn on the source map, for easier debugging
-  devtool: 'source-map',
+  // devtool: 'source-map',
 
   plugins: [
     // create an instance of the extract-text-webpack-plugin which will create the style.css file. this tells the style loader (above) where to put that text it extracted from the scss files after it finishes processing it.
-    new ExtractTextPlugin('style.css'),
+    new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: 'index.html',
-      inject: true,
     }),
-    new CopyWebpackPlugin([
-      {
-        // test: /\.(png|xml|ico|svg|webmanifest)$/,
-        // ignore: ['budafooda.png'],
-        from: './*',
-        // to: 'dist',
-        test: /\.(png|xml|ico|svg|webmanifest)$/,
-        ignore: ['budafooda.png', '*.json', '*.js', '*.md', '*.html'],
-      },
-    ]),
+    // new CopyPlugin({
+    //   patterns: [
+    //     {
+    //       from: path.resolve(__dirname, 'app'),
+    //       to: path.resolve(__dirname, 'dist'),
+    //       globOptions: {
+    //         gitignore: true,
+    //         ignore: [
+    //           'budafooda.png',
+    //           '*.json',
+    //           '*.js',
+    //           '*.md',
+    //           'index.html',
+    //           // '**/images/**',
+    //           // '**/scripts/**',
+    //           '**/styles/**',
+    //         ],
+    //       },
+    //     },
+    //   ],
+    // }),
   ],
 };
