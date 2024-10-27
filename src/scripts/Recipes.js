@@ -4190,7 +4190,7 @@ export default [
     notes: 'Great with a homemade sriracha ketchup.',
   },
   {
-    name: 'Oven Roasted Brussels Sprouts',
+    name: 'Roasted Brussels Sprouts',
     id: '157',
     description: '',
     ingredients: [
@@ -4363,30 +4363,10 @@ export default [
     course: 'pickles',
     notes: '',
   },
-  {
-    name: 'Roasted Brussels Sprouts',
-    id: '165',
-    description: '',
-    ingredients: [
-      '1.5 lbs Brussels sprouts, halved lengthwise',
-      '1/2 tsp garlic powder',
-      '1/2 Tbsp kosher salt',
-      '1 tsp black pepper',
-      '1 Tsbp honey',
-      '1/2 cup olive oil, divided in half',
-    ],
-    steps: [
-      'Preheat oven to 450. Place empty baking sheet in oven to preheat.',
-      'Place Brussels sprouts in a bowl and season with 1/4 cup oil, salt, pepper, garlic powder, and honey. Mix until sprouts are evenly coated.',
-      'Once baking sheet is hot, drizzle remaining oil evenly across it. Place sprouts on sheet flat side down and roast 25-30 minutes until crispy, flipping once abot halfway through cooking.',
-    ],
-    image: 'no-photo.png',
-    course: 'sides',
-    notes: '',
-  },
+
   {
     name: 'Oven Baked Bone-In Pork Chops',
-    id: '166',
+    id: '165',
     description: '',
     ingredients: [
       'Preferred seasoning',
@@ -4405,7 +4385,7 @@ export default [
   },
   {
     name: 'Cuban Baked Chicken with Sweet Peppers & Yellow Rice',
-    id: '167',
+    id: '166',
     description: '',
     ingredients: [
       '1 chicken, cut into 8 pieces (about 2 1/2 lbs)',
@@ -4432,7 +4412,7 @@ export default [
   },
   {
     name: 'Homemade Chicken Fingers',
-    id: '168',
+    id: '167',
     description: '',
     ingredients: [
       '2 cups corn flake cereal',
