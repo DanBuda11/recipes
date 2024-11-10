@@ -1,7 +1,5 @@
-// import the text plugin used to handle the stylesheets
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const CopyPlugin = require('copy-webpack-plugin');
-
+const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
@@ -12,15 +10,10 @@ module.exports = {
   },
 
   output: {
-    // specify that all static assets should be sent to the dist folder
-    path: path.resolve(__dirname, 'dist'),
-
     // specify that the resultant bundle should be built in the bundle.js file
     filename: '[name].bundle.js',
+    clean: true,
   },
-  // optimization: {
-  //   minimize: false,
-  // },
   module: {
     rules: [
       {
@@ -38,7 +31,6 @@ module.exports = {
               },
             },
           },
-          // MiniCssExtractPlugin.loader,
         ],
       },
       {
@@ -61,40 +53,31 @@ module.exports = {
           options: {
             esModule: false,
             limit: 8192,
+            name: 'images/[name].[ext]',
           },
         },
       },
     ],
   },
-  // turn on the source map, for easier debugging
-  // devtool: 'source-map',
-
   plugins: [
-    // create an instance of the extract-text-webpack-plugin which will create the style.css file. this tells the style loader (above) where to put that text it extracted from the scss files after it finishes processing it.
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: 'index.html',
     }),
-    // new CopyPlugin({
-    //   patterns: [
-    //     {
-    //       from: path.resolve(__dirname, 'app'),
-    //       to: path.resolve(__dirname, 'dist'),
-    //       globOptions: {
-    //         gitignore: true,
-    //         ignore: [
-    //           'budafooda.png',
-    //           '*.json',
-    //           '*.js',
-    //           '*.md',
-    //           'index.html',
-    //           // '**/images/**',
-    //           // '**/scripts/**',
-    //           '**/styles/**',
-    //         ],
-    //       },
-    //     },
-    //   ],
-    // }),
+    new CopyPlugin({
+      patterns: [
+        { from: '*.ico' },
+        {
+          from: '*.png',
+
+          globOptions: {
+            ignore: ['**/budafooda.*'],
+          },
+        },
+        { from: '*.xml' },
+        { from: '*.svg' },
+        { from: 'manifest.json' },
+      ],
+    }),
   ],
 };
