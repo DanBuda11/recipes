@@ -191,7 +191,8 @@ export default [
     ],
     image: 'apple-crisp.png',
     course: 'desserts',
-    notes: 'If doubling recipe, use a 9x13 inch pan.',
+    notes:
+      'Suggest using a mixture of Macintosh, Granny Smith & Empire apples. If doubling recipe, use a 9x13 inch pan.',
   },
   {
     name: 'Polynesian Flank Steak',
