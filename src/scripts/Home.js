@@ -52,6 +52,7 @@ export default function Home() {
         <select id="courseFilter" onChange={courseFilter}>
           <option value="all">Show All</option>
           <option value="appetizers">Appetizers</option>
+          <option value="baking">Baking</option>
           <option value="beverages">Beverages</option>
           <option value="breakfasts">Breakfasts</option>
           <option value="crockpot">Crockpot</option>
