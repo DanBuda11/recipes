@@ -4550,8 +4550,8 @@ export default [
     id: '172',
     description: '',
     ingredients: [
-      'Levain: 38g stoneground whole wheat flour, 38g bread flour, 76g water, 38g ripe sourdough starter',
-      'Main dough: 773g bread flour, 114g whole wheat flour, 51g whole grain rye flour, 653g water, 18g fine sea salt',
+      'Levain: 38g stoneground whole wheat flour, 38g bread flour, 76g warm water, 38g ripe sourdough starter',
+      'Main dough: 773g bread flour, 114g whole wheat flour, 51g whole grain rye flour, 653g warm water, 18g fine sea salt',
     ],
     steps: [
       'In small container, mix levain ingredients and keep at 74-76 degrees for 5-6 hours.',
