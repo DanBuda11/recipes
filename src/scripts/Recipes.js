@@ -4560,7 +4560,7 @@ export default [
       'Give the dough 3 sets of stretch-and-folds at 30-minute intervals, where the first set starts 30 minutes after the start of bulk fermentation.',
       'Starting 4 hours after the beginning of bulk fermentation, lightly flour your workspace and scrape out dough. Using bench knife, diving dough in half. Lightly shape each half into a round shape and let rest for 25 minutes, uncovered.',
       'Shape dough into round or oval shapes and place in proofing baskets. Cover proofing baskets with reusable plastic and seal shut. Let dough sit out on counter for 20 minutes then place in refrigerator and proof overnight (12-16 hours).',
-      'Preheat oven with a Dutch oven inside to 450. When oven is preheated, remove dough from fridge, score it, and transfer to the preheated Dutch oven. Place Dutch oven in oven, cover with lid, and bake for 20 minutes. Remove lid and bake 30 more minutes. WHen done, internal temperature should be around 208. Let loaves cool for 1-2 hours on a wire rack before slicing.',
+      'Preheat oven with a Dutch oven inside to 450. When oven is preheated, remove dough from fridge, score it, and transfer to the preheated Dutch oven. Place Dutch oven in oven, cover with lid, and bake for 20 minutes. Remove lid and bake 30 more minutes. When done, internal temperature should be around 208. Let loaves cool for 1-2 hours on a wire rack before slicing.',
     ],
     image: 'no-photo.png',
     course: 'baking',
