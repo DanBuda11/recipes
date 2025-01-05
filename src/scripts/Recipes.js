@@ -78,7 +78,7 @@ export default [
       'Remove pot from oven and add tomatoes, including juice. Mix tomatoes in and return pot to oven to heat through.',
     ],
     image: 'potatoes-tomatoes-meat.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -215,7 +215,7 @@ export default [
       'Let stand 10 minutes before cutting diagonally across the grain into thin slices.',
     ],
     image: 'polynesian-flank-steak.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -240,7 +240,7 @@ export default [
       'Remove pan from heat. Sprinkle tomato mixture with remaining salt & pepper, basil and shallots; toss to combine. Serve with fish.',
     ],
     image: 'arctic-char.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -389,7 +389,7 @@ export default [
       'Top each tortilla with 1/4 cup lettuce, 1/4 cup salsa and 2 Tbsp sour cream. Cut each tortilla into 4 wedges.',
     ],
     image: 'black-bean-tostadas.png',
-    course: 'main',
+    course: 'entree',
     notes: 'You may want to double amount of salsa.',
   },
   {
@@ -464,7 +464,7 @@ export default [
       'To prepare salsa, combine tomato & next 4 ingredients (thru pepper) & remaining 1/4 tsp salt in a medium bowl. Add avocado; stir gently to combine. Serve salsa over chicken.',
     ],
     image: 'cilantro-chicken.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -784,7 +784,7 @@ export default [
       'Remove steak from bag; discard marinade. Sprinkle both sides of steak evenly with 1/2 tsp salt. Place steak on a grill rack coated with cooking spray; grill 3 minutes on each side or until desired degree of doneness. Let stand 5 minutes. Cut steak diagonally across the grain into thin slices. Serve with jam. Garnish with lemon slices, if desired.',
     ],
     image: 'fiery-flank-steak.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -914,7 +914,7 @@ export default [
       'Combine remaining 1/2 tsp salt, 1/4 tsp pepper and cumin, stirring well. Rub spice mixture evenly over both sides of salmon. Place salmon on grill rack coated with cooking spray. Grill 4 minutes on each side or until fish flakes easily when tested with a fork or until desired degree of doneness. Serve with relish.',
     ],
     image: 'salmon-corn-salsa.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -940,7 +940,7 @@ export default [
       'Place the fish, skin side down, on grill rack or broiler pan coated with cooking spray, and cook for 5 minutes or until the fish flakes easily when tested with a fork. Serve with lemon wedges.',
     ],
     image: 'herb-grilled-trout.png',
-    course: 'main',
+    course: 'entree',
     notes:
       "If you don't want to use wine, it turns out fine without it. Also, instead of cutting the lemon into wedges, I often slice the lemon really thing and place the slices inside the fish and then cook it.",
   },
@@ -963,7 +963,7 @@ export default [
       'Place pork on a broiler pan coated with cooking spray. Bake for 32 minutes or until a thermometer reads 155 degrees (slightly pink). Let stand 5-10 minutes; slice thin.',
     ],
     image: 'herb-pork-tenderloin.png',
-    course: 'main',
+    course: 'entree',
     notes: 'Olive or other vegetable oil can replace the butter.',
   },
   {
@@ -1024,7 +1024,7 @@ export default [
       'Serve mussels and tomato mixture over linguine. Garnish with basil sprigs, if desired.',
     ],
     image: 'mussels-marinara.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1052,7 +1052,7 @@ export default [
       'Place packets on a baking sheet and bake and 425 for 20 minutes. Let stand 10 minutes. Place on plates. Unfold packets carefully; peel shrimp and serve immediately.',
     ],
     image: 'nola-shrimp.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1206,7 +1206,7 @@ export default [
       'To prepare sauce, combine sambal oelek and next 4 ingredients (through garlic) with a mortar and pestle; grind into a fine paste. Slowly drizzle oil into sambal mixture, stirring until thoroughly combined. Serve sauce with lamb.',
     ],
     image: 'lamb-chile-sauce.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1256,7 +1256,7 @@ export default [
       'Serve tuna over chickpea salad.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1291,7 +1291,7 @@ export default [
       'To prepare salsa, combine remaining ingredients and stir gently to mix. Serve immediately with shrimp cakes.',
     ],
     image: 'shrimp-cakes.png',
-    course: 'main',
+    course: 'entree',
     notes: 'I often substitute a can of salmon for the shrimp.',
   },
   {
@@ -1367,7 +1367,7 @@ export default [
       'Heat oil in a large nonstick skillet over medium-high heat. Sprinkle tuna with salt. Combine sesame seeds in a shallow dish. Dredge tuna in sesame seeds. Add tuna to pan; cook 3 minutes on each side or until desired degree of doneness. Garnish with green onions, if desired. Serve tuna with sauce.',
     ],
     image: 'sesame-tuna-ponzu.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1669,7 +1669,7 @@ export default [
       'Remove from oven and let sit for a few minutes before serving.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1719,7 +1719,7 @@ export default [
       'Roast chicken and bread mixture for about 45 minutes, until the bread is crisp and a thermometer in the chicken registers 160 degrees.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1744,7 +1744,7 @@ export default [
       'In the same skillet, cook the shallot and garlic over moderate heat, stirring, until softened, 2 minutes. Add the wine and cook, scraping up any browned bits, until almost evaporated, 3 minutes. Add the stock and cook until slightly reduced, 2 minutes. Remove from heat and gradually whisk in the remaining 5 Tbsp butter until emulsified; season with salt and pepper. Carve the steaks against the grain. Serve with the brassicas and sauce.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -1825,7 +1825,7 @@ export default [
       'Shape into small balls and brown in butter in a pan. Add in the broth, cream, dill and butter. Cover and steam for 1 hour.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'Great over mashed potatoes or egg noodles. Grandma liked to substitute the cream for sour cream and chicken broth for beef broth.',
   },
@@ -2162,7 +2162,7 @@ export default [
       'Cook for 45 minutes and continue to cook and check until 160 degrees.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -2181,7 +2181,7 @@ export default [
       'Mix all ingredients, form into balls, and bake 25-30 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'All ingredients are per 1 pound of meat, using 2/3 ground chuck and 1/3 ground pork.',
   },
@@ -2373,7 +2373,7 @@ export default [
       'Toss seafood mixture with hot fettuccine and serve with additional parsley if desired.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -2512,7 +2512,7 @@ export default [
       'Divide gnocchi and sauce among shallow bowls. Garnish with sage leaves.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -2839,7 +2839,7 @@ export default [
       'Stuff each pita with falafels and remaining cherry tomoatoes. Drizzle with yogurt sauce and serve with side salad and remaining yogurt sauce.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -2862,7 +2862,7 @@ export default [
       'Heat olive oil in skillet over medium-high heat until shimmering. Add chickpea patties and cook until deep golden brown on both sides - 3 minutes per side. Transfer to a paper towel-lined plate.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -2915,7 +2915,7 @@ export default [
       'Stir in the garlic-sherry mixture and cook until fragrant and shrimp are cooked through, about 1 minute. Remove from heat and season to taste with salt & pepper.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3089,7 +3089,7 @@ export default [
       'Plate risotto and top with broccoli mixture. Garnish with remaining parsley.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'Instead of the broccoli topping, try it instead with grilled scallops or shrimp.',
   },
@@ -3121,7 +3121,7 @@ export default [
       'Plate dish by topping rice with black beans, plantains & corn pico de gallo. garnish with jalapeno rounds and lime wedges.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3175,7 +3175,7 @@ export default [
       'Top farro, mushroom, apple, & spinach mixture with sausage.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3205,7 +3205,7 @@ export default [
       'Fill tortillas with black bean mixture and top with scallion greens.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3232,7 +3232,7 @@ export default [
       'Divide rice between bowls and top with bean mixture, pepper jack cheese, tomato mixture, and remaining scallion greens.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: 'Great as a breakfast with a couple fried eggs on top.',
   },
   {
@@ -3278,7 +3278,7 @@ export default [
       'Fluff rice with a fork and season with salt & pepper; divide between 2 bowls. Top rice with vegetables, a fried egg each, and pickled scallion whites (after draining). Drizzle with sauce and any additional Sriracha. Sprinkle with scallion greens.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3329,7 +3329,7 @@ export default [
       'Add broth and lemon slices to skills, then add chicken thighs along with any liquid from the plate. Cover skillet and continue cooking until orzo is tender, most of the liquid is absorbed, and chicken is cooked through, 13-15 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'If you want to add a little texture and crunch to the dish, uncover and continue to cook until browned and crisp on the bottom, 3-5 minutes.',
   },
@@ -3359,7 +3359,7 @@ export default [
       'Remove from the heat and top with the parsley and cheese, if using. Serve with bread or pasta.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: 'Recommend serving over linguine or angel hair pasta.',
   },
   {
@@ -3383,7 +3383,7 @@ export default [
       "Add the broth, chicken, greens and pickled-pepper brine. Season with salt and stir to combine. Cover the pot, keep on medium-high and bring to a simmer. Uncover, reduce heat to low, and cook uncovered until the chicken is cooked through and the greens are tender, 15 to 20 minutes. Using two forks, shred the chicken right in the pot into pieces, then stir to combine. Taste and adjust with salt, sugar (if it's too tangy or spicy) and brine (if it's too sweet or flat).",
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: 'Best served over white rice to soak up all the extra liquid.',
   },
   {
@@ -3410,7 +3410,7 @@ export default [
       'Squeeze the lime juice over chicken and radishes, then garnish with the scallions and sesame seeds, if using. Divide among plates and serve.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       "Serving over rice wouldn't be a bad idea. I also use more miso and sesame seeds than the recipe calls for.",
   },
@@ -3446,7 +3446,7 @@ export default [
       'Add rice to pot and cook, stirring 1 minute. Add broth and remaining ingredients and stir through. Place chicken back in pot, cover, and bake for 30 minutes or until rice, potatoes and carrots are tender.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3477,7 +3477,7 @@ export default [
       'Using a potato masher, slightly mash vegetables in the pot to thicken the chowder to desired consistency. Add lemon juice and season to taste with cayenne, salt and pepper.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'This is a great recipe to make a douhble batch of. Also it may work bette to add cayenne during the cooking time instead of only at the end.',
   },
@@ -3558,7 +3558,7 @@ export default [
       'Remove chicken from pan and shred, then return to pan and simmer chili on low for at least 30 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'Can add cilantro, cotija or cheddar cheese, Mexican crema or sour cream, avocados, tortilla chips as garnish.',
   },
@@ -3664,7 +3664,7 @@ export default [
       'Serve salmon on spinach and top with grape sauce.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3779,7 +3779,7 @@ export default [
       'Serve, garnish with parsley, lemon, green onion',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: 'This recipe is currently incomplete.',
   },
   {
@@ -3917,7 +3917,7 @@ export default [
       'Divide rice and short ribs among bowls. Top with lettuce, celery and cilantro. Serve with lime wedges for squeezing on top.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3943,7 +3943,7 @@ export default [
       'Add the reserved shrimp back to the pan with any juices that have accumulated. Stir in the ginger, garlic and red-pepper flakes, if using, and cook for about 30 seconds, stirring to make sure the garlic doesn’t burn. Add the lime juice to pan and scrape up any brown bits that have formed at the bottom of the pan. Cook until the mixture is reduced by about half, about 1 minute more. Stir in the lime zest and scatter with the cilantro. Season with flaky salt, if desired.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -3970,7 +3970,7 @@ export default [
       'Transfer the steak to a board to rest for at least 5 minutes. Slice and transfer to a serving platter. Spoon the marinade dressing over the steak and serve immediately.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes:
       'If your boneless short ribs are already in slices that are 1⁄2 inch thick or thinner, you can use them as is. If they’re thicker, lay several strips on a piece of plastic wrap, leaving about 1⁄2 inch between each slice and top with another piece of plastic wrap. Pound the meat with a rolling pin or the bottom of a heavy bottle until the strips are flattened to about 1⁄2 inch thick.',
   },
@@ -3989,7 +3989,7 @@ export default [
       'Tip the pan to let the juices flow from the chicken’s cavity into the pan. Transfer the chicken to a platter and let it rest for at least 5 minutes. Carve and serve.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4013,7 +4013,7 @@ export default [
       'Heat oven to 400 degrees. Put thighs, skin side up, in a roasting pan. Roast for 35 to 45 minutes or until done.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4027,7 +4027,7 @@ export default [
       'Breast: Preheat oven to 425. Place breasts in salted room temperature water for 15-30 minutes, then remove and pat dry with paper towel. Coat with olive oil and preferred seasoning then place in oven on pan covered with foil for 18 minutes. Remove and let sit for 5 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4241,7 +4241,7 @@ export default [
       'Combine salt and warm water in a bowl and stir to combine. Put chicken breast in the bowl and let sit for about 15 minutes. Remove chicken and pat dry with paper towel and put into a baking pan. Toss chicken with olive oil and cover with preferred seasoning. Put in oven and bake for 15-18 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4265,7 +4265,7 @@ export default [
       'Remove the shrimp from the oven, then toss with the okra and tomatoes, along with any pan juices. Taste for salt. Serve on a large platter and finish with a squeeze of lemon.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4381,7 +4381,7 @@ export default [
       'Place pan in oven and bake for 25 minutes or until chops are 145 degrees. Removve from oven and let rest for 3-5 minutes.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4408,7 +4408,7 @@ export default [
       'Remove the cover, fluff the rice and stir in the peas. Cover and let sit to warm the peas, about 5 minutes. Season with additional salt and pepper. Serve.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4431,7 +4431,7 @@ export default [
       'Preheat the oven to 425 degrees F. Fit a rimmed baking sheet with a wire rack and spray with cooking spray. Generously spray the fresh or frozen chicken tenders all over with cooking spray. Arrange on the prepared rack and bake, flipping halfway through, until golden and crispy and cooked through, 15 to 20 minutes (if frozen, 20 to 25 minutes). Remove from the oven and season with salt.',
     ],
     image: 'no-photo.png',
-    course: 'main',
+    course: 'entree',
     notes: '',
   },
   {
@@ -4606,7 +4606,7 @@ export default [
       'Melt butter in a microwave then add the hot sauce and whisk together. Toss the wings in the sauce.',
     ],
     image: 'no-photo.png',
-    course: 'airfryer',
+    course: 'air fryer',
     notes:
       "For a spicy lemon pepper flavor, replace Frank's RedHot with Frank's Buffalo and season the wings with a lemon pepper seasoning prior to frying.",
   },

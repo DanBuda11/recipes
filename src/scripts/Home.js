@@ -51,7 +51,7 @@ export default function Home() {
         <label htmlFor="courseFilter">Search by course:</label>
         <select id="courseFilter" onChange={courseFilter}>
           <option value="all">Show All</option>
-          <option value="airfryer">Air Fryer</option>
+          <option value="air fryer">Air Fryer</option>
           <option value="appetizers">Appetizers</option>
           <option value="baking">Baking</option>
           <option value="beverages">Beverages</option>
@@ -59,7 +59,7 @@ export default function Home() {
           <option value="crockpot">Crockpot</option>
           <option value="desserts">Desserts</option>
           <option value="dressings">Dressings</option>
-          <option value="main">Entrees</option>
+          <option value="entree">Entrees</option>
           <option value="pickles">Pickles</option>
           <option value="salads">Salads</option>
           <option value="sauces">Sauces</option>
