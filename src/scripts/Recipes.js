@@ -4591,4 +4591,23 @@ export default [
     course: 'desserts',
     notes: 'Suggest using a mix of Empire, Macintosh & Granny Smith apples.',
   },
+  {
+    name: 'Chicken Wings',
+    id: '174',
+    description: '',
+    ingredients: [
+      '2 lbs chicken wings, split at the joint and tips removed',
+      'Kosher salt',
+      '4 Tbsp unsalted butter',
+      "1/2 cup hot sauce, such as Frank's RedHot",
+    ],
+    steps: [
+      'Pat the chicken wings dry and sprinkle generously with salt. Place the wings in the air fryer basket so they are not touching. Cook for 12 minutes at 360, then flip wings and cook another 12 minutes. Flip one more time, and cook at 390 for 6 minutes.',
+      'Melt butter in a microwave then add the hot sauce and whisk together. Toss the wings in the sauce.',
+    ],
+    image: 'no-photo.png',
+    course: 'airfryer',
+    notes:
+      "For a spicy lemon pepper flavor, replace Frank's RedHot with Frank's Buffalo and season the wings with a lemon pepper seasoning prior to frying.",
+  },
 ];
