@@ -4409,7 +4409,8 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'entree',
-    notes: '',
+    notes:
+      'On 1st attempt used cast iron skillet, brown rice instead of white with 2 cups broth, and cooked for 35 minutes, and the rice was not cooked through. Next time try 3 1/2 cups broth, and also double the turmeric & cumin. I also did not add more salt at the end and definitely should do that.',
   },
   {
     name: 'Homemade Chicken Fingers',
@@ -4649,6 +4650,6 @@ export default [
     image: 'no-photo.png',
     course: 'entree',
     notes:
-      'Can substitute chicken for steak, shrimp, or other proteins & broth. ',
+      'Can substitute chicken for steak, shrimp, or other proteins & broth.',
   },
 ];
