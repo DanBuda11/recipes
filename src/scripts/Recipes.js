@@ -3269,7 +3269,7 @@ export default [
       'If you want to add a little texture and crunch to the dish, uncover and continue to cook until browned and crisp on the bottom, 3-5 minutes.',
   },
   {
-    name: 'Skillet Chicken with Mushrooms & Carmelized Onions',
+    name: 'Skillet Chicken with Mushrooms & Onions',
     id: '124',
     description: '',
     ingredients: [
@@ -3350,7 +3350,7 @@ export default [
       "Serving over rice wouldn't be a bad idea. I also use more miso and sesame seeds than the recipe calls for.",
   },
   {
-    name: 'Skillet Chicken & Vegeatbles with Rice',
+    name: 'Skillet Chicken & Vegetables with Rice',
     id: '127',
     description: '',
     ingredients: [
@@ -3841,7 +3841,7 @@ export default [
       'Kosher salt',
       '2 Tbsp vegetable oil',
       '4 cups cooked short-grain rice',
-      '1 small head green leaf lettuc, shredded',
+      '1 small head green leaf lettuce, shredded',
       '2 stalks celery, thinly sliced crosswise',
       'Fresh cilantro, for serving',
       'Lime wedges, for serving',
