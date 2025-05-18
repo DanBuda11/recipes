@@ -68,6 +68,7 @@ export default function Home() {
           <option value="sides">Sides</option>
           <option value="smoothies">Smoothies</option>
           <option value="soups">Soups</option>
+          <option value="veggies">Veggies</option>
         </select>
       </div>
       <div className="grid">{sortedRecipes}</div>

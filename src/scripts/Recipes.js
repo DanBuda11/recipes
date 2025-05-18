@@ -1230,7 +1230,7 @@ export default [
       'Place cauliflower in a large roasting pan or jelly-roll pan. Drizzle with oil; toss well to coat. Bake at 450 for 20 minutes or until tender and browned, stirring every 5 minutes. Sprinkle with parsley, thyme, tarragon and garlic. Bake 5 minutes. Combine cauliflower mixture, cheese, and remaining ingredients in a large bowl; toss well to combine.',
     ],
     image: 'roasted-cauliflower.png',
-    course: 'sides',
+    course: 'veggies',
     notes: '',
   },
   {
@@ -1564,7 +1564,7 @@ export default [
       'Place eggplant slices on a baking sheet and place in oven for 25 minutes, flipping once.',
     ],
     image: 'eggplant.jpg',
-    course: 'sides',
+    course: 'veggies',
     notes:
       'Eggplant soaks up oil extremely fast. To reduce this, you can salt the slices first and let them sit for about 30 minutes.',
   },
@@ -2104,7 +2104,7 @@ export default [
       'Place baking sheet in oven and cook for 20 minutes, checking for consistency, cooking longer if needed.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'veggies',
     notes: '',
   },
   {
@@ -2538,7 +2538,7 @@ export default [
       'Serve in bowls, perhaps with a little drizzle of olive oil, additional chopped basil, or black pepper on top (all optional). Like all stews, this ratatouille’s flavor improves as it cools. It’s even better reheated the next day. Ratatouille keeps well in the refrigerator, covered, for 4 days, or for several months in the freezer.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'main',
     notes: '',
   },
   {
@@ -3235,7 +3235,7 @@ export default [
       'Ladle the boiling brine into the jars, filling to within 1/4 inch of the tops. Discard garlic. Seal jars with lids and rings. Place in a hot water bath so they are covered by 1 inch of water. Simmer but do not boil for 10 minutes to process. Cool to room temperature. Test jars for a good seal by pressing on the center of the lid. It should not move. Refrigerate and jars that do not seal properly. Let pickles ferment for 2-3 weeks before eating.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'pickles',
     notes: '',
   },
   {
@@ -4006,7 +4006,7 @@ export default [
       'Toss the asparagus, sesame seeds, and the sauce together and refrigerate for 1 hour, or until ready to serve.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'veggies',
     notes: '',
   },
   {
@@ -4099,7 +4099,7 @@ export default [
       'Roast sprouts 25-30 minutes until crispy.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'veggies',
     notes: '',
   },
   {
@@ -4608,7 +4608,7 @@ export default [
       'Lightly stir the honey and Grand Marnier, if using, into the fruit. Strip the mint leaves off the stem, tear, or chop into smaller pieces, and stir into the fruit salad. Add the berries and set aside for 10 minutes or up to 2 hours.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'salads',
     notes: '',
   },
   {
@@ -4712,7 +4712,7 @@ export default [
       'Roast in oven for appropriate time.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'veggies',
     notes: '',
   },
   {
