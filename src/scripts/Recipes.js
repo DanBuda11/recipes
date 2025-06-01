@@ -3237,7 +3237,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Skillet Chicken Thighes with Broccoli & Orzo',
+    name: 'Skillet Chicken Thighs with Broccoli & Orzo',
     id: '123',
     description: '',
     ingredients: [
@@ -3255,11 +3255,11 @@ export default [
       '2 cups low sodium chicken broth',
     ],
     steps: [
-      'Season chicekn thighs on both sides with 1 tsp salt & 1/2 tsp pepper. In a large heavy skillet (preferably cast-iron or stainless steel), heat oil over medium-high heat. Cook chicken until golden brown, about 7 minutes, then flip and cook until golden on the other side, about 5 minutes more. Transfer to a plate and set aside.',
+      'Season chicken thighs on both sides with 1 tsp salt & 1/2 tsp pepper. In a large heavy skillet (preferably cast-iron or stainless steel), heat oil over medium-high heat. Cook chicken until golden brown, about 7 minutes, then flip and cook until golden on the other side, about 5 minutes more. Transfer to a plate and set aside.',
       'Decrease heat to medium, add butter and lemon slices, and cook until lemons release their juices and start to brown, 1-2 minutes. Transfer to plate with chicken.',
-      'Add broccoli, orzo, thyme, garlic and remaining 1/2 tsp salt to skill at stir to coat. Cook, stirring occassionally, until orzo is lightly toasted and broccoli is bright green, about 5 minutes.',
+      'Add broccoli, orzo, thyme, garlic and remaining 1/2 tsp salt to skillet & stir to coat. Cook, stirring occasionally, until orzo is lightly toasted and broccoli is bright green, about 5 minutes.',
       'Deglaze with wine and cook until liquid is mostly absorbed, 1-2 minutes.',
-      'Add broth and lemon slices to skills, then add chicken thighs along with any liquid from the plate. Cover skillet and continue cooking until orzo is tender, most of the liquid is absorbed, and chicken is cooked through, 13-15 minutes.',
+      'Add broth and lemon slices to skillet, then add chicken thighs along with any liquid from the plate. Cover skillet and continue cooking until orzo is tender, most of the liquid is absorbed, and chicken is cooked through, 13-15 minutes.',
     ],
     image: 'no-photo.png',
     course: 'entree',
