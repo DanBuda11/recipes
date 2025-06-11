@@ -4776,12 +4776,12 @@ export default [
       'Add broth, water, coriander, clove, fish sauce, hoisin sauce, soy sauce, chili paste, cinnamon, salt and pepper. Bring to a slow boil then reduce and simmer for 30 minutes.',
       'Meanwhile, prepare noodles according to package instructions. Once soft, drain, rinse and set aside.',
       'When broth is done cooking, discard the ginger, clove, cinnamon and onion from the pot.',
-      'Add meat to the broth to cook, just until done (see notes).',
+      'Add meat to the broth to cook, just until done (see notes below).',
       'Divide noodles among bowls and ladle broth and meat on top. Add toppings.',
     ],
     image: 'no-photo.png',
     course: 'soups',
     notes:
-      'Double the broth and meat amounts for for a higher liquid to noodle ratio. For beef, use 1/2 lb sirloin steak, flank steak or brisket, sliced very thinly and seasoned with salt and pepper. For chicken, slice 1-2 chicken breasts into very thin pieces against the grain, and season with salt and pepper. For pork, season a 1 lb tenderloin with salt and pepper and sear in a little oil in a very hot pan until browned on all sides (about 10 minutes) then allow to rest while broth cooks and then slice into very thin slices. For shrim[, use raw and remove shells. For veggie pho, use vegetable or mushroom stock and substitute sauteed mushrooms and baby bok choy for the meat, and omit the fish sauce.',
+      'Double the broth and meat amounts for for a higher liquid to noodle ratio. For beef, use 1/2 lb sirloin steak, flank steak or brisket, sliced very thinly and seasoned with salt and pepper. For chicken, slice 1-2 chicken breasts into very thin pieces against the grain, and season with salt and pepper. For pork, season a 1 lb tenderloin with salt and pepper and sear in a little oil in a very hot pan until browned on all sides (about 10 minutes) then allow to rest while broth cooks and then slice into very thin slices. For shrimp, use raw and remove shells. For veggie pho, use vegetable or mushroom stock and substitute sauteed mushrooms and baby bok choy for the meat, and omit the fish sauce.',
   },
 ];
