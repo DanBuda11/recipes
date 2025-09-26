@@ -4803,4 +4803,19 @@ export default [
     course: 'sides',
     notes: 'Goes great with a sriracha ketchup (1:1 ratio).',
   },
+  {
+    name: 'Spaghetti Squash',
+    id: '187',
+    description: '',
+    ingredients: ['Spaghetti squash', 'Olive oil', 'Salt & black pepper'],
+    steps: [
+      'Preheat oven to 400.',
+      'Cut ends off squash then stand upright and cut in half lengthwise with a sharp knife. Use a spoon to remove all seeds.',
+      'Spread olive oil on flesh of squash then season with salt & pepper. Place cut side down on a parchment paper lined baking sheet and cook for 40 minutes, or until a fork easily goes through flesh.',
+      'Remove from oven and let cool, then use a fork to shred the squash.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: '',
+  },
 ];
