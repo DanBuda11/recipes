@@ -4788,4 +4788,19 @@ export default [
     notes:
       'Double the broth and meat amounts for for a higher liquid to noodle ratio. For beef, use 1/2 lb sirloin steak, flank steak or brisket, sliced very thinly and seasoned with salt and pepper. For chicken, slice 1-2 chicken breasts into very thin pieces against the grain, and season with salt and pepper. For pork, season a 1 lb tenderloin with salt and pepper and sear in a little oil in a very hot pan until browned on all sides (about 10 minutes) then allow to rest while broth cooks and then slice into very thin slices. For shrimp, use raw and remove shells. For veggie pho, use vegetable or mushroom stock and substitute sauteed mushrooms and baby bok choy for the meat, and omit the fish sauce.',
   },
+  {
+    name: 'Delicata Fries',
+    id: '186',
+    description: '',
+    ingredients: ['Delicata squash', 'Olive oil', 'Salt & black pepper'],
+    steps: [
+      'Preheat oven to 425.',
+      'Cut delicata in half lengthwise and use a spoon to remove all seeds.',
+      'Cut delicata halves into 1/4" to 1/2" slices then toss in oil and season with salt & pepper.',
+      'Evenly spread squash slices on a baking pan lined with parchment paper and cook 25 minutes.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: 'Goes great with a sriracha ketchup (1:1 ratio).',
+  },
 ];
