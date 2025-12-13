@@ -3490,7 +3490,7 @@ export default [
     image: 'no-photo.png',
     course: 'soups',
     notes:
-      "May want to reduce the amount of water used if it comes out too watery. Peas don't have to be soaked if you want to just cook them longer.",
+      'Can reduce water amount if it ends up too watery. Replace peas with navy beans for navy bean soup.',
   },
   {
     name: 'Cauliflower Cheese Soup',
