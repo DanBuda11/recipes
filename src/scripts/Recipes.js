@@ -3471,8 +3471,8 @@ export default [
     id: '132',
     description: '',
     ingredients: [
-      '2 1/4 cups dried split peas',
-      '2 quarts cold water',
+      '16 oz bag dried split peas (roughly 2 1/4 cups)',
+      '8 cups cold water',
       '1 1/2 lbs ham bone',
       '2 onions, thinly sliced',
       '1/2 tsp salt',
