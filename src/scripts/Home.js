@@ -60,7 +60,7 @@ export default function Home() {
           <option value="desserts">Desserts</option>
           <option value="dressings">Dressings</option>
           <option value="entree">Entrees</option>
-          <option value="instantpot">InstantPot</option>
+          <option value="instantpot">Instant Pot</option>
           <option value="pickles">Pickles</option>
           <option value="salads">Salads</option>
           <option value="sauces">Sauces</option>
