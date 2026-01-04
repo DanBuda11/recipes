@@ -4915,4 +4915,28 @@ export default [
     course: 'entree',
     notes: '',
   },
+  {
+    name: 'Almond Milk Overnight Oats',
+    id: '191',
+    description: '',
+    ingredients: [
+      '1/2 cup old fashioned oats',
+      '1 Tbsp ground flax',
+      '3/4 almond milk',
+      '1/2 tsp vanilla extract',
+      '1 tsp honey',
+      'Handful of frozen berries',
+      'Handful of sliced almonds',
+      '1 Tbsp chia seeds',
+    ],
+    steps: [
+      'Combine oats, flax, almond milk, chia seeds in a mason jar. Screw on lid & shake.',
+      'Add vanilla, honey and frozen berries. Stir to mix in.',
+      'Put the lid back on and refrigerate overnight.',
+      'When ready to eat, add almonds.',
+    ],
+    image: 'no-photo.png',
+    course: 'breakfasts',
+    notes: '',
+  },
 ];
