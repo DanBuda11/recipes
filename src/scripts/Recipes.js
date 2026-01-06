@@ -4939,4 +4939,26 @@ export default [
     course: 'breakfasts',
     notes: '',
   },
+  {
+    name: 'Overnight Chia Pudding',
+    id: '192',
+    description: '',
+    ingredients: [
+      '1 banana, mango, or similar amount of preferred fruit',
+      '1 cup milk (coconut, soy, almond)',
+      '1 Tbsp honey',
+      '1 tsp vanilla extract',
+      '4 Tbsp chia seeds',
+    ],
+    steps: [
+      'Put fruit, milk, honey and vanilla in a blender and blend until smooth.',
+      'Put blended mixture into a jar and add chia seeds. Shake vigorously. Wait 5 minutes then shake again.',
+      'Place in the fridge overnight.',
+      'Before eating, add desired toppings.',
+    ],
+    image: 'no-photo.png',
+    course: 'breakfasts',
+    notes:
+      'Possible toppings are coconut, more fruit, berries, sliced nuts, flax, hemp hearts.',
+  },
 ];
