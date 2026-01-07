@@ -4961,4 +4961,26 @@ export default [
     notes:
       'Possible toppings are coconut, more fruit, berries, sliced nuts, flax, hemp hearts.',
   },
+  {
+    name: 'Tomato Shallot Farro',
+    id: '193',
+    description: '',
+    ingredients: [
+      '1 Tbsp olive oil',
+      '1 cup uncooked farro',
+      '2 cups chicken broth',
+      '1 pint cherry tomatoes, halved',
+      '1 cup shallots, sliced',
+      '2 cloves garlic, minced',
+      'Salt & pepper to taste',
+      'Red pepper flakes',
+    ],
+    steps: [
+      'Heat oil in a medium size pot. Add tomatoes, shallots, garlic and cook, stirring occasionally, 3-5 minutes.',
+      'Add farro, broth, salt, pepper and pepper flakes and bring to boil. Reduce heat and partially cover, simmer 20-25 minutes until broth absorbed.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: '',
+  },
 ];
