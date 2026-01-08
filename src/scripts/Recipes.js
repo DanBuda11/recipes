@@ -4984,7 +4984,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Instant Pot Mexican Quinoa',
+    name: 'Mexican Quinoa',
     id: '194',
     description: '',
     ingredients: [
@@ -5016,7 +5016,7 @@ export default [
       'Add cilantro and stir in.',
     ],
     image: 'no-photo.png',
-    course: 'sides',
+    course: 'instantpot',
     notes:
       'Garnish with cilantro, scallions, avocado, lime wedges, pumpkin seeds and your favorite hot sauce. Can substitute bell peppers for jalapenos or serranos for some extra heat. Great with fried eggs on top.',
   },
