@@ -4176,27 +4176,18 @@ export default [
     notes: '',
   },
   {
-    name: 'Neapolitan Banana Fake Ice Cream',
+    name: 'Banana Fake Ice Cream',
     id: '163',
     description: '',
-    ingredients: [
-      '8 large ripe bananas, peeled',
-      '1 tsp vanilla extract',
-      '3 Tbsp Dutch-processed cocoa powder',
-      '1 Tbsp virgin cocount oil',
-      '1 cup frozen strawberries',
-    ],
+    ingredients: ['3 large ripe bananas, peeled'],
     steps: [
-      'Cut bananas into 6 chunks each and freeze until rock solid, preferably overnight.',
-      'Split frozen bananas into 3 batches.',
-      'Put 1 batch banana chunks and vanilla into a food processor and process. Bananas will look crumbly at first then gooey and eventually light and creamy. Stop processor frequently to scrape the sides of the bowl and break up any clumps. Transfer to a bowl and put in the freezer.',
-      'Put another batch banana chunks, cocoa powder and coconut oil in the processor and repeat like previous step.',
-      'Put last batch banana chunks and strawberries in the processor and repeat like previous step.',
-      'Place vanilla cream into 1 end of an 8x5 loaf pan so it fills about 1/3 of the pan. Continue with chocolate and strawberries creams.',
+      'Cut bananas into chunks and freeze until rock solid, preferably overnight.',
+      'Put banana chunks into a food processor and process. Bananas will look crumbly at first then gooey and eventually light and creamy. Stop processor frequently to scrape the sides of the bowl and break up any clumps. Add flavorings (see notes) and either process or stir in. Transfer to a bowl and put in the freezer.',
     ],
     image: 'no-photo.png',
     course: 'desserts',
-    notes: '',
+    notes:
+      'Possible toppings/combinations can be 1) 1-2 tsp vanilla extract & caramel bits; 2) strawberries, raspberries, lemon zest, lemon pieces & lemon chips; 3) 3 Tbsp cocoa powder, 1 Tbsp coconut oil, peanut butter chips or mini peanut butter cups, coconut flakes & marshmallows.',
   },
   {
     name: 'Refrigerator Pickles',
