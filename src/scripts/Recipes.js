@@ -5011,4 +5011,19 @@ export default [
     notes:
       'Garnish with cilantro, scallions, avocado, lime wedges, pumpkin seeds and your favorite hot sauce. Can substitute bell peppers for jalapenos or serranos for some extra heat. Great with fried eggs on top.',
   },
+  {
+    name: 'Renaissance Faire-Style Turkey Legs',
+    id: '195',
+    description: '',
+    ingredients: ['Turkey legs', 'Salt & black pepper'],
+    steps: [
+      'Preheat oven to 450.',
+      'Pat turkey legs super dry then cover generously with salt & pepper. Place on rack over baking sheet.',
+      'Cook legs in oven for 30-35 minutes then reduce heat to 350 and cook for another 1 1/4 to 1 3/4 hours, until a meat thermometer reads 185-195.',
+      'Remove legs from oven and let rest 10-20 minutes before eating.',
+    ],
+    image: 'no-photo.png',
+    course: 'entree',
+    notes: '',
+  },
 ];
