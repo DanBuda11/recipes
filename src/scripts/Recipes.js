@@ -5026,4 +5026,25 @@ export default [
     course: 'entree',
     notes: '',
   },
+  {
+    name: 'Simple Rice Pilaf',
+    id: '196',
+    description: '',
+    ingredients: [
+      '2 Tbsp olive oil',
+      '4 oz mushrooms, sliced',
+      'Salt & black pepper',
+      '1 1/4 cups chicken broth',
+      '1 cup short grain brown rice',
+      '2 Tbsp parsley, chopped',
+    ],
+    steps: [
+      'Set Instant Pot to saute on high. Add oil & mushrooms and cook 6-8 minutes, stirring occasionally. Season with salt & pepper.',
+      'Add broth and rice and 1/2 tsp salt. Put on and lock lid. Set to pressure cook on high for 25 minutes.',
+      'Let pressure release naturally then stir in parsley.',
+    ],
+    image: 'no-photo.png',
+    course: 'instantpot',
+    notes: '',
+  },
 ];
