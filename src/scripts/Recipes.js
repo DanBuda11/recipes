@@ -5080,4 +5080,24 @@ export default [
     course: 'entree',
     notes: '',
   },
+  {
+    name: 'Crepes',
+    id: '198',
+    description: '',
+    ingredients: [
+      '1/2 cup flour',
+      '1/2 tsp salt',
+      '2 well beaten eggs',
+      '2/3 cup milk',
+      '1 Tbsp melted shortening',
+    ],
+    steps: [
+      'Sift flour, add salt and sift again.',
+      'Combine egg, milk and shortening. Add flour and beat until smooth.',
+      'Pour enough batter onto a hot greased griddle to make one pancake about 4-5 inches wide. Tip pan to make it as thin as possible. Bake until browned, turning to brown on both sides. Keep warm until all cakes are baked.',
+    ],
+    image: 'no-photo.png',
+    course: 'breakfasts',
+    notes: '',
+  },
 ];
