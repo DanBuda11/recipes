@@ -5100,4 +5100,23 @@ export default [
     course: 'breakfasts',
     notes: '',
   },
+  {
+    name: 'Adobo Seasoning',
+    id: '199',
+    description: '',
+    ingredients: [
+      '2 Tbsp salt',
+      '1 Tbsp paprika ',
+      '2 tsp black pepper',
+      '2 tsp garlic powder',
+      '1 1/2 tsp onion powder',
+      '1 1/2 tsp oregano',
+      '1 tsp chili powder',
+      '1 tsp turmeric',
+    ],
+    steps: ['Combine all ingredients.'],
+    image: 'no-photo.png',
+    course: 'seasonings',
+    notes: '',
+  },
 ];
