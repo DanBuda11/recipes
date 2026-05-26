@@ -223,13 +223,13 @@ export default [
     id: '9',
     description: '',
     ingredients: [
-      '3 tbsp extra-virgin olive oil, divided',
+      '3 Tbsp extra-virgin olive oil, divided',
       '4 6-oz arctic char filets',
       '3/4 tsp coarse salt, divided',
       '1/2 tsp black pepper, divided',
       '4 garlic cloves, halved',
       '3 pints multicolored cherry tomatoes',
-      '1/4 cpu thinly sliced fresh basil',
+      '1/4 cup thinly sliced fresh basil',
       '2 shallots, thinly sliced',
     ],
     steps: [
