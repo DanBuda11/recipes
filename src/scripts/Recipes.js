@@ -1745,7 +1745,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Vegetable Soup',
+    name: 'Chicken Vegetable Soup',
     id: '65',
     description: 'Easy to make slow cooker vegetable soup.',
     ingredients: [
