@@ -1749,7 +1749,7 @@ export default [
     id: '65',
     description: 'Easy to make slow cooker vegetable soup.',
     ingredients: [
-      '4 cups vegetable broth',
+      '6 cups chicken broth',
       '1 yellow onion, diced',
       '3 celery stalks, chopped',
       '3-4 carrots, chopped',
