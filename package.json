@@ -5,6 +5,7 @@
   "engines": {
     "node": "20.x"
   },
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production"

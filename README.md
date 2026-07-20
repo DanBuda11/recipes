@@ -25,7 +25,7 @@ I love to cook. A lot. And while I currently store all my recipes in Google Driv
 
 - Node.js 20.x
 - npm
-- This project includes a .nvmrc file. If you use nvm, run nvm use after entering the project directory to automatically select the correct Node.js version.
+- This project includes a `.nvmrc` file. If you use `nvm`, run `nvm use` after entering the project directory to automatically select the correct Node.js version.
 
 ### Install Dependencies
 
