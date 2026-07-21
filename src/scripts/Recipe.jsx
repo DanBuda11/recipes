@@ -11,6 +11,11 @@ export default function Recipe(props) {
     return false;
   }).pop();
 
+  const images = import.meta.glob('../images/*', {
+    eager: true,
+    import: 'default',
+  });
+
   const ingredients = recipe.ingredients.map((ingredient, i) => (
     <li className="ingredients" key={i}>
       {ingredient}
@@ -23,6 +28,8 @@ export default function Recipe(props) {
     </li>
   ));
 
+  const imageSrc = images[`../images/${recipe.image}`];
+
   return (
     <div className="recipeDiv">
       <Link className="homeLink" to="/">
@@ -31,7 +38,7 @@ export default function Recipe(props) {
       </Link>
       <div className="recipeContain">
         <h1>{recipe.name}</h1>
-        <img src={require(`./../images/${recipe.image}`)} alt={recipe.name} />
+        <img src={imageSrc} alt={props.name} />
         {recipe.description !== '' ? <h4>Description</h4> : ''}
         {recipe.description !== '' ? <p>{recipe.description}</p> : ''}
         <div className="ingredientsDiv">
