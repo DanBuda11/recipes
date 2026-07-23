@@ -1,43 +1,39 @@
 import js from '@eslint/js';
-import im from 'eslint-plugin-import';
-import ally from 'eslint-plugin-jsx-a11y';
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
 import react from 'eslint-plugin-react';
 
-export default [
+export default defineConfig([
   {
-    plugins: {
-      im,
-      ally,
-      react,
-    },
-    files: ['**.*.js'],
-    rules: js.configs.recommended.rules,
+    ignores: ['dist/', 'node_modules/', 'coverage/'],
   },
-];
+  {
+    files: ['**/*.{js,jsx}'],
+    ...js.configs.recommended,
+  },
 
-// {
-//   "extends": ["prettier"],
-//   "plugins": ["html", "prettier"],
-//   "parser": "@babel/eslint-parser",
-//   "parserOptions": {
-//     "requireConfigFile": false,
-//     "ecmaVersion": 6
-//   },
-//   "env": {
-//     "browser": true,
-//     "node": true,
-//     "jquery": true,
-//     "es6": true
-//   },
-//   "rules": {
-//     "prettier/prettier": [
-//       "error",
-//       {
-//         "trailingComma": "all",
-//         "singleQuote": true
-//       }
-//     ],
-//     "no-console": "off",
-//     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
-//   }
-// }
+  {
+    files: ['**/*.{js,jsx}'],
+    ...react.configs.flat.recommended,
+  },
+
+  {
+    files: ['**/*.{js,jsx}'],
+    ...react.configs.flat['jsx-runtime'],
+  },
+
+  {
+    files: ['**/*.{js,jsx}'],
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+      },
+    },
+
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+  },
+]);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Recipes from './Recipes';
 import RecipeThumb from './RecipeThumb';
 

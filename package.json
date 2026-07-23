@@ -5,6 +5,7 @@
   "engines": {
     "node": "20.x"
   },
+  "type": "module",
   "packageManager": "pnpm@10.34.5",
   "scripts": {
     "dev": "vite",
@@ -17,7 +18,7 @@
   },
   "keywords": [],
   "author": "Dan Buda",
-  "private": "true",
+  "private": true,
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.7.0",
     "postcss": "^8.5.13",
     "postcss-preset-env": "^10.6.1",
     "sass": "^1.99.0",
