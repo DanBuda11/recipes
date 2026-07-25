@@ -1,26 +1,32 @@
-import { useState } from 'react';
-import Recipes from './Recipes';
+import { useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import Recipes from './recipes';
 import RecipeThumb from './RecipeThumb';
 
 export default function Home() {
-  const [recipes, setRecipes] = useState(Recipes);
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const courseFilter = () => {
-    const select = document.getElementById('courseFilter');
-    if (select.value === 'all') {
-      setRecipes(Recipes);
+  const selectedCourse = searchParams.get('course') ?? 'all';
+
+  const handleCourseChange = (event) => {
+    const course = event.target.value;
+
+    if (course === 'all') {
+      setSearchParams({});
     } else {
-      const filteredCourses = Recipes.filter((recipe) => {
-        if (recipe.course === select.value) {
-          return true;
-        }
-        return false;
-      });
-      setRecipes(filteredCourses);
+      setSearchParams({ course });
     }
   };
 
-  const sortedRecipes = recipes
+  const filteredRecipes = useMemo(() => {
+    if (selectedCourse === 'all') {
+      return Recipes;
+    }
+
+    return Recipes.filter((recipe) => recipe.course === selectedCourse);
+  }, [selectedCourse]);
+
+  const sortedRecipes = [...filteredRecipes]
     .sort((a, b) => {
       const nameA = a.name.toLowerCase();
       const nameB = b.name.toLowerCase();
@@ -46,7 +52,11 @@ export default function Home() {
     <div className="gridContainer">
       <div className="courseFilterDiv">
         <label htmlFor="courseFilter">Search by course:</label>
-        <select id="courseFilter" onChange={courseFilter}>
+        <select
+          id="courseFilter"
+          value={selectedCourse}
+          onChange={handleCourseChange}
+        >
           <option value="all">Show All</option>
           <option value="air fryer">Air Fryer</option>
           <option value="appetizers">Appetizers</option>

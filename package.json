@@ -12,6 +12,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
   },
@@ -19,7 +20,13 @@
     "type": "git",
     "url": "https://github.com/danbuda11/recipes.git"
   },
-  "keywords": [],
+  "keywords": [
+    "recipes",
+    "cooking",
+    "react",
+    "vite",
+    "cooking"
+  ],
   "author": "Dan Buda",
   "private": true,
   "license": "ISC",

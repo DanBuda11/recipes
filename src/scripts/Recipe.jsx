@@ -1,56 +1,89 @@
-import { Link, useParams } from 'react-router-dom';
-import Recipes from './Recipes';
+import { Link, useLocation, useParams } from 'react-router-dom';
+import Recipes from './recipes';
 
-export default function Recipe(props) {
+const images = import.meta.glob('../images/*', {
+  eager: true,
+  import: 'default',
+});
+
+export default function Recipe() {
   const params = useParams();
-  const recipe = Recipes.filter((recipe) => {
-    if (recipe.id === params.recipeId) {
-      return true;
-    }
-    return false;
-  }).pop();
+  const { search } = useLocation();
 
-  const images = import.meta.glob('../images/*', {
-    eager: true,
-    import: 'default',
-  });
+  const recipe = Recipes.find((recipe) => recipe.id === params.recipeId);
 
-  const ingredients = recipe.ingredients.map((ingredient, i) => (
-    <li className="ingredients" key={i}>
-      {ingredient}
-    </li>
-  ));
+  if (!recipe) {
+    return (
+      <div className="recipeDiv">
+        <Link
+          className="homeLink"
+          to={{
+            pathname: '/',
+            search,
+          }}
+        >
+          <i className="fa fa-long-arrow-left" aria-hidden="true" />
+          Home
+        </Link>
 
-  const steps = recipe.steps.map((step, i) => (
-    <li className="steps" key={i}>
-      {step}
-    </li>
-  ));
+        <div className="recipeContain">
+          <h1>Recipe not found</h1>
+          <p>Sorry, that recipe does not exist or may have been removed.</p>
+        </div>
+      </div>
+    );
+  }
 
   const imageSrc = images[`../images/${recipe.image}`];
 
   return (
     <div className="recipeDiv">
-      <Link className="homeLink" to="/">
+      <Link
+        className="homeLink"
+        to={{
+          pathname: '/',
+          search,
+        }}
+      >
         <i className="fa fa-long-arrow-left" aria-hidden="true" />
         Home
       </Link>
       <div className="recipeContain">
         <h1>{recipe.name}</h1>
-        <img src={imageSrc} alt={props.name} />
-        {recipe.description !== '' ? <h4>Description</h4> : ''}
-        {recipe.description !== '' ? <p>{recipe.description}</p> : ''}
+        <img src={imageSrc} alt={recipe.name} />
+        {recipe.description && (
+          <>
+            <h4>Description</h4>
+            <p>{recipe.description}</p>
+          </>
+        )}
         <div className="ingredientsDiv">
           <h4>Ingredients</h4>
-          <ul>{ingredients}</ul>
+          <ul>
+            {recipe.ingredients.map((ingredient) => (
+              <li key={ingredient} className="ingredients">
+                {ingredient}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="stepsDiv">
           <h4>Instructions</h4>
-          <ol>{steps}</ol>
+          <ol>
+            {recipe.steps.map((step) => (
+              <li key={step} className="steps">
+                {step}
+              </li>
+            ))}
+          </ol>
         </div>
         <div className="notes">
-          {recipe.notes !== '' ? <h4>Notes</h4> : ''}
-          {recipe.notes !== '' ? <p>{recipe.notes}</p> : ''}
+          {recipe.notes && (
+            <>
+              <h4>Notes</h4>
+              <p>{recipe.notes}</p>
+            </>
+          )}
         </div>
       </div>
     </div>
