@@ -11,7 +11,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "globals": "^17.7.0",
     "postcss": "^8.5.13",
     "postcss-preset-env": "^10.6.1",
+    "prettier": "^3.9.6",
     "sass": "^1.99.0",
     "stylelint-config-recommended": "^14.0.1",
     "vite": "^7.3.6"
