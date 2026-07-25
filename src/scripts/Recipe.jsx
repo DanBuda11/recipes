@@ -3,7 +3,7 @@ import Recipes from './Recipes';
 
 export default function Recipe(props) {
   const params = useParams();
-  const recipe = Recipes.filter((recipe, i) => {
+  const recipe = Recipes.filter((recipe) => {
     if (recipe.id === params.recipeId) {
       return true;
     }

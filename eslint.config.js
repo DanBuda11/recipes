@@ -21,7 +21,14 @@ export default defineConfig([
     files: ['**/*.{js,jsx}'],
     ...react.configs.flat['jsx-runtime'],
   },
-
+  {
+    files: ['**/*.config.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -34,6 +41,10 @@ export default defineConfig([
       react: {
         version: 'detect',
       },
+    },
+
+    rules: {
+      'react/prop-types': 'off',
     },
   },
 ]);

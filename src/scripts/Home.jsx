@@ -4,22 +4,19 @@ import RecipeThumb from './RecipeThumb';
 
 export default function Home() {
   const [recipes, setRecipes] = useState(Recipes);
-  const [course, setCourse] = useState('all');
 
   const courseFilter = () => {
     const select = document.getElementById('courseFilter');
     if (select.value === 'all') {
       setRecipes(Recipes);
-      setCourse('all');
     } else {
-      const filteredCourses = Recipes.filter((recipe, i) => {
+      const filteredCourses = Recipes.filter((recipe) => {
         if (recipe.course === select.value) {
           return true;
         }
         return false;
       });
       setRecipes(filteredCourses);
-      setCourse(select.value);
     }
   };
 
@@ -35,7 +32,7 @@ export default function Home() {
       }
       return 0;
     })
-    .map((recipe, i) => (
+    .map((recipe) => (
       <RecipeThumb
         key={recipe.id}
         id={recipe.id}
