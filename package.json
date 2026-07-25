@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "stylelint": "stylelint \"src/**/*.{css,scss}\"",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
   },
@@ -39,10 +40,10 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.7.0",
     "postcss": "^8.5.13",
-    "postcss-preset-env": "^10.6.1",
     "prettier": "^3.9.6",
     "sass": "^1.99.0",
-    "stylelint-config-recommended": "^14.0.1",
+    "stylelint": "^17.14.1",
+    "stylelint-config-recommended": "^18.0.0",
     "vite": "^7.3.6"
   },
   "dependencies": {
