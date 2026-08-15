@@ -22,7 +22,15 @@ export default function Recipe() {
             search,
           }}
         >
-          <i className="fa fa-long-arrow-left" aria-hidden="true" />
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="currentColor"
+          >
+            <path d="M10 5 3 12l7 7v-4h11v-6H10V5Z" />
+          </svg>
           Home
         </Link>
 
@@ -45,8 +53,15 @@ export default function Recipe() {
           search,
         }}
       >
-        <i className="fa fa-long-arrow-left" aria-hidden="true" />
-        Home
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          width="20"
+          height="20"
+          fill="currentColor"
+        >
+          <path d="M10 5 3 12l7 7v-4h11v-6H10V5Z" />
+        </svg>
       </Link>
       <div className="recipeContain">
         <h1>{recipe.name}</h1>
