@@ -1839,7 +1839,7 @@ export default [
       '1/4 tsp salt',
       '1/2 tsp pepper',
       '1 cup peas or chopped green beans if doing Whole30',
-      '2 chicken breats, cooked and shredded',
+      '2 chicken breasts, cooked and shredded',
       '1 Tbsp chopped fresh parsley',
     ],
     steps: [
