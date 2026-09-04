@@ -4372,7 +4372,7 @@ export default [
     notes: '',
   },
   {
-    name: 'Sourdough Bread',
+    name: 'Overnight Sourdough Bread',
     id: '172',
     description: '',
     ingredients: [
@@ -4426,7 +4426,6 @@ export default [
       'Kosher salt',
       '4 Tbsp unsalted butter',
       "1/2 cup hot sauce, such as Frank's RedHot",
-      '1/4 cup butter',
     ],
     steps: [
       'Pat the chicken wings dry and sprinkle generously with salt. Place the wings in the air fryer basket so they are not touching. Cook for 12 minutes at 360, then flip wings and cook another 12 minutes. Flip one more time, and cook at 390 for 6 minutes.',
@@ -5122,6 +5121,28 @@ export default [
     ],
     image: 'no-photo.png',
     course: 'soups',
+    notes: '',
+  },
+  {
+    name: 'Weekday Sourdough Bread',
+    id: '201',
+    description:
+      "The levain is prepared for this bread in the morning and left to ripen while you're at work. When you get home, continue with the baking process. The dough can then be baked at night or the next day in the morning, or after work.",
+    ingredients: [
+      'Levain: 40g bread flour, 40g whole wheat flour, 81g water, 8g ripe sourdough starter',
+      'Main Dough: 766g bread flour, 161g whole wheat flour, 19g salt, 685g water, 169g ripe levain',
+    ],
+    steps: [
+      '7 AM. In a small container, mix levain ingredients and keep at a warm temperature for 10 hours.',
+      '5 PM. In a medium mixing bowl, add all of the levain, 766g bread flour, 161g whole wheat flour, and 635g water (50g was reserved for mixing, later) and mix until no dry bits remain. Cover the bowl and let rest for 20 minutes.',
+      "5:20 PM. To the mixing bowl holding your dough, add 19g salt and some of the reserved 50g water (or all if the dough feels like it can handle it). Mix thoroughly and strengthen the dough for about 5 minutes. Using wet hands, mix everything until it comes together into a shaggy mass. This dough is relatively strong and doesn't require intensive kneading (like slap and fold), but give it a few folds in the bowl, perhaps 5-10, until it smooths slightly. Transfer the dough to a bulk fermentation container and cover.",
+      '5:30 to 9 PM. This dough will need 2 sets of stretch and folds during bulk fermentation, the first set 30 minutes after bulk fermentation begins. Perform the second set 30 minutes after the first, and then let the dough rest the remainder of bulk fermentation.',
+      '9 PM. Lightly flour your work surface and scrape out your dough. Using your bench knife, divide the dough in half. Lightly shape each half into a round shape. Let the dough rest for 30 minutes, uncovered.',
+      '9:30 PM. Shape the dough into a round (boule) or oval (batard), then place the dough in proofing baskets. Cover proofing baskets with reusable plastic and seal shut. Then, place both baskets into the refrigerator and proof overnight.',
+      '7 AM or 6PM the next day. Preheat your oven with a baking surface or combo cooker/Dutch oven inside to 450°F (230°C). Remove your dough from the fridge, score it, and transfer it to the preheated baking surface or combo cooker. Bake for 20 minutes with steam. After this time, vent the steam in the oven or remove the lid (you can keep it in the oven or remove it) and continue to bake for 30 minutes longer. When done, the internal temperature should be around 204°F (95°C). Let the loaves cool for 2 hours on a wire rack before slicing.',
+    ],
+    image: 'no-photo.png',
+    course: 'baking',
     notes: '',
   },
 ];
