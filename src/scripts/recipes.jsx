@@ -1845,7 +1845,7 @@ export default [
     ],
     steps: [
       'Heat olive oil in a soup pot over medium heat. Add onion and celery and cook about 3 minutes. Add garlic and cook another 30-60 seconds.',
-      'To the pot add chicken stock, cauliflower, carrots, thyme, rosemary, poultry seasoning, salt, pepper, and chicken breasts, making sure chicken breasts are submerged. Bring to a simmer and cover.',
+      'To the pot add chicken stock, cauliflower, carrots, thyme, rosemary, poultry seasoning, salt, pepper, and chicken breasts, making sure chicken breasts are submerged, adding more stock if necessary. Bring to a simmer and cover.',
       'Cook until chicken is cooked through and carrots/celery are tender, 15-25 minutes.',
       'Remove the chicken and place on a plate or cutting board. Check to make sure 165 degrees. Let them cool.',
       'With an immersion blender, blend 1/2 - 1/3 of the caulitlower and veggie mixture. Stir in almond milk. Bring the soup back to a gentle simmer',
