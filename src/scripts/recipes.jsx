@@ -3325,9 +3325,9 @@ export default [
     steps: [
       'Preheat oven to 325 degrees.',
       'In a large Dutch oven, heat oil over medium heat. Pat chicken dry with paper towel and season with salt & pepper. When oil is hot, place chicken in pot. Cook, undisturbed, 8-10 minutes. Flip chicken and cook 3 minutes then transfer to a plate and set aside.',
-      'Discard all but 3 Tbsp fat from pot. Add onion, carrots, celery and cook over medium heaat 6-8 minutes, stirring occassionally until vegetables tender. Add garlic and pepper flakes and cook 1-2 minute until garlic is fragrant.',
+      'Discard all but 3 Tbsp fat from pot. Add onion, carrots, celery and cook over medium heaat 6-8 minutes, stirring occassionally until vegetables tender. Add garlic, oregano and pepper flakes and cook 1-2 minute until garlic is fragrant.',
       'Add tomato paste and cook, stirring often, until it caramelizes and turns rusty brown in color. Add wine and cook, scraping up any brown bits from the bottom of the pot, until liquid has almost completely evaporated.',
-      'Add rice to pot and cook, stirring 1 minute. Add broth and remaining ingredients and stir through. Place chicken back in pot, cover, and bake for 30 minutes or until rice, potatoes and carrots are tender.',
+      'Add rice to pot and cook, stirring 1 minute. Add broth and remaining ingredients and stir through. Place chicken back in pot, and bring to a simmer over medium-high heat. Cover and bake for 30 minutes or until rice, potatoes and carrots are tender.',
     ],
     image: 'no-photo.png',
     course: 'entree',
