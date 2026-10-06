@@ -5188,4 +5188,27 @@ export default [
     course: 'entree',
     notes: '',
   },
+  {
+    name: 'Potato Salad with Dijon Vinaigrette',
+    id: '203',
+    description: '',
+    ingredients: [
+      '3 lbs red potatoes',
+      '1/4 cup red wine vinegar',
+      '3 Tbsp whole grain Dijon mustard',
+      '1/2 cup olive oil',
+      '6 scallions, chopped',
+      '1/2 cup chopped parsley',
+      '1/4 cup chopped dill',
+      'Salt and pepper',
+    ],
+    steps: [
+      'Place the potatoes in a large stockpot, and cover with water. Bring to a boil, and cook until the potatoes are tender, about 20 minutes. Drain and allow to cool. When cool, cut the potatoes in half.',
+      'Combine the vinegar and mustard in a large bowl. Slowly whisk in the olive oil.',
+      'Add the potatoes to the vinaigrette, and mix gently but thoroughly. Toss in the scallions, parsley and dill. Salt and pepper to taste.',
+    ],
+    image: 'no-photo.png',
+    course: 'sides',
+    notes: '',
+  },
 ];
